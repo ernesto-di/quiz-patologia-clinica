@@ -1,0 +1,5252 @@
+[
+  {
+    "numero": 1,
+    "domanda": "Quali dei seguenti esami di laboratorio possono essere considerati di prima istanza nella pancreatite acuta?",
+    "opzioni": {
+      "A": "tripsinogeno",
+      "B": "elastasi e fosfolipasi",
+      "C": "amilasi e lipasi",
+      "D": "colesterolo-esterasi",
+      "E": "insulinemia"
+    },
+    "risposta_corretta": "C",
+    "risposta": "amilasi e lipasi",
+    "pagina": 1,
+    "id": 1
+  },
+  {
+    "numero": 2,
+    "domanda": "La clearance renale di una sostanza può essere calcolata conoscendo:",
+    "opzioni": {
+      "A": "la sua concentrazione urinaria, peso, età",
+      "B": "solo la sua concentrazione plasmatici",
+      "C": "le sue concentrazioni nel plasma e nelle urine ed il volume urinario (ml/min)",
+      "D": "solo la sua composizione chimica",
+      "E": "concentrazione plasmatica, sesso, età"
+    },
+    "risposta_corretta": "C",
+    "risposta": "le sue concentrazioni nel plasma e nelle urine ed il volume urinario (ml/min)",
+    "pagina": 1,
+    "id": 2
+  },
+  {
+    "numero": 3,
+    "domanda": "I test di laboratorio utili per la valutazione del rischio cardiovascolare sono i seguenti eccetto:",
+    "opzioni": {
+      "A": "colesterolo totale",
+      "B": "acidi grassi liberi",
+      "C": "trigliceridi",
+      "D": "colesterolo HDL",
+      "E": "colesterolo LDL"
+    },
+    "risposta_corretta": "B",
+    "risposta": "acidi grassi liberi",
+    "pagina": 1,
+    "id": 3
+  },
+  {
+    "numero": 4,
+    "domanda": "La misura di quale componente lipidica è maggiormente inflenzata dal prelievo non a digiuno",
+    "opzioni": {
+      "A": "colesterolo totale",
+      "B": "colesterolo esterificato",
+      "C": "trigliceridi",
+      "D": "colesterolo HDL",
+      "E": "colesterolo LDL"
+    },
+    "risposta_corretta": "C",
+    "risposta": "trigliceridi",
+    "pagina": 1,
+    "id": 4
+  },
+  {
+    "numero": 5,
+    "domanda": "Quale dei seguenti test di laboratorio è più specifico per la diagnosi di infarto del miocardio:",
+    "opzioni": {
+      "A": "mioglobina",
+      "B": "aspartatotransaminasi",
+      "C": "troponina I",
+      "D": "lattato deidrogenasi (attività totale)",
+      "E": "creatinakinasi (attività totale)"
+    },
+    "risposta_corretta": "C",
+    "risposta": "troponina I",
+    "pagina": 1,
+    "id": 5
+  },
+  {
+    "numero": 6,
+    "domanda": "Indicare quali delle seguenti proteine o classi di proteine non è di sintesi epatica",
+    "opzioni": {
+      "A": "albumina",
+      "B": "ceruloplasmina",
+      "C": "transferrina",
+      "D": "immunoglobuline",
+      "E": "aptoglobina"
+    },
+    "risposta_corretta": "D",
+    "risposta": "immunoglobuline",
+    "pagina": 1,
+    "id": 6
+  },
+  {
+    "numero": 7,
+    "domanda": "Quale dei seguenti test di laboratorio è più indicato per il monitoraggio a lungo termine del paziente diabetico:",
+    "opzioni": {
+      "A": "glicosuria",
+      "B": "peptide-C",
+      "C": "fruttosamina",
+      "D": "emoglobina fetale",
+      "E": "emoglobina glicosilata"
+    },
+    "risposta_corretta": "E",
+    "risposta": "emoglobina glicosilata",
+    "pagina": 1,
+    "id": 7
+  },
+  {
+    "numero": 8,
+    "domanda": "Quale tra le seguenti tecniche di biologia molecolare ha la maggiore sensibilità analitica per la identificazione di cellule leucemiche caratterizzate dalla presenza del gene ibrido BCR/ABL, e viene dunque utilizzata per la valutazione della malattia minima residua?",
+    "opzioni": {
+      "A": "Southern Blot",
+      "B": "Western Blot",
+      "C": "Northern Blot",
+      "D": "RT-PCR",
+      "E": "la c) e la a)"
+    },
+    "risposta_corretta": "D",
+    "risposta": "RT-PCR",
+    "pagina": 1,
+    "id": 8
+  },
+  {
+    "numero": 9,
+    "domanda": "Quale tecnica viene impiegata per la diagnosi prenatale di fibrosi cistica, in una famiglia in cui è già nato un bambino malato, ma nei genitori non é conosciuta la mutazione specifica?",
+    "opzioni": {
+      "A": "PCR quantitativa",
+      "B": "Dot blot con oligonucleotidi allele-specifici (ASO)",
+      "C": "PCR multiplex",
+      "D": "Sequenza diretta dei due alleli del feto",
+      "E": "ricerca di polimorfismi associati al gene della fibrosi cistica"
+    },
+    "risposta_corretta": "E",
+    "risposta": "ricerca di polimorfismi associati al gene della fibrosi cistica",
+    "pagina": 1,
+    "id": 9
+  },
+  {
+    "numero": 10,
+    "domanda": "Quale dei seguenti campioni biologici non può essere impiegato per diagnosi di malattie genetiche ereditarie?",
+    "opzioni": {
+      "A": "Sangue + EDTA",
+      "B": "Villi coriali",
+      "C": "Cellule da campione bioptico",
+      "D": "Leucociti da sangue periferico",
+      "E": "eritrociti"
+    },
+    "risposta_corretta": "E",
+    "risposta": "eritrociti",
+    "pagina": 1,
+    "id": 10
+  },
+  {
+    "numero": 11,
+    "domanda": "La bilirubina nelle urine è presente:",
+    "opzioni": {
+      "A": "nell'ittero epatico (malattia di Gilbert)",
+      "B": "in condizioni fisiologiche dopo stress",
+      "C": "nell'ittero post-epatico (calcolosi biliare)",
+      "D": "nell'ittero fisiologico del neonato",
+      "E": "nessuna delle risposte è esatta"
+    },
+    "risposta_corretta": "C",
+    "risposta": "nell'ittero post-epatico (calcolosi biliare)",
+    "pagina": 1,
+    "id": 11
+  },
+  {
+    "numero": 12,
+    "domanda": "La presenza di anticorpi antiendomisio nel sangue è fortemente suggestiva di:",
+    "opzioni": {
+      "A": "tiroidite autoimmune",
+      "B": "cirrosi autoimmune",
+      "C": "pancreatite acuta",
+      "D": "morbo celiaco",
+      "E": "nessuna delle risposte è esatta"
+    },
+    "risposta_corretta": "D",
+    "risposta": "morbo celiaco",
+    "pagina": 1,
+    "id": 12
+  },
+  {
+    "numero": 13,
+    "domanda": "Quale delle seguenti proteine valutata nelle urine, anche in piccola concentrazione (20-200 mg/L) è suggestiva di nefropatia diabetica iniziale:",
+    "opzioni": {
+      "A": "aptoglobina",
+      "B": "IgE",
+      "C": "albumina",
+      "D": "transferrina",
+      "E": "ceruloplasmina"
+    },
+    "risposta_corretta": "C",
+    "risposta": "albumina",
+    "pagina": 1,
+    "id": 13
+  },
+  {
+    "numero": 14,
+    "domanda": "Quale dei seguenti parametri è frequentemente elevato nel sangue di un etilista cronico:",
+    "opzioni": {
+      "A": "vitamina D",
+      "B": "proteine totali",
+      "C": "GGT",
+      "D": "proteina C reattiva",
+      "E": "albumina"
+    },
+    "risposta_corretta": "C",
+    "risposta": "GGT",
+    "pagina": 1,
+    "id": 14
+  },
+  {
+    "numero": 15,
+    "domanda": "Per consuetudine l'intervallo di riferimento per un test di laboratorio rappresenta:",
+    "opzioni": {
+      "A": "l'ampiezza dell'intervallo nel quale rientrano il 100% dei valori misurati su di un campione di riferimento",
+      "B": "l'ampiezza dell'intervallo nel quale rientrano il 50% dei valori misurati su di un campione di riferimento",
+      "C": "l'ampiezza dell'intervallo nel quale rientrano il 95% dei valori misurati su di un campione di riferimento",
+      "D": "l'ampiezza dell'intervallo nel quale rientrano il 99% dei valori misurati su di un campione di riferimento",
+      "E": "nessuna delle definizioni precedenti è esatta"
+    },
+    "risposta_corretta": "C",
+    "risposta": "l'ampiezza dell'intervallo nel quale rientrano il 95% dei valori misurati su di un campione di riferimento",
+    "pagina": 1,
+    "id": 15
+  },
+  {
+    "numero": 16,
+    "domanda": "Quale delle seguenti considerazioni sugli isoenzimi della LATTATO DEIDROGENASI e' VERA:",
+    "opzioni": {
+      "A": "esistono 4 isoenzimi diversi",
+      "B": "alla composizione degli isoenzimi possono partecipare 3 diversi tipi di catene proteiche",
+      "C": "nessuna di quelle indicate",
+      "D": "si ritrovano incrementati nel plasma in particolari situazioni patologiche",
+      "E": "ogni isoenzima e' costituito da 2 subunita' proteiche"
+    },
+    "risposta_corretta": "D",
+    "risposta": "si ritrovano incrementati nel plasma in particolari situazioni patologiche",
+    "pagina": 2,
+    "id": 16
+  },
+  {
+    "numero": 17,
+    "domanda": "nel globulo rosso la principale fonte di energia è:",
+    "opzioni": {
+      "A": "l'ossidazione di acidi grassi a catena corta",
+      "B": "l'ossidazione dei corpi chetonici prodotti dal fegato e immessi in circolo",
+      "C": "l'utilizzazione di trigliceridi ceduti dalla lipoproteine plasmatiche",
+      "D": "l'utilizzazione degli amminoacidi a catena ramificata",
+      "E": "la glicolisi"
+    },
+    "risposta_corretta": "E",
+    "risposta": "la glicolisi",
+    "pagina": 2,
+    "id": 17
+  },
+  {
+    "numero": 18,
+    "domanda": "L'acido tetraidrofolico può intervenire in reazioni di:",
+    "opzioni": {
+      "A": "racemizzazione",
+      "B": "metilazione",
+      "C": "transaminazione",
+      "D": "ossidazione",
+      "E": "isomerizzazione"
+    },
+    "risposta_corretta": "B",
+    "risposta": "metilazione",
+    "pagina": 2,
+    "id": 18
+  },
+  {
+    "numero": 19,
+    "domanda": "Indicare l'affermazione esatta relativa al glucosio.",
+    "opzioni": {
+      "A": "è un costituente del saccarosio",
+      "B": "solo l'isomero-L è trasportato nelle cellule dei mammiferi",
+      "C": "è presente generalmente in forma furanosica",
+      "D": "è un chetoesoso",
+      "E": "il carbonio-2 corrisponde all'atomo di carbonio anomerico"
+    },
+    "risposta_corretta": "A",
+    "risposta": "è un costituente del saccarosio",
+    "pagina": 2,
+    "id": 19
+  },
+  {
+    "numero": 20,
+    "domanda": "Gli enzimi",
+    "opzioni": {
+      "A": "sono molecole di piccole dimensioni",
+      "B": "influiscono sull'equilibrio della reazione",
+      "C": "sono generalmente resistenti al calore",
+      "D": "sono sempre inibiti dal prodotto della reazione che catalizzano",
+      "E": "modificano la velocità di una reazione"
+    },
+    "risposta_corretta": "E",
+    "risposta": "modificano la velocità di una reazione",
+    "pagina": 2,
+    "id": 20
+  },
+  {
+    "numero": 21,
+    "domanda": "Indicare l'affermazione CORRETTA. La glicogeno sintetasi:",
+    "opzioni": {
+      "A": "è particolarmente attiva nella forma fosforilata",
+      "B": "è attivata dal glucagone",
+      "C": "non è un enzima regolato",
+      "D": "è particolarmente attiva nella forma defosforilata",
+      "E": "utilizza come substrato glucosio-1-P"
+    },
+    "risposta_corretta": "D",
+    "risposta": "è particolarmente attiva nella forma defosforilata",
+    "pagina": 2,
+    "id": 21
+  },
+  {
+    "numero": 22,
+    "domanda": "Quale delle seguenti affermazioni relative all'emoglobina e' FALSA:",
+    "opzioni": {
+      "A": "la globina che la costituisce e' dotata di struttura quaternaria",
+      "B": "l'andamento dell'interazione con l'ossigeno e' di tipo sigmoidale",
+      "C": "interagisce con l'ac.2,3-difosfoglicerico, che ne diminuisce l'affinita' per l'ossigeno",
+      "D": "contiene ferro trivalente in struttura eminica",
+      "E": "la sua affinita' per l'ossigeno diminuisce al diminuire del pH"
+    },
+    "risposta_corretta": "D",
+    "risposta": "contiene ferro trivalente in struttura eminica",
+    "pagina": 2,
+    "id": 22
+  },
+  {
+    "numero": 23,
+    "domanda": "Nella pancreatite quale delle seguenti attività enzimatiche c'è da aspettarsi aumentata nel siero:",
+    "opzioni": {
+      "A": "fosfatasi alcalina",
+      "B": "LDH tipo I",
+      "C": "CPK",
+      "D": "amilasi",
+      "E": "fosfatasi acida"
+    },
+    "risposta_corretta": "D",
+    "risposta": "amilasi",
+    "pagina": 2,
+    "id": 23
+  },
+  {
+    "numero": 24,
+    "domanda": "Nella glicolisi, per ogni mole di glucosio, si formano:",
+    "opzioni": {
+      "A": "sei moli di fosfodiossiacetone",
+      "B": "due moli di NADH e quattro di GTP",
+      "C": "due moli di NADH e quattro di ATP",
+      "D": "una mole di FADH2 e due di ATP",
+      "E": "una mole di NADH e una di FADH2"
+    },
+    "risposta_corretta": "C",
+    "risposta": "due moli di NADH e quattro di ATP",
+    "pagina": 2,
+    "id": 24
+  },
+  {
+    "numero": 25,
+    "domanda": "Gli equivalenti riducenti per la sintesi degli acidi grassi sono forniti da:",
+    "opzioni": {
+      "A": "acido ascorbico",
+      "B": "NAD+",
+      "C": "acido lipoico",
+      "D": "FADH2",
+      "E": "NADPH + H+"
+    },
+    "risposta_corretta": "E",
+    "risposta": "NADPH + H+",
+    "pagina": 2,
+    "id": 25
+  },
+  {
+    "numero": 26,
+    "domanda": "Una delle reazioni di riempimento del ciclo di Krebs (anaplerotiche) prevede la conversione di:",
+    "opzioni": {
+      "A": "acido citrico in acido ossalacetico e acetil CoA",
+      "B": "acido piruvico in acetil CoA",
+      "C": "acetil-CoA in acido piruvico",
+      "D": "acido piruvico in acido ossalacetico",
+      "E": "acetil-CoA in malonilCoA"
+    },
+    "risposta_corretta": "D",
+    "risposta": "acido piruvico in acido ossalacetico",
+    "pagina": 2,
+    "id": 26
+  },
+  {
+    "numero": 27,
+    "domanda": "In quanto tempo si esauriscono le scorte di fosfocreatina durante uno sforzo sovramassimale?",
+    "opzioni": {
+      "A": "4 minuti",
+      "B": "30 minuti",
+      "C": "4 ore",
+      "D": "4 secondi",
+      "E": "4 giorni"
+    },
+    "risposta_corretta": "D",
+    "risposta": "4 secondi",
+    "pagina": 2,
+    "id": 27
+  },
+  {
+    "numero": 28,
+    "domanda": "Il ferro nell'organismo umano",
+    "opzioni": {
+      "A": "viene depositato nei tessuti legato alla mioglobina",
+      "B": "si lega con difficoltà alle macromolecole",
+      "C": "si lega esclusivamente all'emoglobina",
+      "D": "si lega alle proteine solo se incorporato nella protoporfirina IX",
+      "E": "è coinvolto nel metabolismo dell'ossigeno"
+    },
+    "risposta_corretta": "E",
+    "risposta": "è coinvolto nel metabolismo dell'ossigeno",
+    "pagina": 2,
+    "id": 28
+  },
+  {
+    "numero": 29,
+    "domanda": "La tirosina contiene:",
+    "opzioni": {
+      "A": "un gruppo aldeidico",
+      "B": "una catena alifatica non contenente gruppi polari",
+      "C": "un anello benzenico",
+      "D": "un anello piridinico",
+      "E": "un anello purinico"
+    },
+    "risposta_corretta": "C",
+    "risposta": "un anello benzenico",
+    "pagina": 2,
+    "id": 29
+  },
+  {
+    "numero": 30,
+    "domanda": "Indicare l'affermazione corretta. Il malonil-CoA:",
+    "opzioni": {
+      "A": "è un precursore della sintesi del colesterolo",
+      "B": "si produce dalla deaminazione dell'acetil-CoA",
+      "C": "si ottiene per decarbossilazione dell'acetoacetil-CoA",
+      "D": "si forma durante la ossidazione degli acidi grassi",
+      "E": "è una molecola essenziale per la sintesi ex nvo degli acidi grassi"
+    },
+    "risposta_corretta": "E",
+    "risposta": "è una molecola essenziale per la sintesi ex nvo degli acidi grassi",
+    "pagina": 2,
+    "id": 30
+  },
+  {
+    "numero": 31,
+    "domanda": "I trasportatori di elettroni della catena respiratoria, nei mitocondri, sono localizzati:",
+    "opzioni": {
+      "A": "sulla faccia interna della membrana esterna per garantire l'accesso immediato all'NADH proveniente dal citoplasma",
+      "B": "nello spazio intermembrana perché lì si crea un accumulo di metaboliti",
+      "C": "distribuiti tra la membrana esterna e quella interna",
+      "D": "nella matrice in quanto solubili",
+      "E": "sulla membrana interna"
+    },
+    "risposta_corretta": "E",
+    "risposta": "sulla membrana interna",
+    "pagina": 2,
+    "id": 31
+  },
+  {
+    "numero": 32,
+    "domanda": "L'entrata nel sangue di GLUCAGONE e' seguita, tra l'altro, da elevazione del tasso glicemico. Questa elevazione e'dovuta ad eventi che si verificano nel fegato, e precisamente:",
+    "opzioni": {
+      "A": "all'attivazione della glucocinasi",
+      "B": "all'attivazione della nucleotidato-ciclico fosfodiesterasi",
+      "C": "all'aumento del tasso di acido adenilico-ciclico",
+      "D": "all'inibizione dell'adenilato ciclasi",
+      "E": "all'inibizione della protein-cinasi cAMP-dipendente"
+    },
+    "risposta_corretta": "C",
+    "risposta": "all'aumento del tasso di acido adenilico-ciclico",
+    "pagina": 2,
+    "id": 32
+  },
+  {
+    "numero": 33,
+    "domanda": "la renina è",
+    "opzioni": {
+      "A": "prodotta solo dalle cellule del sistema reticolo endoteliale del fegato",
+      "B": "un enzima proteolitico che trasforma l'angiotensinogeno in angiotensina",
+      "C": "una proteasi che trasforma la caseina solubile in caseina insolubile",
+      "D": "un peptide che regola la capacità di filtrazione dei glomeruli",
+      "E": "un fattore ormonale che regola la produzione di urea"
+    },
+    "risposta_corretta": "B",
+    "risposta": "un enzima proteolitico che trasforma l'angiotensinogeno in angiotensina",
+    "pagina": 2,
+    "id": 33
+  },
+  {
+    "numero": 34,
+    "domanda": "La lattato deidrogenasi del muscolo scheletrico",
+    "opzioni": {
+      "A": "è una proteina monomerica",
+      "B": "è un enzima allosterico",
+      "C": "è localizzato nei mitocondri",
+      "D": "è l'enzima che limita la velocità della glicolisi",
+      "E": "è un isoenzima"
+    },
+    "risposta_corretta": "E",
+    "risposta": "è un isoenzima",
+    "pagina": 3,
+    "id": 34
+  },
+  {
+    "numero": 35,
+    "domanda": "Il porfobilinogeno è un precursore:",
+    "opzioni": {
+      "A": "della sintesi della riboflavina",
+      "B": "della sintesi del colesterolo",
+      "C": "della sintesi delle porfirine",
+      "D": "della sintesi della biliverdina",
+      "E": "della sintesi degli acidi biliari"
+    },
+    "risposta_corretta": "C",
+    "risposta": "della sintesi delle porfirine",
+    "pagina": 3,
+    "id": 35
+  },
+  {
+    "numero": 36,
+    "domanda": "L'ACIDO GLUCURONICO e':",
+    "opzioni": {
+      "A": "un intermedio della glicolisi",
+      "B": "un aminoacido",
+      "C": "utilizzato nella biosintesi delle basi pirimidiniche",
+      "D": "utilizzato per coniugare la bilirubina",
+      "E": "un intermedio dello shunt dell'esoso monofosfato"
+    },
+    "risposta_corretta": "D",
+    "risposta": "utilizzato per coniugare la bilirubina",
+    "pagina": 3,
+    "id": 36
+  },
+  {
+    "numero": 37,
+    "domanda": "Dovendo studiare la fumarasi, quale delle seguenti frazioni subcellulari conviene utilizzare?",
+    "opzioni": {
+      "A": "Perossisomi",
+      "B": "Lisosomi",
+      "C": "Mitocondri",
+      "D": "Citosol",
+      "E": "Microsomi"
+    },
+    "risposta_corretta": "C",
+    "risposta": "Mitocondri",
+    "pagina": 3,
+    "id": 37
+  },
+  {
+    "numero": 38,
+    "domanda": "il recettore per l'insulina:",
+    "opzioni": {
+      "A": "è un tetramero con due subunità alfa e due beta",
+      "B": "è un recettore- canale ionico",
+      "C": "possiede una importante porzione lipidica",
+      "D": "possiede una parte nucleotidica nella porzione extracellulare",
+      "E": "possiede anche un sito che lega il calcio"
+    },
+    "risposta_corretta": "A",
+    "risposta": "è un tetramero con due subunità alfa e due beta",
+    "pagina": 3,
+    "id": 38
+  },
+  {
+    "numero": 39,
+    "domanda": "La creatina:",
+    "opzioni": {
+      "A": "Si trova nei globuli rossi",
+      "B": "E' un tripeptide contenente glutammato",
+      "C": "E' una proteina del tessuto muscolare",
+      "D": "Si trasforma in fosfocreatina tramite la reazione reversibile catalizzata dalla creatina chinasi",
+      "E": "E' particolarmente presente nel fegato dove rappresenta una riserva di energia"
+    },
+    "risposta_corretta": "D",
+    "risposta": "Si trasforma in fosfocreatina tramite la reazione reversibile catalizzata dalla creatina chinasi",
+    "pagina": 3,
+    "id": 39
+  },
+  {
+    "numero": 40,
+    "domanda": "Gli ormoni",
+    "opzioni": {
+      "A": "attraversano tutti la membrana cellulare",
+      "B": "hanno un azione diretta sulle reazioni enzimatiche",
+      "C": "sono un gruppo di sostanze chimicamente omogenee",
+      "D": "hanno sempre recettori sulle membrane",
+      "E": "possono derivare sia da amminoacidi che da lipidi"
+    },
+    "risposta_corretta": "E",
+    "risposta": "possono derivare sia da amminoacidi che da lipidi",
+    "pagina": 3,
+    "id": 40
+  },
+  {
+    "numero": 41,
+    "domanda": "Il metabolismo del calcio è regolato a livello ormonale da",
+    "opzioni": {
+      "A": "vitamina D",
+      "B": "glucagone",
+      "C": "calmodulina",
+      "D": "insulina",
+      "E": "ormone tiroideo"
+    },
+    "risposta_corretta": "A",
+    "risposta": "vitamina D",
+    "pagina": 3,
+    "id": 41
+  },
+  {
+    "numero": 42,
+    "domanda": "L'assorbimento intestinale del glucosio richiede l'intervento di un trasportatore che opera:",
+    "opzioni": {
+      "A": "per simporto con Na+",
+      "B": "per antiporto con K+",
+      "C": "per antiporto con Na+",
+      "D": "per diffusione semplice",
+      "E": "per simporto con K+"
+    },
+    "risposta_corretta": "A",
+    "risposta": "per simporto con Na+",
+    "pagina": 3,
+    "id": 42
+  },
+  {
+    "numero": 43,
+    "domanda": "I corpi chetonici",
+    "opzioni": {
+      "A": "contengono energia utilizzabile ai fini metabolici",
+      "B": "fanno parte del doppio strato lipidico della membrana",
+      "C": "rappresentano un prodotto di scarto difficilmente utilizzabile",
+      "D": "vengono utilizzati dalle cellule per sintetizzare glucosio",
+      "E": "tendono a rendere basico il pH ematico"
+    },
+    "risposta_corretta": "A",
+    "risposta": "contengono energia utilizzabile ai fini metabolici",
+    "pagina": 3,
+    "id": 43
+  },
+  {
+    "numero": 44,
+    "domanda": "Indicare l'affermazione esatta. L'ormone paratiroideo regola la concentrazione di ioni calcio nel sangue:",
+    "opzioni": {
+      "A": "aumentando l'assorbimento di calcio nell'intestino",
+      "B": "provocando l'accumulo di calcio nelle ossa",
+      "C": "aumentando l'escrezione di calcio nel rene",
+      "D": "provocando l'accumulo di fosfato nelle ossa",
+      "E": "aumentando l'escrezione di fosfato nel rene"
+    },
+    "risposta_corretta": "E",
+    "risposta": "aumentando l'escrezione di fosfato nel rene",
+    "pagina": 3,
+    "id": 44
+  },
+  {
+    "numero": 45,
+    "domanda": "l'insulina è:",
+    "opzioni": {
+      "A": "prodotta dalle isole glicosensibili delle surrenali",
+      "B": "un eterodimero tenuto insieme da due ponti disolfuro",
+      "C": "una glicoproteina di grosse dimensioni",
+      "D": "anche uno stimolatore della mobolizzazione degli acidi grassi dal tessuto adiposo",
+      "E": "un polipeptide contenente idrossilisina e idrossiprolina"
+    },
+    "risposta_corretta": "B",
+    "risposta": "un eterodimero tenuto insieme da due ponti disolfuro",
+    "pagina": 3,
+    "id": 45
+  },
+  {
+    "numero": 46,
+    "domanda": "L'energia per la sintesi di ATP si ottiene prevalentemente",
+    "opzioni": {
+      "A": "dal catabolismo delle proteine",
+      "B": "dalla fosforilazione ossidativa",
+      "C": "dal processo di glicolisi",
+      "D": "attravero reazioni di fosforilazione a livello del substrato",
+      "E": "dall'idrolisi di molecole ad alto contenuto energetico"
+    },
+    "risposta_corretta": "B",
+    "risposta": "dalla fosforilazione ossidativa",
+    "pagina": 3,
+    "id": 46
+  },
+  {
+    "numero": 47,
+    "domanda": "I peptidi",
+    "opzioni": {
+      "A": "attraversano con facilità la membrana plasmatica",
+      "B": "si formano per polimerizzazione degli amminoacidi",
+      "C": "sono privi di attività biologica",
+      "D": "si trovano solo all'interno delle cellule",
+      "E": "derivano esclusivamente dal catabolismo delle proteine"
+    },
+    "risposta_corretta": "B",
+    "risposta": "si formano per polimerizzazione degli amminoacidi",
+    "pagina": 3,
+    "id": 47
+  },
+  {
+    "numero": 48,
+    "domanda": "La sintesi dell'urea nell'uomo",
+    "opzioni": {
+      "A": "avviene nel rene",
+      "B": "rappresenta il principale meccanismo per l'escrezione dell'azoto",
+      "C": "si svolge senza la partecipazione di enzimi",
+      "D": "libera ammoniaca nei reni",
+      "E": "produce acido urico"
+    },
+    "risposta_corretta": "B",
+    "risposta": "rappresenta il principale meccanismo per l'escrezione dell'azoto",
+    "pagina": 3,
+    "id": 48
+  },
+  {
+    "numero": 49,
+    "domanda": "L'ossidazione completa delle quantità indicate dei seguenti composti produce in tutti i casi 18 CO2. Da quale un organismo ricava più energia?",
+    "opzioni": {
+      "A": "una mole di acido stearico (C 18)",
+      "B": "6 moli di glicerolo",
+      "C": "3 moli di glucosio",
+      "D": "6 moli di piruvato",
+      "E": "9 moli di acetil-CoA, che è già una molecola ricca di energia"
+    },
+    "risposta_corretta": "A",
+    "risposta": "una mole di acido stearico (C 18)",
+    "pagina": 3,
+    "id": 49
+  },
+  {
+    "numero": 50,
+    "domanda": "Che cosa si intende per struttura primaria delle proteine?",
+    "opzioni": {
+      "A": "la sequenza degli amminoacidi che formano la proteina",
+      "B": "il numero di amminoacidi che costituiscono la proteina",
+      "C": "il numero di subunità di una proteina",
+      "D": "la conformazione della proteina",
+      "E": "la percentuale dei vari amminoacidi"
+    },
+    "risposta_corretta": "A",
+    "risposta": "la sequenza degli amminoacidi che formano la proteina",
+    "pagina": 3,
+    "id": 50
+  },
+  {
+    "numero": 51,
+    "domanda": "Nella fermentazione alcolica, oltre all'etanolo, si ottiene principalmente:",
+    "opzioni": {
+      "A": "acido acetico",
+      "B": "acido succinico",
+      "C": "acido lattico",
+      "D": "glicerolo",
+      "E": "anidride carbonica"
+    },
+    "risposta_corretta": "E",
+    "risposta": "anidride carbonica",
+    "pagina": 3,
+    "id": 51
+  },
+  {
+    "numero": 52,
+    "domanda": "Il meccanismo d'azione dell'eparina è:",
+    "opzioni": {
+      "A": "effetto proteolitico sul fibrinogeno",
+      "B": "provocare ipofibrinogenemia",
+      "C": "conversione del fibrinogeno in microfibrina",
+      "D": "neutralizzazione della trombina e del fattore X attivato",
+      "E": "nessuna delle azioni precedenti"
+    },
+    "risposta_corretta": "D",
+    "risposta": "neutralizzazione della trombina e del fattore X attivato",
+    "pagina": 3,
+    "id": 52
+  },
+  {
+    "numero": 53,
+    "domanda": "Quale dei seguenti composti è prodotto dalla decarbossilazione di un amminoacido?",
+    "opzioni": {
+      "A": "acido guanidinacetico",
+      "B": "glutammina",
+      "C": "istamina",
+      "D": "glutatione",
+      "E": "spermidina"
+    },
+    "risposta_corretta": "C",
+    "risposta": "istamina",
+    "pagina": 4,
+    "id": 53
+  },
+  {
+    "numero": 54,
+    "domanda": "Quale delle seguenti condizioni ematologiche predispone alla trombosi?",
+    "opzioni": {
+      "A": "Diminuzione della trombina",
+      "B": "Diminuzione delle piastrine",
+      "C": "Diminuzione del fibrinogeno",
+      "D": "Aumento dell'albumina",
+      "E": "Aumento delle catecolamine"
+    },
+    "risposta_corretta": "E",
+    "risposta": "Aumento delle catecolamine",
+    "pagina": 4,
+    "id": 54
+  },
+  {
+    "numero": 55,
+    "domanda": "Quale delle seguenti affermazioni relative ai PROTEOGLICANI (mucopolisaccaridi) e' FALSA:",
+    "opzioni": {
+      "A": "nella loro porzione glicidica possono essere presenti acidi uronici",
+      "B": "sono componenti extracellulari del tessuto connettivo",
+      "C": "sono dei polianioni",
+      "D": "nessuna di quelle indicate",
+      "E": "alcuni di essi contengono residui solforici"
+    },
+    "risposta_corretta": "D",
+    "risposta": "nessuna di quelle indicate",
+    "pagina": 4,
+    "id": 55
+  },
+  {
+    "numero": 56,
+    "domanda": "L'acido glutammico",
+    "opzioni": {
+      "A": "E' un intermedio del ciclo di Krebs",
+      "B": "E' il tipico amminoacido lipogenetico",
+      "C": "Non è substrato di transaminasi",
+      "D": "Viene trasformato in acido alfa-chetoglutarico mediante una deaminazione ossidativa",
+      "E": "E' un amminoacido essenziale"
+    },
+    "risposta_corretta": "D",
+    "risposta": "Viene trasformato in acido alfa-chetoglutarico mediante una deaminazione ossidativa",
+    "pagina": 4,
+    "id": 56
+  },
+  {
+    "numero": 57,
+    "domanda": "l'azoto provenienete dal catabolismo proteico, nei mammiferi, viene elimnato come:",
+    "opzioni": {
+      "A": "ammidi biliari",
+      "B": "urea",
+      "C": "ammoniaca",
+      "D": "acido urico",
+      "E": "poliammine"
+    },
+    "risposta_corretta": "B",
+    "risposta": "urea",
+    "pagina": 4,
+    "id": 57
+  },
+  {
+    "numero": 58,
+    "domanda": "La talassemia è dovuta a:",
+    "opzioni": {
+      "A": "autoanticorpi circolanti",
+      "B": "bassa concentrazione sierica di ferro",
+      "C": "aplasia del midollo osseo",
+      "D": "deficiente sintesi di catene globiniche alfa o beta dell'emoglobina",
+      "E": "deficienza di vitamina B12"
+    },
+    "risposta_corretta": "D",
+    "risposta": "deficiente sintesi di catene globiniche alfa o beta dell'emoglobina",
+    "pagina": 4,
+    "id": 58
+  },
+  {
+    "numero": 59,
+    "domanda": "La traslocazione degli ioni calcio attraverso una membrana avviene",
+    "opzioni": {
+      "A": "con il meccanismo del simporto",
+      "B": "mantenendo lo ione più concentrato all'interno della cellula",
+      "C": "senza il consumo di ATP",
+      "D": "in seguito a legame del complesso calcio-calmodulina al trasportatore",
+      "E": "con il meccanismo del trasporto mediato passivo"
+    },
+    "risposta_corretta": "D",
+    "risposta": "in seguito a legame del complesso calcio-calmodulina al trasportatore",
+    "pagina": 4,
+    "id": 59
+  },
+  {
+    "numero": 60,
+    "domanda": "Quali sono i limiti fisiologici del pH del sangue?",
+    "opzioni": {
+      "A": "7,35 - 7,45",
+      "B": "7,28 - 7,46",
+      "C": "7,38 - 7,50",
+      "D": "7,24 - 7,44",
+      "E": "7,30 - 7,40"
+    },
+    "risposta_corretta": "A",
+    "risposta": "7,35 - 7,45",
+    "pagina": 4,
+    "id": 60
+  },
+  {
+    "numero": 61,
+    "domanda": "La sfingomielina è:",
+    "opzioni": {
+      "A": "un glicolipide del tessuto nervoso",
+      "B": "un fosfolipide particolarmente abbondante nelle VLDL",
+      "C": "una glicoproteina muscolare",
+      "D": "un proteolipide privo di cariche",
+      "E": "un fosfolipide contenente colina e un acido grasso"
+    },
+    "risposta_corretta": "E",
+    "risposta": "un fosfolipide contenente colina e un acido grasso",
+    "pagina": 4,
+    "id": 61
+  },
+  {
+    "numero": 62,
+    "domanda": "La carbossiemoglobina:",
+    "opzioni": {
+      "A": "si forma in seguito ad un processo ossidativo del Fe+2 con formazione di uno ione superossido",
+      "B": "deriva dal legame dell'emoglobina con monossido di carbonio",
+      "C": "deriva dal legame dell'emoglobina con anidride carbonica",
+      "D": "può legare una sola molecola di ossigeno",
+      "E": "è contenuta nei mitocondri del tessuto muscolare"
+    },
+    "risposta_corretta": "B",
+    "risposta": "deriva dal legame dell'emoglobina con monossido di carbonio",
+    "pagina": 4,
+    "id": 62
+  },
+  {
+    "numero": 63,
+    "domanda": "Un elemento si riduce quando:",
+    "opzioni": {
+      "A": "Acqusta protoni",
+      "B": "Perde protoni",
+      "C": "Acquista elettroni",
+      "D": "Il suo numero di ossidazione diventa più positivo",
+      "E": "Cede elettroni"
+    },
+    "risposta_corretta": "C",
+    "risposta": "Acquista elettroni",
+    "pagina": 4,
+    "id": 63
+  },
+  {
+    "numero": 64,
+    "domanda": "La lecitina-colesterolo acil transferasi (LCAT)",
+    "opzioni": {
+      "A": "trasferisce il colesterolo sulla lecitina",
+      "B": "nel cuore delle HDL condensa colesterolo e lecitina per aumentare la sua idrofobicità",
+      "C": "scambia lecitina e colesterolo tra HDL e LDL",
+      "D": "trasferisce i metili della lecitina al colesterolo",
+      "E": "alla superficie delle HDL converte lecitina e colesterolo libero in lisolecitina e colesterolo esterificato"
+    },
+    "risposta_corretta": "E",
+    "risposta": "alla superficie delle HDL converte lecitina e colesterolo libero in lisolecitina e colesterolo esterificato",
+    "pagina": 4,
+    "id": 64
+  },
+  {
+    "numero": 65,
+    "domanda": "Il citocromo c passa dallo stato ossidato allo stato ridotto:",
+    "opzioni": {
+      "A": "Mediante acquisizione di un elettrone",
+      "B": "Mediante acquisto di idrogeno",
+      "C": "Mediante acquisizione di uno ione H-",
+      "D": "Mediante acquisizione di un protone",
+      "E": "Mediate il rilascio di una molecola di ossigeno"
+    },
+    "risposta_corretta": "A",
+    "risposta": "Mediante acquisizione di un elettrone",
+    "pagina": 4,
+    "id": 65
+  },
+  {
+    "numero": 66,
+    "domanda": "Indicare l'affermazione ESATA. I mineralcorticoidi sono sintetizzati a partire da:",
+    "opzioni": {
+      "A": "adrenalina",
+      "B": "ACTH",
+      "C": "colesterolo",
+      "D": "metionina",
+      "E": "acido palmitico"
+    },
+    "risposta_corretta": "C",
+    "risposta": "colesterolo",
+    "pagina": 4,
+    "id": 66
+  },
+  {
+    "numero": 67,
+    "domanda": "Indicare quale dei seguenti è un acido grasso essenziale:",
+    "opzioni": {
+      "A": "acido palmitoleico",
+      "B": "acido stearico",
+      "C": "acido arachidonico",
+      "D": "acido palmitico",
+      "E": "acido oleico"
+    },
+    "risposta_corretta": "C",
+    "risposta": "acido arachidonico",
+    "pagina": 4,
+    "id": 67
+  },
+  {
+    "numero": 68,
+    "domanda": "I coenzimi",
+    "opzioni": {
+      "A": "derivano dagli amminoacidi",
+      "B": "possono legarsi agli enzimi",
+      "C": "sono di natura inorganica",
+      "D": "sono particolarmente resistenti al calore",
+      "E": "hanno la funzione di inibire gli enzimi"
+    },
+    "risposta_corretta": "B",
+    "risposta": "possono legarsi agli enzimi",
+    "pagina": 4,
+    "id": 68
+  },
+  {
+    "numero": 69,
+    "domanda": "La variazione della VELOCITA'DI REAZIONE in rapporto alla concentrazione del substrato per un ENZIMA NON ALLOSTERICO e' rappresentata da:",
+    "opzioni": {
+      "A": "nessuna di quelle indicate",
+      "B": "una curva sigmoidale",
+      "C": "una iperbole rettangolare",
+      "D": "una curva di tipo esponenziale",
+      "E": "una retta passante per l'origine"
+    },
+    "risposta_corretta": "C",
+    "risposta": "una iperbole rettangolare",
+    "pagina": 4,
+    "id": 69
+  },
+  {
+    "numero": 70,
+    "domanda": "Quali cellule contengono grandi quantità di eparina ed istamina?",
+    "opzioni": {
+      "A": "linfociti",
+      "B": "leucociti polimorfonucleati",
+      "C": "leucociti eosinofili",
+      "D": "monociti",
+      "E": "basofili e mast-cellule"
+    },
+    "risposta_corretta": "E",
+    "risposta": "basofili e mast-cellule",
+    "pagina": 4,
+    "id": 70
+  },
+  {
+    "numero": 71,
+    "domanda": "Indicare l'affermazione ERRATA. Gli enzimi allosterici:",
+    "opzioni": {
+      "A": "possono presentare una cooperatività negativa e positiva",
+      "B": "presentano una cinetica di reazione che segue l'equazione di Michaelis e Menten",
+      "C": "presentano di solito una struttura quaternaria",
+      "D": "sono generalmente proteine oligomeriche",
+      "E": "in un grafico della velocità in funzione della concentrazione del substrato, la curva di attività ha, in genere, un andamento di tipo sigmoidale"
+    },
+    "risposta_corretta": "B",
+    "risposta": "presentano una cinetica di reazione che segue l'equazione di Michaelis e Menten",
+    "pagina": 4,
+    "id": 71
+  },
+  {
+    "numero": 72,
+    "domanda": "Quale delle seguenti affermazioni relative all'RNA MESSAGGERO è FALSA:",
+    "opzioni": {
+      "A": "e' in grado di associarsi ai ribosomi",
+      "B": "termina sempre, all'estremita' 3', con la sequenza nucleotidica CCA (citidina, citidina, adenina)",
+      "C": "e' sintetizzato a livello nucleare",
+      "D": "possiede i \"codon\"",
+      "E": "e' costituito da una singola catena polinucleotidica"
+    },
+    "risposta_corretta": "B",
+    "risposta": "termina sempre, all'estremita' 3', con la sequenza nucleotidica CCA (citidina, citidina, adenina)",
+    "pagina": 5,
+    "id": 72
+  },
+  {
+    "numero": 73,
+    "domanda": "In risposta all'abbassamento persistente della pressione parziale di ossigeno nell'ambiente atmosferico si osserva nel sangue:",
+    "opzioni": {
+      "A": "diminuzione della concentrazione del 2,3 difosfoglicerato",
+      "B": "aumento della concentrazione di metaemoglobina",
+      "C": "aumento del numero degli eritrociti circolanti",
+      "D": "diminuzione dell'affinita' del 2,3 difosfoglicerato per l'emoglobina",
+      "E": "diminuzione della concentrazione del ferro"
+    },
+    "risposta_corretta": "C",
+    "risposta": "aumento del numero degli eritrociti circolanti",
+    "pagina": 5,
+    "id": 73
+  },
+  {
+    "numero": 74,
+    "domanda": "Quale delle seguenti affermazioni è errata?",
+    "opzioni": {
+      "A": "L'enzima succinico deidrogenasi fa parte del ciclo di Krebs",
+      "B": "Il ciclo di Krebs ha localizzazione mitocondriale",
+      "C": "Nel ciclo di Krebs si producono CO2 e acqua",
+      "D": "Il GTP formato nel ciclo di Krebs può essere utilizzato per fosforilare l'ADP in ATP",
+      "E": "Nel ciclo di Krebs si producono coenzimi ridotti"
+    },
+    "risposta_corretta": "C",
+    "risposta": "Nel ciclo di Krebs si producono CO2 e acqua",
+    "pagina": 5,
+    "id": 74
+  },
+  {
+    "numero": 75,
+    "domanda": "l'ATP viene prodotto da ADP + Pi:",
+    "opzioni": {
+      "A": "con consumo di energia proveniente direttamente dalla glicolisi",
+      "B": "utilizzando l'energia prodotta dalle reazioni di ossidazione nei lisosomi",
+      "C": "sfruttando l'energia del gradiente elettrochimico prodotto dalla catena respiratoria",
+      "D": "senza particolare consumo di energia",
+      "E": "utilizzando l'energia della pompa del sodio"
+    },
+    "risposta_corretta": "C",
+    "risposta": "sfruttando l'energia del gradiente elettrochimico prodotto dalla catena respiratoria",
+    "pagina": 5,
+    "id": 75
+  },
+  {
+    "numero": 76,
+    "domanda": "Quale delle seguenti affermazioni a proposito del CITRATO è corretta?",
+    "opzioni": {
+      "A": "è un attivatore allosterico della fosfofruttocinasi",
+      "B": "è un corpo chetonico",
+      "C": "è utilizzato nel mitocondrio per formare colesterolo",
+      "D": "è trasformato in isocitrato nel ciclo di Krebs tramite una reazione di ossidoriduzione",
+      "E": "è scisso nel citoplasma in acetilCoA e ossalacetato in presenza di ATP"
+    },
+    "risposta_corretta": "E",
+    "risposta": "è scisso nel citoplasma in acetilCoA e ossalacetato in presenza di ATP",
+    "pagina": 5,
+    "id": 76
+  },
+  {
+    "numero": 77,
+    "domanda": "Quale dei sottoelencati enzimi o sistemi enzimatici NON interviene nel CICLO DI KREBS:",
+    "opzioni": {
+      "A": "malato deidrogenasi",
+      "B": "succinato deidrogenasi",
+      "C": "alfa-chetoglutarato deidrogenasi",
+      "D": "piruvato deidrogenasi",
+      "E": "fumarato idratasi (fumarasi)"
+    },
+    "risposta_corretta": "D",
+    "risposta": "piruvato deidrogenasi",
+    "pagina": 5,
+    "id": 77
+  },
+  {
+    "numero": 78,
+    "domanda": "La bilirubina non coniugata del siero è aumentata:",
+    "opzioni": {
+      "A": "nella epatite acuta",
+      "B": "nell'ittero emolitico costituzionale",
+      "C": "nel favismo",
+      "D": "nella sindrome di Gilbert",
+      "E": "in tutte le condizioni elencate"
+    },
+    "risposta_corretta": "E",
+    "risposta": "in tutte le condizioni elencate",
+    "pagina": 5,
+    "id": 78
+  },
+  {
+    "numero": 79,
+    "domanda": "Quale delle seguenti affermazioni è vera, riguardo l'amiloide?",
+    "opzioni": {
+      "A": "Le prime aree colpite sono perivascolari",
+      "B": "La proteina presente nella amiloidosi secondaria è correlata a quella dell'amiloidosi primaria",
+      "C": "La colorazione col Sudan V è la più usata per fare diagnosi",
+      "D": "La amiloidosi primaria è costituita da ammassi di proteine globulari",
+      "E": "La proteina presente nella forma di amiloide associata al mieloma multiplo è omologa alla porzione costante delle catene leggere delle immunoglobuline"
+    },
+    "risposta_corretta": "A",
+    "risposta": "Le prime aree colpite sono perivascolari",
+    "pagina": 5,
+    "id": 79
+  },
+  {
+    "numero": 80,
+    "domanda": "Contengono ceramide:",
+    "opzioni": {
+      "A": "l'acido sialico",
+      "B": "gli sfingolipidi",
+      "C": "i fosfogliceridi",
+      "D": "acido N-acetilneuroamminico",
+      "E": "il glicogeno"
+    },
+    "risposta_corretta": "B",
+    "risposta": "gli sfingolipidi",
+    "pagina": 5,
+    "id": 80
+  },
+  {
+    "numero": 81,
+    "domanda": "dall'acido pantotenico deriva:",
+    "opzioni": {
+      "A": "la metionina",
+      "B": "il coenzima Q",
+      "C": "il retinale e il retinolo",
+      "D": "il coenzima A",
+      "E": "il glutatione"
+    },
+    "risposta_corretta": "D",
+    "risposta": "il coenzima A",
+    "pagina": 5,
+    "id": 81
+  },
+  {
+    "numero": 82,
+    "domanda": "l'eparina è:",
+    "opzioni": {
+      "A": "una peptide necessario per la formaziona del coagulo",
+      "B": "una proteina che regola la produzione epatica della bile",
+      "C": "una cromoproteina",
+      "D": "una liporpoteina",
+      "E": "un proteoglicano"
+    },
+    "risposta_corretta": "E",
+    "risposta": "un proteoglicano",
+    "pagina": 5,
+    "id": 82
+  },
+  {
+    "numero": 83,
+    "domanda": "Le cellule dei mammiferi possono introdurre doppi legami nelle molecole degli acidi grassi?",
+    "opzioni": {
+      "A": "sì, ma solo sul C carbossilico",
+      "B": "sì, ma solo sul C9-C10",
+      "C": "no",
+      "D": "sì ma solo oltre il C 9",
+      "E": "sì, in qualunque posizione"
+    },
+    "risposta_corretta": "B",
+    "risposta": "sì, ma solo sul C9-C10",
+    "pagina": 5,
+    "id": 83
+  },
+  {
+    "numero": 84,
+    "domanda": "leucina, isoleucina e valina",
+    "opzioni": {
+      "A": "sono amminoacidi a catena ramificata e sono essenziali",
+      "B": "sono i precursori delle varie classi di melanine",
+      "C": "possono essere sintetizzati ma solo dalle cellule del SNC",
+      "D": "sono amminoacidi aromatici",
+      "E": "sono particolarmente abbondanti nella bile"
+    },
+    "risposta_corretta": "A",
+    "risposta": "sono amminoacidi a catena ramificata e sono essenziali",
+    "pagina": 5,
+    "id": 84
+  },
+  {
+    "numero": 85,
+    "domanda": "Il ciclo dell'urea:",
+    "opzioni": {
+      "A": "Utilizza carbamilfosfato che si sintetizza a partire da glutammina e CO2",
+      "B": "Produce urea la cui formula è NH2-CH2-NH2",
+      "C": "Produce urea necessaria per la sintesi delle basi puriniche",
+      "D": "E' un processo ciclico che sintetizza urea nel rene",
+      "E": "E' una via metabolica tipicamente epatica"
+    },
+    "risposta_corretta": "E",
+    "risposta": "E' una via metabolica tipicamente epatica",
+    "pagina": 5,
+    "id": 85
+  },
+  {
+    "numero": 86,
+    "domanda": "La digestione dell'amido avviene:",
+    "opzioni": {
+      "A": "Nel lume intestinale con formazione di maltosio, maltotrioso e destrine limite",
+      "B": "All'interno delle cellule della mucosa intestinale",
+      "C": "Con produzione di disaccaridi che vengono scissi dalle lattasi intestinali",
+      "D": "Per azione della alfa-amilasi che è una esonucleasi prodotta dal pancreas",
+      "E": "A pH acidi a livello dello stomaco"
+    },
+    "risposta_corretta": "A",
+    "risposta": "Nel lume intestinale con formazione di maltosio, maltotrioso e destrine limite",
+    "pagina": 5,
+    "id": 86
+  },
+  {
+    "numero": 87,
+    "domanda": "Quale dei seguenti metaboliti NON e' un intermedio nella via dei PENTOSO FOSFATI:",
+    "opzioni": {
+      "A": "ribulosio-5-fosfato",
+      "B": "acido 6-fosfo-gluconico",
+      "C": "acido glucuronico-1-fosfato",
+      "D": "xilulosio-5-fosfato",
+      "E": "6-fosfoglucono-lattone"
+    },
+    "risposta_corretta": "C",
+    "risposta": "acido glucuronico-1-fosfato",
+    "pagina": 5,
+    "id": 87
+  },
+  {
+    "numero": 88,
+    "domanda": "sono prodotti del catabolismo dell'eme",
+    "opzioni": {
+      "A": "la emosiderina",
+      "B": "il porfobilinogeno",
+      "C": "la carbossiemoglobina",
+      "D": "gli acidi biliari",
+      "E": "la bilirubina"
+    },
+    "risposta_corretta": "E",
+    "risposta": "la bilirubina",
+    "pagina": 5,
+    "id": 88
+  },
+  {
+    "numero": 89,
+    "domanda": "Gli inibitori competitivi degli enzimi:",
+    "opzioni": {
+      "A": "si legano al substrato",
+      "B": "si legano ad un sito allosterico",
+      "C": "si legano al complesso ES",
+      "D": "non si legano all'enzima",
+      "E": "si legano al sito attivo dell'enzima"
+    },
+    "risposta_corretta": "E",
+    "risposta": "si legano al sito attivo dell'enzima",
+    "pagina": 5,
+    "id": 89
+  },
+  {
+    "numero": 90,
+    "domanda": "In generale in una cellula il numero di recettori ormonali funzionanti di un certo tipo:",
+    "opzioni": {
+      "A": "è casuale",
+      "B": "dipende dalla velocità del metabolismo basale del soggetto",
+      "C": "è prederminato alla nascita e non varia nel corso della vita",
+      "D": "può essere regolato fisiologicamenteo ed essere influenzato da malattie o agenti farmacologici",
+      "E": "dipende dalla percentuale di colesterolo della membrana callulare, e quindi dalla sua fluidità, che ne condiziona la stabilità"
+    },
+    "risposta_corretta": "D",
+    "risposta": "può essere regolato fisiologicamenteo ed essere influenzato da malattie o agenti farmacologici",
+    "pagina": 6,
+    "id": 90
+  },
+  {
+    "numero": 91,
+    "domanda": "Segnalare quale enzima non partecipa alla formazione di urea:",
+    "opzioni": {
+      "A": "ornitina carbamiltransferasi",
+      "B": "carbamilfosfato sintetasi",
+      "C": "isocitrico deidrogenasi",
+      "D": "arginasi",
+      "E": "argininsuccinico liasi"
+    },
+    "risposta_corretta": "C",
+    "risposta": "isocitrico deidrogenasi",
+    "pagina": 6,
+    "id": 91
+  },
+  {
+    "numero": 92,
+    "domanda": "La fosfofruttochinasi, uno degli enzimi sui quali si esercita la regolazione della glicolisi, è:",
+    "opzioni": {
+      "A": "un enzima inibito dal glucosio-1-P",
+      "B": "un enzima stimolato da fosfoenolpiruvato",
+      "C": "un enzima allosterico inibito dall'ATP e stimolato dall'AMP",
+      "D": "un enzima inibito dall'acido lattico",
+      "E": "un enzima stimolato dal citrato"
+    },
+    "risposta_corretta": "C",
+    "risposta": "un enzima allosterico inibito dall'ATP e stimolato dall'AMP",
+    "pagina": 6,
+    "id": 92
+  },
+  {
+    "numero": 93,
+    "domanda": "Quale dei seguenti ormoni interagisce con un recettore di membrana:",
+    "opzioni": {
+      "A": "progesterone",
+      "B": "triiodotironina",
+      "C": "testosterone",
+      "D": "acido retinoico",
+      "E": "insulina"
+    },
+    "risposta_corretta": "E",
+    "risposta": "insulina",
+    "pagina": 6,
+    "id": 93
+  },
+  {
+    "numero": 94,
+    "domanda": "Quale delle seguenti affermazioni riguardanti la teoria chemio-osmotica della fosforilazione ossidativa è falsa?",
+    "opzioni": {
+      "A": "il rientro dei protoni nella matrice e la sintesi di ATP sono mediati dal complesso della ATP sintetasi",
+      "B": "il trasporto di protoni attraverso la membrana mitocondriale interna(MMI) rende la matrice più acida rispetto alla spazio intermembrana",
+      "C": "il gradiente elettrochimico è determinato da 2 componenti: differenza di potenziale elettrico e differenza di pH ai due lati della MMI",
+      "D": "l'energia rilasciata dal flusso di elettroni nella catena respiratoria è utilizzata per la traslocazione di protoni dalla matrice mitocondriale allo spazio intermembrana",
+      "E": "il flusso di elettroni determina un gradiente elettrochimico attraverso la MMIi"
+    },
+    "risposta_corretta": "B",
+    "risposta": "il trasporto di protoni attraverso la membrana mitocondriale interna(MMI) rende la matrice più acida rispetto alla spazio intermembrana",
+    "pagina": 6,
+    "id": 94
+  },
+  {
+    "numero": 95,
+    "domanda": "Indicare l'affermazione esatta. La beta-ossidazione di un acido grasso a numero dispari di atomi di carbonio:",
+    "opzioni": {
+      "A": "produce propionil CoA",
+      "B": "utilizza solo acidi grassi insaturi",
+      "C": "avviene nel citosol",
+      "D": "produce malonil CoA",
+      "E": "produce solo acetil CoA"
+    },
+    "risposta_corretta": "A",
+    "risposta": "produce propionil CoA",
+    "pagina": 6,
+    "id": 95
+  },
+  {
+    "numero": 96,
+    "domanda": "Quale dei seguenti raggruppamenti di amminoacidi contiene il maggior numero di AMMINOACIDI ESSENZIALI:",
+    "opzioni": {
+      "A": "ac.glutammico, serina, alanina, ac.aspartico, triptofano",
+      "B": "alanina, glicina, ac.aspartico, ac.glutammico, arginina",
+      "C": "triptofano, alanina, prolina, ac.glutammico, ac.aspartico",
+      "D": "fenilalanina, triptofano, metionina, lisina, ac.aspartico",
+      "E": "tirosina, fenilalanina, glicina, serina, ac.aspartico"
+    },
+    "risposta_corretta": "D",
+    "risposta": "fenilalanina, triptofano, metionina, lisina, ac.aspartico",
+    "pagina": 6,
+    "id": 96
+  },
+  {
+    "numero": 97,
+    "domanda": "I mitocondri",
+    "opzioni": {
+      "A": "risultano impermeabili ad ossigeno ed anidride carbonica",
+      "B": "sono presenti anche nelle cellule di procarioti",
+      "C": "sono particolarmente permeabili a metaboliti e cofattori",
+      "D": "sono presenti in tutte le cellule di eucarioti",
+      "E": "possono variare come numero nei diversi tessuti"
+    },
+    "risposta_corretta": "E",
+    "risposta": "possono variare come numero nei diversi tessuti",
+    "pagina": 6,
+    "id": 97
+  },
+  {
+    "numero": 98,
+    "domanda": "Quale fra i seguenti è il coenzima della lattico deidrogenasi?",
+    "opzioni": {
+      "A": "Ubichinone",
+      "B": "NADPH +H+",
+      "C": "NADH + H+",
+      "D": "FAD",
+      "E": "Acido lipoico"
+    },
+    "risposta_corretta": "C",
+    "risposta": "NADH + H+",
+    "pagina": 6,
+    "id": 98
+  },
+  {
+    "numero": 99,
+    "domanda": "Qual è il polisaccaride di riserva presente nei tessuti animali?",
+    "opzioni": {
+      "A": "amido",
+      "B": "saccarosio",
+      "C": "amilosio",
+      "D": "glicogeno",
+      "E": "destrano"
+    },
+    "risposta_corretta": "D",
+    "risposta": "glicogeno",
+    "pagina": 6,
+    "id": 99
+  },
+  {
+    "numero": 100,
+    "domanda": "la regolazione della piruvico deidrogenasi dipende da:",
+    "opzioni": {
+      "A": "disponibilità di ossalacetato",
+      "B": "concentrazione degli ioni potassio",
+      "C": "attività della piruvico deidrogenasi chinasi",
+      "D": "disponibilità di propionil-CoA",
+      "E": "concentrazione di corpi chetonici"
+    },
+    "risposta_corretta": "C",
+    "risposta": "attività della piruvico deidrogenasi chinasi",
+    "pagina": 6,
+    "id": 100
+  },
+  {
+    "numero": 101,
+    "domanda": "Nel diabete mellito, la chetosi è provocata da:",
+    "opzioni": {
+      "A": "Una riduzione della gluconeogenesi",
+      "B": "Un diminuito catabolismo del glucosio",
+      "C": "Un diminuito catabolismo proteico",
+      "D": "Un aumento della liposintesi",
+      "E": "Una diminuita glicogenolisi"
+    },
+    "risposta_corretta": "B",
+    "risposta": "Un diminuito catabolismo del glucosio",
+    "pagina": 6,
+    "id": 101
+  },
+  {
+    "numero": 102,
+    "domanda": "Il lattosio introdotto con la dieta:",
+    "opzioni": {
+      "A": "viene assorbito come tale e trasformato in glucosio e galattosio a livello epatico",
+      "B": "viene idrolizzato a glucosio e galattosio da enzimi di membrana presenti nelle cellule della mucosa intestinale",
+      "C": "viene digerito da enzimi presenti nel succo pancreatico",
+      "D": "presentando un legame beta glicosidico non può essere idrolizzato",
+      "E": "è il tipico zucchero della frutta"
+    },
+    "risposta_corretta": "B",
+    "risposta": "viene idrolizzato a glucosio e galattosio da enzimi di membrana presenti nelle cellule della mucosa intestinale",
+    "pagina": 6,
+    "id": 102
+  },
+  {
+    "numero": 103,
+    "domanda": "Nei tessuti umani, quale dei seguenti enzimi può demolire il glicogeno?",
+    "opzioni": {
+      "A": "lattasi",
+      "B": "saccarasi",
+      "C": "glicogeno ossidasi",
+      "D": "glicogeno fosforilasi",
+      "E": "glicogeno liasi"
+    },
+    "risposta_corretta": "D",
+    "risposta": "glicogeno fosforilasi",
+    "pagina": 6,
+    "id": 103
+  },
+  {
+    "numero": 104,
+    "domanda": "il ferro è trasportato nei liquidi dell'organismo:",
+    "opzioni": {
+      "A": "legato all'eme",
+      "B": "nella forma ferrica",
+      "C": "legato agli -SH dell'albumina",
+      "D": "legato alle immunoglobuline",
+      "E": "legato alla ferritina"
+    },
+    "risposta_corretta": "B",
+    "risposta": "nella forma ferrica",
+    "pagina": 6,
+    "id": 104
+  },
+  {
+    "numero": 105,
+    "domanda": "Qual è la differenza tra la reazione di precipitazione e quella di agglutinazione?",
+    "opzioni": {
+      "A": "nella precipitazione interviene il sistema complementare",
+      "B": "nella precipitazione l'antigene è di natura solubile",
+      "C": "La precipitazione si realizza in tempi molto più lunghi",
+      "D": "nella precipitazione l'antigene è di natura corpuscolata",
+      "E": "nella precipitazione le immunoglobuline che partecipano alla formazione dell'immuno-complesso sono IgA"
+    },
+    "risposta_corretta": "B",
+    "risposta": "nella precipitazione l'antigene è di natura solubile",
+    "pagina": 6,
+    "id": 105
+  },
+  {
+    "numero": 106,
+    "domanda": "la carnitina serve per:",
+    "opzioni": {
+      "A": "il trasporto degli acidi grassi attivati all'interno dei mitocondri",
+      "B": "produrre la mioglobina della quale è un precursore",
+      "C": "il deposito degli acidi grassi nel tessuto adiposo",
+      "D": "fissare la catena in formazione durante la sintesi degli acidi grassi",
+      "E": "fungere da magazzino di energia nel tessuto muscolare"
+    },
+    "risposta_corretta": "A",
+    "risposta": "il trasporto degli acidi grassi attivati all'interno dei mitocondri",
+    "pagina": 6,
+    "id": 106
+  },
+  {
+    "numero": 107,
+    "domanda": "Quale delle seguenti affermazioni riguardanti la F0 - F1 ATPasi non è corretta:",
+    "opzioni": {
+      "A": "riduce l'ossigeno ad acqua",
+      "B": "è formata da diverse subunità",
+      "C": "è inibita dall'oligomicina",
+      "D": "può catalizzare anche la reazione di idrolisi dell'ATP",
+      "E": "consente il passaggio di protoni dal lato citoplasmatico al lato matrice"
+    },
+    "risposta_corretta": "A",
+    "risposta": "riduce l'ossigeno ad acqua",
+    "pagina": 6,
+    "id": 107
+  },
+  {
+    "numero": 108,
+    "domanda": "L'acido tetraidrofolico è:",
+    "opzioni": {
+      "A": "un trasportatore di unità monocarboniose",
+      "B": "una vitamina liposolubile",
+      "C": "un cofattore necessario al funzionamento di alcune chinasi",
+      "D": "un fattore della coagulazione",
+      "E": "un agente ossidante citoplasmatico"
+    },
+    "risposta_corretta": "A",
+    "risposta": "un trasportatore di unità monocarboniose",
+    "pagina": 7,
+    "id": 108
+  },
+  {
+    "numero": 109,
+    "domanda": "La molecola dell'ATP NON contiene:",
+    "opzioni": {
+      "A": "Adenosina",
+      "B": "Un legame anidridico",
+      "C": "Un legame N-glicosidico",
+      "D": "Un legame tioestereo",
+      "E": "Ribosio"
+    },
+    "risposta_corretta": "D",
+    "risposta": "Un legame tioestereo",
+    "pagina": 7,
+    "id": 109
+  },
+  {
+    "numero": 110,
+    "domanda": "Un inibitore di tipo competitivo:",
+    "opzioni": {
+      "A": "Mantiene costante il rapporto Km/Vmax",
+      "B": "Ha una struttura molto diversa da quella del substrato",
+      "C": "Interagisce con un sito allosterico dell'enzima",
+      "D": "Agisce abbassando la Vmax della reazione enzimatica",
+      "E": "Rispetto alla reazione non inibita fa variare la Km, ma non la Vmax"
+    },
+    "risposta_corretta": "E",
+    "risposta": "Rispetto alla reazione non inibita fa variare la Km, ma non la Vmax",
+    "pagina": 7,
+    "id": 110
+  },
+  {
+    "numero": 111,
+    "domanda": "La trasformazione del 7-deidrocolesterolo in colecalciferolo avviene:",
+    "opzioni": {
+      "A": "nel rene",
+      "B": "nei reticolociti",
+      "C": "nella cute",
+      "D": "nei polmoni",
+      "E": "nella cornea"
+    },
+    "risposta_corretta": "C",
+    "risposta": "nella cute",
+    "pagina": 7,
+    "id": 111
+  },
+  {
+    "numero": 112,
+    "domanda": "Il glucagone è un ormone che",
+    "opzioni": {
+      "A": "è un ormone di natura steroidea",
+      "B": "viene secreto in seguito ad un pasto ricco di carboidrati",
+      "C": "viene rilasciato dalle cellule beta del pancreas",
+      "D": "agisce a livello del tessuto epatico e del tessuto adiposo",
+      "E": "attraversa con facilità la membrana plasmatica"
+    },
+    "risposta_corretta": "D",
+    "risposta": "agisce a livello del tessuto epatico e del tessuto adiposo",
+    "pagina": 7,
+    "id": 112
+  },
+  {
+    "numero": 113,
+    "domanda": "L'istidina è convertita ad istamina mediante una reazione di:",
+    "opzioni": {
+      "A": "metilazione",
+      "B": "idrossilazione",
+      "C": "riduzione con NADH",
+      "D": "decarbossilazione",
+      "E": "transaminazione"
+    },
+    "risposta_corretta": "D",
+    "risposta": "decarbossilazione",
+    "pagina": 7,
+    "id": 113
+  },
+  {
+    "numero": 114,
+    "domanda": "Demenza, dermatite e diarrea si hanno nella:",
+    "opzioni": {
+      "A": "deficienza di nicotinamide",
+      "B": "deficienza di vitamina D",
+      "C": "deficienza di tiamina",
+      "D": "deficienza di vitamina B1",
+      "E": "deficienza di vitamina K"
+    },
+    "risposta_corretta": "A",
+    "risposta": "deficienza di nicotinamide",
+    "pagina": 7,
+    "id": 114
+  },
+  {
+    "numero": 115,
+    "domanda": "Nel globulo rosso maturo, il NADH +H+ formato nel processo glicolitico viene riossidato:",
+    "opzioni": {
+      "A": "Dall'ossigeno contenuto nel globulo rosso",
+      "B": "Dalla glucosio-6-fosfato deidrogenasi",
+      "C": "Da un enzima che ha come substrato il diidrossiacetonefosfato",
+      "D": "Dall'enzima lattico deidrogenasi",
+      "E": "Direttamente dal 1° complesso della catena respiratoria mitocondriale"
+    },
+    "risposta_corretta": "D",
+    "risposta": "Dall'enzima lattico deidrogenasi",
+    "pagina": 7,
+    "id": 115
+  },
+  {
+    "numero": 116,
+    "domanda": "Quale delle seguenti affermazioni relative all'INIBIZIONE ENZIMATICA e' FALSA:",
+    "opzioni": {
+      "A": "l'inibizione non competitiva non viene rimossa dall'elevazione della concentrazione del substrato",
+      "B": "nell'inibizione competitiva non si modifica la Vmax ma risulta incrementata la Km",
+      "C": "nell'inibizione competitiva si ha competizione fra inibitore e substrato per il sito allosterico dell'enzima",
+      "D": "la caratteristica dell'inibizione competitiva e' la sua reversibilita' per aumento della concentrazione del substrato",
+      "E": "nell'inibizione non competitiva non si modifica la Km ma risulta diminuita la Vmax"
+    },
+    "risposta_corretta": "C",
+    "risposta": "nell'inibizione competitiva si ha competizione fra inibitore e substrato per il sito allosterico dell'enzima",
+    "pagina": 7,
+    "id": 116
+  },
+  {
+    "numero": 117,
+    "domanda": "L'anemia megaloblastica può essere dovuta a:",
+    "opzioni": {
+      "A": "deficienza di vitamina B12",
+      "B": "autoanticorpi circolanti",
+      "C": "deficiente sintesi di catene globiniche alfa o beta dell'emoglobina",
+      "D": "bassa concentrazione sierica di ferro",
+      "E": "aplasia del midollo osseo"
+    },
+    "risposta_corretta": "A",
+    "risposta": "deficienza di vitamina B12",
+    "pagina": 7,
+    "id": 117
+  },
+  {
+    "numero": 118,
+    "domanda": "Quali cellule assumono glucoso con un meccanismo di trasporto non insulino-dipendente?",
+    "opzioni": {
+      "A": "cellule del cervello",
+      "B": "cellule cardiache",
+      "C": "nessuna di quelle indicate",
+      "D": "cellule dei muscoli",
+      "E": "cellule del tessuto adiposo"
+    },
+    "risposta_corretta": "A",
+    "risposta": "cellule del cervello",
+    "pagina": 7,
+    "id": 118
+  },
+  {
+    "numero": 119,
+    "domanda": "dal piruvato possono derivare direttamente:",
+    "opzioni": {
+      "A": "malonato e glutammato",
+      "B": "lattoni di varia lunghezza",
+      "C": "citrato, propionil-CoA e succinil-CoA",
+      "D": "lattato, acetil-CoA, ossaloacetato, alanina",
+      "E": "diossiacetone e aldeide glicerica"
+    },
+    "risposta_corretta": "D",
+    "risposta": "lattato, acetil-CoA, ossaloacetato, alanina",
+    "pagina": 7,
+    "id": 119
+  },
+  {
+    "numero": 120,
+    "domanda": "La FENILCHETONURIA è una grave malattia dovuta a:",
+    "opzioni": {
+      "A": "un difetto genetico dell'enzima che catalizza la deaminazione ossidativa della fenilalanina",
+      "B": "scarso apporto alimentare di tirosina",
+      "C": "scarso apporto alimentare di fenilalanina",
+      "D": "un difetto genetico dell'enzima implicato nell'assorbimento intestinale degli aminoacidi",
+      "E": "un difetto genetico dell'enzima che trasforma la fenilalanina in tirosina"
+    },
+    "risposta_corretta": "E",
+    "risposta": "un difetto genetico dell'enzima che trasforma la fenilalanina in tirosina",
+    "pagina": 7,
+    "id": 120
+  },
+  {
+    "numero": 121,
+    "domanda": "Il processo della decarbossilazione ossidativa del piruvato richiede anche l'intervento di:",
+    "opzioni": {
+      "A": "biotina",
+      "B": "difosfotiamina",
+      "C": "sarcosina",
+      "D": "piridossalfosfato",
+      "E": "riboflavina"
+    },
+    "risposta_corretta": "B",
+    "risposta": "difosfotiamina",
+    "pagina": 7,
+    "id": 121
+  },
+  {
+    "numero": 122,
+    "domanda": "Il prodotto terminale del catabolismo purinico negli uomini è:",
+    "opzioni": {
+      "A": "acido urico",
+      "B": "allantoina",
+      "C": "urea",
+      "D": "creatinina",
+      "E": "ammoniaca"
+    },
+    "risposta_corretta": "A",
+    "risposta": "acido urico",
+    "pagina": 7,
+    "id": 122
+  },
+  {
+    "numero": 123,
+    "domanda": "Per quanto concerne l'azione dell'INSULINA, quale delle seguenti affermazioni è VERA?",
+    "opzioni": {
+      "A": "agisce sugli adipociti attivando la lipasi endocellulare ormone-sensibile",
+      "B": "inibisce la glicogenosintesi a livello muscolare ed epatico",
+      "C": "agisce sugli epatociti inducendo la sintesi della glucocinasi",
+      "D": "inibisce la glicolisi",
+      "E": "inibisce la fosfodiesterasi e attiva l'adenilico-ciclasi"
+    },
+    "risposta_corretta": "C",
+    "risposta": "agisce sugli epatociti inducendo la sintesi della glucocinasi",
+    "pagina": 7,
+    "id": 123
+  },
+  {
+    "numero": 124,
+    "domanda": "Il grasso bruno",
+    "opzioni": {
+      "A": "contiene mitocondri simili a quelli del tessuto muscolare",
+      "B": "immette in circolo acidi grassi in seguito a stimolazione nervosa",
+      "C": "immagazzina glucidi e lipidi",
+      "D": "è più ricco di mitocondri rispetto al normale tessuto adiposo",
+      "E": "causa una diminuzione della temperatura corporea"
+    },
+    "risposta_corretta": "D",
+    "risposta": "è più ricco di mitocondri rispetto al normale tessuto adiposo",
+    "pagina": 7,
+    "id": 124
+  },
+  {
+    "numero": 125,
+    "domanda": "Il ciclo di Krebs permette",
+    "opzioni": {
+      "A": "la formazione di coenzimi NADP ridotti",
+      "B": "l'utilizzazione dell'ossalacetato per la gluconeogenesi",
+      "C": "la trasformazione di AcetilCoA in composti glucidici",
+      "D": "la riossidazione di coenzimi piridinici",
+      "E": "l'ossidazione di AcetilCoA ad anidride carbonica e acqua"
+    },
+    "risposta_corretta": "E",
+    "risposta": "l'ossidazione di AcetilCoA ad anidride carbonica e acqua",
+    "pagina": 7,
+    "id": 125
+  },
+  {
+    "numero": 126,
+    "domanda": "Qual è l'immediato precursore metabolico nella sintesi dell'acetoacetato?",
+    "opzioni": {
+      "A": "acido betaidrossibutirrico",
+      "B": "beta-idrossi-beta-metilglutarilCoA",
+      "C": "succinilCoA",
+      "D": "acetilCoA",
+      "E": "acido acetico"
+    },
+    "risposta_corretta": "B",
+    "risposta": "beta-idrossi-beta-metilglutarilCoA",
+    "pagina": 8,
+    "id": 126
+  },
+  {
+    "numero": 127,
+    "domanda": "Indicare quale dei seguenti fattori NON influisce, in genere, sulla velocita'di MIGRAZIONE ELETTROFORETICA di una proteina:",
+    "opzioni": {
+      "A": "peso molecolare",
+      "B": "conformazione della molecola",
+      "C": "attivita' enzimatica",
+      "D": "punto isoelettrico",
+      "E": "carica elettrica"
+    },
+    "risposta_corretta": "C",
+    "risposta": "attivita' enzimatica",
+    "pagina": 8,
+    "id": 127
+  },
+  {
+    "numero": 128,
+    "domanda": "Un enzima di restrizione è:",
+    "opzioni": {
+      "A": "una endonucleasi che taglia il DNA a doppia elica in corrispondenza di sequenze specifiche",
+      "B": "un enzima che interviene durante la sintesi proteica",
+      "C": "una endonucleasi che taglia il DNA a singola elica in corrispondenz di specifiche sequenze",
+      "D": "una endonucleasi che elimina gli errori verficatisi durante la sintesi del DNA",
+      "E": "un enzima che interviene nel processo di riparazione del DNA"
+    },
+    "risposta_corretta": "A",
+    "risposta": "una endonucleasi che taglia il DNA a doppia elica in corrispondenza di sequenze specifiche",
+    "pagina": 8,
+    "id": 128
+  },
+  {
+    "numero": 129,
+    "domanda": "Il glucosio-6P",
+    "opzioni": {
+      "A": "viene trasportato dal fegato a tutti gli altri tessuti",
+      "B": "si accumula come tale nelle cellule",
+      "C": "può essere metabolizzato solo attraverso la glicolisi",
+      "D": "rappresenta la forma metabolicamente attiva del glucosio",
+      "E": "è un estere fosforico ad alta energia"
+    },
+    "risposta_corretta": "D",
+    "risposta": "rappresenta la forma metabolicamente attiva del glucosio",
+    "pagina": 8,
+    "id": 129
+  },
+  {
+    "numero": 130,
+    "domanda": "La spectrina è:",
+    "opzioni": {
+      "A": "una lipoproteina di trasporto del plasma",
+      "B": "una proteina della membrana eritrocitaria",
+      "C": "la banda spettrale degli amminoacidi aromatici delle proteine",
+      "D": "lo spettro di assorbimento di una proteina",
+      "E": "un glicolipide di membrana"
+    },
+    "risposta_corretta": "B",
+    "risposta": "una proteina della membrana eritrocitaria",
+    "pagina": 8,
+    "id": 130
+  },
+  {
+    "numero": 131,
+    "domanda": "Sottoponendo due proteine (A e B) ad elettroforesi per un tempo adeguato utilizzando un tampone a pH = 7.0, che tipo di migrazione si osserva sapendo che il punto isoelettrico della proteina A è 5.5 mentre quello della protena B è 8.5?",
+    "opzioni": {
+      "A": "migrano entrambe verso il polo positivo (anodo)",
+      "B": "la proteina A migra al polo positivo (anodo) mentre la proteina B non presenta alcuna migrazione",
+      "C": "la proteina A migra al polo negativo (catodo) e la proteina B a quello positivo (anodo)",
+      "D": "migrano entrambe al catodo o all'anodo a seconda della forza ionica del mezzo",
+      "E": "la proteina A migra al polo positivo (anodo) e la proteina B a quello negativo (catodo)"
+    },
+    "risposta_corretta": "E",
+    "risposta": "la proteina A migra al polo positivo (anodo) e la proteina B a quello negativo (catodo)",
+    "pagina": 8,
+    "id": 131
+  },
+  {
+    "numero": 132,
+    "domanda": "Alcuni mRNA vengono tradotti da ribosomi liberi nel citoplasma, altri da ribosomi aderenti alla membrana del reticolo endoplasmatico. Questo diverso comportamento è dovuto a:",
+    "opzioni": {
+      "A": "nessuna della cause proposte",
+      "B": "sequenza della proteina tradotta",
+      "C": "attività di proteine citpolasmatiche",
+      "D": "casualità",
+      "E": "tipo di ribosomi coinvolti nella trascrizione"
+    },
+    "risposta_corretta": "B",
+    "risposta": "sequenza della proteina tradotta",
+    "pagina": 8,
+    "id": 132
+  },
+  {
+    "numero": 133,
+    "domanda": "Nell'uomo è possibile convertire",
+    "opzioni": {
+      "A": "la fenilalanina in tirosina",
+      "B": "il piruvato in leucina",
+      "C": "l'ossalacetato in valina",
+      "D": "l'acido aspartico in isoleucina",
+      "E": "l'arginina in lisina"
+    },
+    "risposta_corretta": "A",
+    "risposta": "la fenilalanina in tirosina",
+    "pagina": 8,
+    "id": 133
+  },
+  {
+    "numero": 134,
+    "domanda": "Il piridossalfosfato contiene:",
+    "opzioni": {
+      "A": "Un anello piridinico",
+      "B": "Un anello benzenico",
+      "C": "Una struttura non aromatica",
+      "D": "Un anello purinico",
+      "E": "Un legame anidridico"
+    },
+    "risposta_corretta": "A",
+    "risposta": "Un anello piridinico",
+    "pagina": 8,
+    "id": 134
+  },
+  {
+    "numero": 135,
+    "domanda": "La Km di una reazione enzimatica:",
+    "opzioni": {
+      "A": "E' in relazione alla costante di equilibrio del processo enzimatico",
+      "B": "Aumenta all'aumentare della concentrazione dell'enzima",
+      "C": "E' un indicatore della specificità dell'enzima",
+      "D": "E' indipendente dalla concentrazione dell'enzima",
+      "E": "E' espressione dell'affinità dell'enzima per il substrato: un suo aumento indica aumento dell'affinità"
+    },
+    "risposta_corretta": "D",
+    "risposta": "E' indipendente dalla concentrazione dell'enzima",
+    "pagina": 8,
+    "id": 135
+  },
+  {
+    "numero": 136,
+    "domanda": "Le ammine biogene si formano dagli amminoacidi:",
+    "opzioni": {
+      "A": "Per decarbossilazione",
+      "B": "Per mezzo di una reazione di deaminazione ossidativa",
+      "C": "Per idrolisi",
+      "D": "Per mezzo di una reazione di transaminazione",
+      "E": "Attraverso una reazione non enzimatica"
+    },
+    "risposta_corretta": "A",
+    "risposta": "Per decarbossilazione",
+    "pagina": 8,
+    "id": 136
+  },
+  {
+    "numero": 137,
+    "domanda": "Per il corretto trasporto dell'ossigeno il ferro dell'emoglobina deve essere:",
+    "opzioni": {
+      "A": "deve essere allo stato metallico",
+      "B": "deve legare acqua",
+      "C": "ferroso",
+      "D": "deve prima legare la C02",
+      "E": "ferrico"
+    },
+    "risposta_corretta": "C",
+    "risposta": "ferroso",
+    "pagina": 8,
+    "id": 137
+  },
+  {
+    "numero": 138,
+    "domanda": "A cosa sono dovute le talassemie?",
+    "opzioni": {
+      "A": "alla presenza di metaemoglobina",
+      "B": "ad una diminuzione del numero di subunità",
+      "C": "a un difetto nella sintesi dell'emoglobina",
+      "D": "alla presenza di emoglobina glicata",
+      "E": "alla presenza di emoglobina A2"
+    },
+    "risposta_corretta": "C",
+    "risposta": "a un difetto nella sintesi dell'emoglobina",
+    "pagina": 8,
+    "id": 138
+  },
+  {
+    "numero": 139,
+    "domanda": "Indicare la struttura chimica relativa alle prostaglandine",
+    "opzioni": {
+      "A": "acidi grassi insaturi",
+      "B": "acidi grassi saturi",
+      "C": "fosfolipidi",
+      "D": "acidi grassi ciclici",
+      "E": "proteine"
+    },
+    "risposta_corretta": "D",
+    "risposta": "acidi grassi ciclici",
+    "pagina": 8,
+    "id": 139
+  },
+  {
+    "numero": 140,
+    "domanda": "I complessi lipoproteici",
+    "opzioni": {
+      "A": "contengono esclusivamente triacilgliceroli e proteine",
+      "B": "trasportano energia sotto forma di lipidi",
+      "C": "provengono esclusivamente dalla dieta alimentare",
+      "D": "si formano solo nel fegato",
+      "E": "contengono prevalentemente colesterolo"
+    },
+    "risposta_corretta": "B",
+    "risposta": "trasportano energia sotto forma di lipidi",
+    "pagina": 8,
+    "id": 140
+  },
+  {
+    "numero": 141,
+    "domanda": "Quale dei seguenti composti NON può essere utilizzato per la gluconeogenesi?",
+    "opzioni": {
+      "A": "acido lattico",
+      "B": "leucina",
+      "C": "glicerolo",
+      "D": "acido glutammico",
+      "E": "acido fumarico"
+    },
+    "risposta_corretta": "B",
+    "risposta": "leucina",
+    "pagina": 8,
+    "id": 141
+  },
+  {
+    "numero": 142,
+    "domanda": "Quale delle seguenti affermazioni a proposito dei corpi chetonici è corretta?",
+    "opzioni": {
+      "A": "se si formano in eccesso, vengono eliminati nei lisosomi",
+      "B": "possono essere sintetizzati a partire dal HMGCoA citoplasmatico",
+      "C": "si formano solo quando l'ossidazione degli acidi grassi è bloccata",
+      "D": "possono essere sintetizzati completamente nel citoplasma",
+      "E": "non vengono utilizzati dal fegato a fini energetici"
+    },
+    "risposta_corretta": "E",
+    "risposta": "non vengono utilizzati dal fegato a fini energetici",
+    "pagina": 8,
+    "id": 142
+  },
+  {
+    "numero": 143,
+    "domanda": "Quale delle affermazioni sottoriportate è FALSA?",
+    "opzioni": {
+      "A": "la trasformazione del fruttosio-1,6-difosfato in 3-fosfogliceraldeide e diidrossiacetonfosfato è catalizzata da una fosfatasi",
+      "B": "la trasformazione del fruttosio-1,6-difosfato in fruttosio-6-fosfato e' catalizzata da una fosfatasi",
+      "C": "la formazione del complesso aminoacil-RNAtransfer è catalizzata da una sintetasi",
+      "D": "la trasformazione del lattato in piruvato è' catalizzata da una deidrogenasi",
+      "E": "la trasformazione del glicerolo in glicerolfosfato è catalizzata da una cinasi"
+    },
+    "risposta_corretta": "A",
+    "risposta": "la trasformazione del fruttosio-1,6-difosfato in 3-fosfogliceraldeide e diidrossiacetonfosfato è catalizzata da una fosfatasi",
+    "pagina": 8,
+    "id": 143
+  },
+  {
+    "numero": 144,
+    "domanda": "Nella chetoacidosi dibetica, i tessuti extraepatici metabolizzano l'acido acetoacetico formando come primo metabolita uno dei seguenti composti. Quale?",
+    "opzioni": {
+      "A": "acido acetico",
+      "B": "acetone",
+      "C": "colesterolo",
+      "D": "HMG-CoA (beta-idrossi-beta-metilglutarilCoA)",
+      "E": "acetoacetil-CoA"
+    },
+    "risposta_corretta": "E",
+    "risposta": "acetoacetil-CoA",
+    "pagina": 9,
+    "id": 144
+  },
+  {
+    "numero": 145,
+    "domanda": "l'insulina è anche:",
+    "opzioni": {
+      "A": "uno stimolatore della proteinchinasi C",
+      "B": "uno stimolatore della guanilato ciclasi",
+      "C": "un fattore che induce un aumento dei livelli tissutali di AMPc",
+      "D": "uno stimolatore della lipasi adipolitica",
+      "E": "un forte inibitore della lipolisi nel fegato e nel tessuto adiposo"
+    },
+    "risposta_corretta": "E",
+    "risposta": "un forte inibitore della lipolisi nel fegato e nel tessuto adiposo",
+    "pagina": 9,
+    "id": 145
+  },
+  {
+    "numero": 146,
+    "domanda": "Quale delle seguenti affermazioni riguardanti la trasferrina è vera?",
+    "opzioni": {
+      "A": "E' una proteina plasmatica coinvolta nel trasporto aspecifico di metalli",
+      "B": "E' una beta 1 glicoproteina coinvolta nel trasporto del ferro",
+      "C": "E' una gamma-globulina importante per il trasporto del ferro",
+      "D": "E' una proteina oligomerica composta di numerose subunità",
+      "E": "E' una beta-globulina importante nel deposito del ferro"
+    },
+    "risposta_corretta": "B",
+    "risposta": "E' una beta 1 glicoproteina coinvolta nel trasporto del ferro",
+    "pagina": 9,
+    "id": 146
+  },
+  {
+    "numero": 147,
+    "domanda": "Indicare l'affermazione errata. L'acido arachidonico:",
+    "opzioni": {
+      "A": "è utilizzato per la sintesi di trombossani e leucotrieni",
+      "B": "contiene quattro doppi legami",
+      "C": "è idrolizzato dai fosfolipidi di membrana mediante una fosfolipasi",
+      "D": "è un precursore nella sintesi di prostaglandine in un processo stimolato dall'aspirina",
+      "E": "deriva dall'acido linoleico"
+    },
+    "risposta_corretta": "D",
+    "risposta": "è un precursore nella sintesi di prostaglandine in un processo stimolato dall'aspirina",
+    "pagina": 9,
+    "id": 147
+  },
+  {
+    "numero": 148,
+    "domanda": "Quale dei seguenti aminoacidi puo' formarsi per TRANSAMINAZIONE di un metabolita del ciclo di Krebs:",
+    "opzioni": {
+      "A": "serina",
+      "B": "fenilalanina",
+      "C": "alanina",
+      "D": "glicina",
+      "E": "acido aspartico"
+    },
+    "risposta_corretta": "E",
+    "risposta": "acido aspartico",
+    "pagina": 9,
+    "id": 148
+  },
+  {
+    "numero": 149,
+    "domanda": "Qual è l'amminoacido prevalentemente utilizzato nel fegato per la gluconeogenesi?",
+    "opzioni": {
+      "A": "istidina",
+      "B": "alanina",
+      "C": "fenilalanina",
+      "D": "arginina",
+      "E": "leucina"
+    },
+    "risposta_corretta": "B",
+    "risposta": "alanina",
+    "pagina": 9,
+    "id": 149
+  },
+  {
+    "numero": 150,
+    "domanda": "Per una delle seguenti sindromi poliuriche la prova della sete, consistente nella sospensione della ingestione di liquidi per alcune ore, deve essere eseguita con molta prudenza (pericolo di vita per il malato):",
+    "opzioni": {
+      "A": "potomania",
+      "B": "poliuria primaria",
+      "C": "diabete insipido vero",
+      "D": "diabete mellito",
+      "E": "polidipsia primaria"
+    },
+    "risposta_corretta": "C",
+    "risposta": "diabete insipido vero",
+    "pagina": 9,
+    "id": 150
+  },
+  {
+    "numero": 151,
+    "domanda": "La liberazione dell'ossigeno da parte dell'EMOGLOBINA a livello dei tessuti periferici e' favorita da:",
+    "opzioni": {
+      "A": "nessuna delle condizioni indicate",
+      "B": "innalzamento del pH",
+      "C": "abbassamento del pH",
+      "D": "elevata concentrazione intracellulare di ATP",
+      "E": "elevata pressione parziale di ossigeno"
+    },
+    "risposta_corretta": "C",
+    "risposta": "abbassamento del pH",
+    "pagina": 9,
+    "id": 151
+  },
+  {
+    "numero": 152,
+    "domanda": "Nel trattamento del morbo di Parkinson con l'aminoacido DOPA non si deve assumere un complesso polivitaminico contenente una vitamina che aumenta il metabolismo della DOPA. Qual è questa vitamina:",
+    "opzioni": {
+      "A": "Piridossina",
+      "B": "Niacina",
+      "C": "Riboflavina",
+      "D": "Biotina",
+      "E": "Tiamina"
+    },
+    "risposta_corretta": "A",
+    "risposta": "Piridossina",
+    "pagina": 9,
+    "id": 152
+  },
+  {
+    "numero": 153,
+    "domanda": "Indicare l'affermazione corretta. La glicerolo chinasi:",
+    "opzioni": {
+      "A": "è un enzima del quale è ricco il tessuto adiposo",
+      "B": "è un enzima glicolitico",
+      "C": "fa parte del meccanismo che permette l'assorbimento dei trigliceridi alimentari",
+      "D": "trasforma la aldeide 3-P-glicerica in alfaglicerofosfato e viceversa",
+      "E": "è importante per la sintesi dei trigliceridi"
+    },
+    "risposta_corretta": "E",
+    "risposta": "è importante per la sintesi dei trigliceridi",
+    "pagina": 9,
+    "id": 153
+  },
+  {
+    "numero": 154,
+    "domanda": "L'idrolisi dell'AMP ciclico è catalizzata da:",
+    "opzioni": {
+      "A": "una fosfodiesterasi",
+      "B": "una AMPasi",
+      "C": "una perossidasi",
+      "D": "una defosforilasi",
+      "E": "una nucleotide deciclasi"
+    },
+    "risposta_corretta": "A",
+    "risposta": "una fosfodiesterasi",
+    "pagina": 9,
+    "id": 154
+  },
+  {
+    "numero": 155,
+    "domanda": "Quale delle seguenti affermazioni riguardanti l'ubichinone è corretta?",
+    "opzioni": {
+      "A": "E' una molecola liposolubile",
+      "B": "E' il trasportatore mobile di elettroni tra il complesso III (citocromo c reduttasi) e il complesso IV (citocromo ossidasi) della catena respiratoria",
+      "C": "Contiene Fe",
+      "D": "E' una molecola della matrice mitocondriale",
+      "E": "E' una vitamina"
+    },
+    "risposta_corretta": "A",
+    "risposta": "E' una molecola liposolubile",
+    "pagina": 9,
+    "id": 155
+  },
+  {
+    "numero": 156,
+    "domanda": "le HDL:",
+    "opzioni": {
+      "A": "possono essere trasformate in chilomicroni prendendo trigliceridi dal tessuto adiposo",
+      "B": "nella forma nascente vengono prodotte dagli adipociti",
+      "C": "si formano anche a livello pancreatico",
+      "D": "possono essere ricavate anche dai chilomicroni",
+      "E": "hanno esattamente le stesse apoproteine delle VLDL"
+    },
+    "risposta_corretta": "D",
+    "risposta": "possono essere ricavate anche dai chilomicroni",
+    "pagina": 9,
+    "id": 156
+  },
+  {
+    "numero": 157,
+    "domanda": "Il cortisolo ha i seguenti effetti ECCETTO UNO:",
+    "opzioni": {
+      "A": "attiva la gluconeogenesi",
+      "B": "esercita un effetto antinfiammatorio",
+      "C": "stimola il rilascio di glicerolo ed acidi grassi dal tessuto adiposo",
+      "D": "stimola il catabolismo proteico nel muscolo",
+      "E": "attiva la glicolisi"
+    },
+    "risposta_corretta": "E",
+    "risposta": "attiva la glicolisi",
+    "pagina": 9,
+    "id": 157
+  },
+  {
+    "numero": 158,
+    "domanda": "L'acqua può essere addizionata a un doppio legame C=C (senza rottura del legame C-C) da uno dei seguenti enzimi:",
+    "opzioni": {
+      "A": "Catalasi",
+      "B": "Idroliasi",
+      "C": "Esterasi",
+      "D": "Idrolasi",
+      "E": "Ossidoreduttasi"
+    },
+    "risposta_corretta": "B",
+    "risposta": "Idroliasi",
+    "pagina": 9,
+    "id": 158
+  },
+  {
+    "numero": 159,
+    "domanda": "Le molecole che si legano al sito allosterico di un enzima",
+    "opzioni": {
+      "A": "fanno variare la costante di equilibrio della reazione",
+      "B": "derivano dalle vitamine liposolubili",
+      "C": "possono modificare l'affinità dell'enzima per il substrato",
+      "D": "si legano con legami covalenti",
+      "E": "hanno solo effetti di inibizione dell'attività enzimatica"
+    },
+    "risposta_corretta": "C",
+    "risposta": "possono modificare l'affinità dell'enzima per il substrato",
+    "pagina": 9,
+    "id": 159
+  },
+  {
+    "numero": 160,
+    "domanda": "Quale dei seguenti eventi e' incrementato a livello epatico durante il digiuno prolungato:",
+    "opzioni": {
+      "A": "glicolisi",
+      "B": "sintesi ex-novo di acidi grassi",
+      "C": "shunt dell'esosomonofosfato",
+      "D": "gluconeogenesi",
+      "E": "sintesi del colesterolo"
+    },
+    "risposta_corretta": "D",
+    "risposta": "gluconeogenesi",
+    "pagina": 9,
+    "id": 160
+  },
+  {
+    "numero": 161,
+    "domanda": "Il colesterolo è:",
+    "opzioni": {
+      "A": "il precursore degli ormoni steroidei",
+      "B": "una sostanza idrosolubile",
+      "C": "assente nelle membrane cellulari",
+      "D": "un acido grasso a 27 atomi di carbonio",
+      "E": "un alcool ciclico poliinsaturo"
+    },
+    "risposta_corretta": "A",
+    "risposta": "il precursore degli ormoni steroidei",
+    "pagina": 9,
+    "id": 161
+  },
+  {
+    "numero": 162,
+    "domanda": "Quale delle seguenti affermazioni relative al GLICOGENO e' FALSA:",
+    "opzioni": {
+      "A": "possiede legami (1--->4) e (1--->6) alfa-glicosidici",
+      "B": "il glicogeno epatico e' una riserva di glucosio a disposizione dell'intero organismo",
+      "C": "il glicogeno e' presente, anche se in piccole concentrazioni, in tutte le cellule dell'organismo",
+      "D": "e' un eteropolisaccaride",
+      "E": "il glicogeno muscolare e' una riserva di glucosio esclusivamente per la cellula muscolare"
+    },
+    "risposta_corretta": "D",
+    "risposta": "e' un eteropolisaccaride",
+    "pagina": 10,
+    "id": 162
+  },
+  {
+    "numero": 163,
+    "domanda": "L'idrolisi dei trigliceridi nell'adipocita:",
+    "opzioni": {
+      "A": "E' particolarmente attiva in condizioni post-prandiali",
+      "B": "E' attiva in presenza di insulina",
+      "C": "Produce acidi grassi che sono trasportati dai chilomicroni del plasma",
+      "D": "E' catalizzata dalla lipasi pancreatica",
+      "E": "E' catalizzata da una lipasi ormono-sensibile"
+    },
+    "risposta_corretta": "E",
+    "risposta": "E' catalizzata da una lipasi ormono-sensibile",
+    "pagina": 10,
+    "id": 163
+  },
+  {
+    "numero": 164,
+    "domanda": "Durante la sintesi ex novo degli acidi grassi:",
+    "opzioni": {
+      "A": "si produce NADH",
+      "B": "si consuma NADPH",
+      "C": "si consuma ossigeno",
+      "D": "si utilizza piridossalfosfato",
+      "E": "si produce acetil-CoA"
+    },
+    "risposta_corretta": "B",
+    "risposta": "si consuma NADPH",
+    "pagina": 10,
+    "id": 164
+  },
+  {
+    "numero": 165,
+    "domanda": "Il complesso III della catena respiratoria trasferisce elettroni dal:",
+    "opzioni": {
+      "A": "dal FADH2 al coenzima Q",
+      "B": "dal succinato al coenzima Q",
+      "C": "dal citocromo a all'ossigeno",
+      "D": "dal NADH + H+ al coenzima Q",
+      "E": "coenzima Q al citocromo C"
+    },
+    "risposta_corretta": "E",
+    "risposta": "coenzima Q al citocromo C",
+    "pagina": 10,
+    "id": 165
+  },
+  {
+    "numero": 166,
+    "domanda": "il fegato ricava gli acidi biliari:",
+    "opzioni": {
+      "A": "dall'emoglobina via bilirubina",
+      "B": "dalle melanine",
+      "C": "dai pigmenti presenti negli alimenti ingerriti",
+      "D": "dagli ormoni steroidei",
+      "E": "dal colesterolo"
+    },
+    "risposta_corretta": "E",
+    "risposta": "dal colesterolo",
+    "pagina": 10,
+    "id": 166
+  },
+  {
+    "numero": 167,
+    "domanda": "Quale delle seguenti considerazioni relative alla MIOGLOBINA e' FALSA:",
+    "opzioni": {
+      "A": "il suo gruppo eme contiene un atomo di ferro trivalente",
+      "B": "non possiede struttura quaternaria",
+      "C": "presenta una maggiore affinita' per l'ossigeno rispetto all'emoglobina",
+      "D": "e' localizzata a livello muscolare",
+      "E": "non e' in grado di interagire con il 2,3 difosfoglicerato"
+    },
+    "risposta_corretta": "A",
+    "risposta": "il suo gruppo eme contiene un atomo di ferro trivalente",
+    "pagina": 10,
+    "id": 167
+  },
+  {
+    "numero": 168,
+    "domanda": "Nella catena respiratoria ogni citocromo trasporta:",
+    "opzioni": {
+      "A": "Un atomo di idrogeno",
+      "B": "Uno ione idruro",
+      "C": "Un protone",
+      "D": "Una coppia di elettroni contemporaneamente",
+      "E": "Un elettrone alla volta"
+    },
+    "risposta_corretta": "E",
+    "risposta": "Un elettrone alla volta",
+    "pagina": 10,
+    "id": 168
+  },
+  {
+    "numero": 169,
+    "domanda": "L'ipersecrezione di ormone somatotropo nell'adulto:",
+    "opzioni": {
+      "A": "Dipende da un incremento della secrezione di somatostatina",
+      "B": "Provoca bilancio negativo dell'azoto",
+      "C": "Provoca gigantismo",
+      "D": "Provoca ipergonadismo",
+      "E": "Modifica la curva da carico del glucosio"
+    },
+    "risposta_corretta": "E",
+    "risposta": "Modifica la curva da carico del glucosio",
+    "pagina": 10,
+    "id": 169
+  },
+  {
+    "numero": 170,
+    "domanda": "Quale delle seguenti affermazioni sul fattore F1 dell'ATPasi mitocondriale è vera:",
+    "opzioni": {
+      "A": "Partecipa al trasporto degli elettroni nella catena respiratoria",
+      "B": "Il fattore F1 isolato possiede attività ATPasica",
+      "C": "Il fattore F1 è immerso nello spessore della membrana mitocondriale interna",
+      "D": "Rappresenta un canale protonico transmembrana",
+      "E": "E' formato da una singola catena polipeptidica"
+    },
+    "risposta_corretta": "B",
+    "risposta": "Il fattore F1 isolato possiede attività ATPasica",
+    "pagina": 10,
+    "id": 170
+  },
+  {
+    "numero": 171,
+    "domanda": "L'eparina",
+    "opzioni": {
+      "A": "è di origine vegetale",
+      "B": "deriva dalla serotonina",
+      "C": "è una proteina",
+      "D": "è un glicosamminoglicano",
+      "E": "viene sintetizzata nel nucleo"
+    },
+    "risposta_corretta": "D",
+    "risposta": "è un glicosamminoglicano",
+    "pagina": 10,
+    "id": 171
+  },
+  {
+    "numero": 172,
+    "domanda": "la beta-ossidazione degli acidi grassi:",
+    "opzioni": {
+      "A": "prevede la tiolisi del legame C alfa - C beta del betachetoacil-CoA",
+      "B": "comincia sempre dall'estremità omega dell'acido grasso",
+      "C": "aumenta la sua attività grazie alla fosforilazione della deirogenasi FAD dipendente",
+      "D": "può ossidare solo acidi grassi più lunghi di di 20 C",
+      "E": "può ossidare solo acidi grassi con meno di 20 C"
+    },
+    "risposta_corretta": "A",
+    "risposta": "prevede la tiolisi del legame C alfa - C beta del betachetoacil-CoA",
+    "pagina": 10,
+    "id": 172
+  },
+  {
+    "numero": 173,
+    "domanda": "Durante la fase di buona alimentazione:",
+    "opzioni": {
+      "A": "Il glicogeno muscolare viene utilizzato per produrre glucosio da riversare nel sangue",
+      "B": "L'ormone prevalente in circolo è il glucagone",
+      "C": "L'insulina favorisce l'utilizzazione del glucosio ematico da parte dei tessuti epatici, muscolare ed adiposo",
+      "D": "Nel fegato l'acetil-CoA che deriva dalla degradazione degli acidi grassi è trasformato in corpi chetonici",
+      "E": "Il tessuto muscolare utilizza aminoacidi per sintetizzare glucosio che viene riversato nel sangue"
+    },
+    "risposta_corretta": "C",
+    "risposta": "L'insulina favorisce l'utilizzazione del glucosio ematico da parte dei tessuti epatici, muscolare ed adiposo",
+    "pagina": 10,
+    "id": 173
+  },
+  {
+    "numero": 174,
+    "domanda": "l'attività di alcuni dei fattori della coagulazione dipende anche da:",
+    "opzioni": {
+      "A": "le condizioni enrgetiche degli eritrociti che formano il coagulo",
+      "B": "la disponibilità di ioni calcio",
+      "C": "il livellodi metilcobalamina",
+      "D": "la disponibilità di vitamina E",
+      "E": "la disponibilità di vtamina A"
+    },
+    "risposta_corretta": "B",
+    "risposta": "la disponibilità di ioni calcio",
+    "pagina": 10,
+    "id": 174
+  },
+  {
+    "numero": 175,
+    "domanda": "Quale delle seguenti proteine ha funzione di trasporto?",
+    "opzioni": {
+      "A": "albumina",
+      "B": "cheratina",
+      "C": "insulina",
+      "D": "collagene",
+      "E": "fibrinogeno"
+    },
+    "risposta_corretta": "A",
+    "risposta": "albumina",
+    "pagina": 10,
+    "id": 175
+  },
+  {
+    "numero": 176,
+    "domanda": "La cromatografia è:",
+    "opzioni": {
+      "A": "lo spettro di assorbimento delle varie lunghezze d'onda che è caratteristico di ogni sostanza",
+      "B": "un metodo per misurare la concentrazione di alcune classi di sostanze coniugandole con molecole colorate",
+      "C": "un metodo di separazione basato sulle caratteristiche chimiche delle sostanze da separare rispetto a quelle del solvente e della sostanza solida sulla quale avviene",
+      "D": "una tecnica per evidenziare composti contenenti cromo organico",
+      "E": "una tecnica colorimetrica per evidenziare sostanze incolori"
+    },
+    "risposta_corretta": "C",
+    "risposta": "un metodo di separazione basato sulle caratteristiche chimiche delle sostanze da separare rispetto a quelle del solvente e della sostanza solida sulla quale avviene",
+    "pagina": 10,
+    "id": 176
+  },
+  {
+    "numero": 177,
+    "domanda": "I seguenti coenzimi sono coinvolti nella reazione catalizzata dal sistema multienzimatico della PIRUVATO DEIDROGENASI eccetto uno. Quale?",
+    "opzioni": {
+      "A": "FAD",
+      "B": "coenzima A",
+      "C": "piridossal fosfato",
+      "D": "acido lipoico",
+      "E": "tiaminpirofosfato"
+    },
+    "risposta_corretta": "C",
+    "risposta": "piridossal fosfato",
+    "pagina": 10,
+    "id": 177
+  },
+  {
+    "numero": 178,
+    "domanda": "Quale, tra i seguenti composti, può agire da \"secondo messaggero\" nelle cellule eucariotiche differenziate?",
+    "opzioni": {
+      "A": "AMP",
+      "B": "colesterolo",
+      "C": "RNA",
+      "D": "AMP ciclico",
+      "E": "ormoni peptidici"
+    },
+    "risposta_corretta": "D",
+    "risposta": "AMP ciclico",
+    "pagina": 10,
+    "id": 178
+  },
+  {
+    "numero": 179,
+    "domanda": "Gli zuccheri presenti nei cerebrosidi sono:",
+    "opzioni": {
+      "A": "glucosio o galattosio",
+      "B": "fruttosio o mannosio",
+      "C": "ribosio o fruttosio",
+      "D": "glucosio o fruttosio",
+      "E": "galattosio o ribosio"
+    },
+    "risposta_corretta": "A",
+    "risposta": "glucosio o galattosio",
+    "pagina": 10,
+    "id": 179
+  },
+  {
+    "numero": 180,
+    "domanda": "Il ruolo regolatorio del MALONILCoA sul metabolismo lipidico consiste nella:",
+    "opzioni": {
+      "A": "inibizione del meccanismo (carnitina dipendente) di trasferimento degli acidi grassi all'interno del mitocondrio",
+      "B": "attivazione degli enzimi del ciclo di Krebs",
+      "C": "attivazione del meccanismo (carnitina dipendente) di trasferimento degli acidi grassi all'interno del mitocondrio",
+      "D": "attivazione degli enzimi della beta-ossidazione",
+      "E": "inibizione del sistema multienzimatico della biosintesi ex novo degli acidi grassi"
+    },
+    "risposta_corretta": "A",
+    "risposta": "inibizione del meccanismo (carnitina dipendente) di trasferimento degli acidi grassi all'interno del mitocondrio",
+    "pagina": 11,
+    "id": 180
+  },
+  {
+    "numero": 181,
+    "domanda": "Quale delle seguenti affermazioni a proposito del FAD è corretta?",
+    "opzioni": {
+      "A": "E' costituito da: riboflavina-ribosio-fosfato-fosfato-ribosio-adenina",
+      "B": "La sua biosintesi non richiede la presenza di glucosio",
+      "C": "Contiene una vitamina",
+      "D": "La sua forma ridotta è riossidata direttamente dall'ossigeno",
+      "E": "E' il coenzima di deidrogenasi presenti in massima parte a livello citosolico"
+    },
+    "risposta_corretta": "C",
+    "risposta": "Contiene una vitamina",
+    "pagina": 11,
+    "id": 181
+  },
+  {
+    "numero": 182,
+    "domanda": "Quale delle seguenti considerazioni sulla CHETOGENESI e' FALSA:",
+    "opzioni": {
+      "A": "si svolge essenzialmente nel fegato",
+      "B": "ha sede mitocondriale",
+      "C": "il primo corpo chetonico che viene sintetizzato nel corso della chetogenesi e' l'acido acetacetico",
+      "D": "aumenta enormemente in condizioni di limitata disponibilita' di glucosio (digiuno prolungato)",
+      "E": "diminuisce fortemente in condizioni di compromessa utilizzazione metabolica del glucosio (diabete mellito)"
+    },
+    "risposta_corretta": "E",
+    "risposta": "diminuisce fortemente in condizioni di compromessa utilizzazione metabolica del glucosio (diabete mellito)",
+    "pagina": 11,
+    "id": 182
+  },
+  {
+    "numero": 183,
+    "domanda": "il citrato, nel citoplasma, può essere convertito in:",
+    "opzioni": {
+      "A": "isocitrato",
+      "B": "piruvato e alanina",
+      "C": "piruvato e ossaloacetato",
+      "D": "alfachetoglutarato e succinil-CoA",
+      "E": "ossaloacetato e acetil CoA"
+    },
+    "risposta_corretta": "E",
+    "risposta": "ossaloacetato e acetil CoA",
+    "pagina": 11,
+    "id": 183
+  },
+  {
+    "numero": 184,
+    "domanda": "L'esatto inizio della traduzione di un RNA messaggero nelle cellule umane è determinato da:",
+    "opzioni": {
+      "A": "interazione di specifici fattori proteici con il ribosoma",
+      "B": "sequenza dell'estremità 5' del messaggero",
+      "C": "interazione di fattori proteici specifici con l'RNA",
+      "D": "interazione del ribosoma con specifiche sequenze del messaggero",
+      "E": "un codone specifico"
+    },
+    "risposta_corretta": "E",
+    "risposta": "un codone specifico",
+    "pagina": 11,
+    "id": 184
+  },
+  {
+    "numero": 185,
+    "domanda": "La biosintesi del colesterolo utilizza:",
+    "opzioni": {
+      "A": "Acido-beta idrossibutirrico",
+      "B": "AcetilCoA",
+      "C": "Acido acetoacetico",
+      "D": "PropionilCoA",
+      "E": "Acetone"
+    },
+    "risposta_corretta": "B",
+    "risposta": "AcetilCoA",
+    "pagina": 11,
+    "id": 185
+  },
+  {
+    "numero": 186,
+    "domanda": "Il catabolismo dell'eme porta alla formazione di BILIRUBINA che viene trasportata al fegato:",
+    "opzioni": {
+      "A": "dopo essere stata legata, a livello plasmatico, all'acido glucuronico",
+      "B": "legata alle gamma-globuline",
+      "C": "legata a specifiche lipoproteine",
+      "D": "legata all'albumina",
+      "E": "in soluzione nel plasma"
+    },
+    "risposta_corretta": "D",
+    "risposta": "legata all'albumina",
+    "pagina": 11,
+    "id": 186
+  },
+  {
+    "numero": 187,
+    "domanda": "L'acetil-CoA utilizzato per la sintesi degli acidi grassi, che decorre nel citosol, può provenire da:",
+    "opzioni": {
+      "A": "l'azione di enzimi litici presenti nei lisosomi",
+      "B": "l'ossidazione citoplasmatica degli acidi grassi saturi",
+      "C": "il metabolismo citoplasmatico del piruvato",
+      "D": "l'azione della citrato liasi sul citrato proveniente dai mitocondri",
+      "E": "la sua fuoriuscita diretta dai mitocondri"
+    },
+    "risposta_corretta": "D",
+    "risposta": "l'azione della citrato liasi sul citrato proveniente dai mitocondri",
+    "pagina": 11,
+    "id": 187
+  },
+  {
+    "numero": 188,
+    "domanda": "Il TRASPORTO degli ACIDI GRASSI all'interno del mitocondrio dipende:",
+    "opzioni": {
+      "A": "dalla presenza di citrato",
+      "B": "dalla presenza di piridossalfosfato",
+      "C": "dalla formazione di esteri della carnitina",
+      "D": "dall'inibizione dell'enzima acilCoA deidrogenasi",
+      "E": "dalla presenza di FADH2"
+    },
+    "risposta_corretta": "C",
+    "risposta": "dalla formazione di esteri della carnitina",
+    "pagina": 11,
+    "id": 188
+  },
+  {
+    "numero": 189,
+    "domanda": "Il sistema microsomiale denominato citocromo P450 è un sistema di trasporto degli elettroni utilizzato per:",
+    "opzioni": {
+      "A": "idrossilare il NADH prodotto nel citoplasma per permettergli di entrare nei mitocondri",
+      "B": "idrossilare varie sostanze tra cui farmaci, steroli, derivati di acidi grassi ed alcuni amminoacidi",
+      "C": "produrre ATP al di fuori dei mitocondri utilizzando NADPH",
+      "D": "produrre ATP al di fuori dei mitocondri",
+      "E": "idrossilare il NADPH per l'immediata produzione di ATP"
+    },
+    "risposta_corretta": "B",
+    "risposta": "idrossilare varie sostanze tra cui farmaci, steroli, derivati di acidi grassi ed alcuni amminoacidi",
+    "pagina": 11,
+    "id": 189
+  },
+  {
+    "numero": 190,
+    "domanda": "Quali sono gli enzimi biotina dipendenti?",
+    "opzioni": {
+      "A": "piruvato deidrogenasi, enzima malico, piruvato-cinasi",
+      "B": "piruvato carbossilasi, acetil-CoA carbossilasi, propionil-CoA carbossilasi",
+      "C": "metilmalonil-CoA mutasi, carbamilfosfato sintetasi, glutammico decarbossilasi",
+      "D": "fosfoenolpiruvico carbossi-cinasi, glucosio-6-fosfato fosfatasi, fruttosio 1,6 difosfato fosfatasi",
+      "E": "cocarbossilasi, carbossilasi mitocondriali, carbossibiocinasi"
+    },
+    "risposta_corretta": "B",
+    "risposta": "piruvato carbossilasi, acetil-CoA carbossilasi, propionil-CoA carbossilasi",
+    "pagina": 11,
+    "id": 190
+  },
+  {
+    "numero": 191,
+    "domanda": "Indicare la risposta esatta.La glicina a pH=12 presenta carica:",
+    "opzioni": {
+      "A": "nessuna carica",
+      "B": "positiva",
+      "C": "negativa",
+      "D": "entrambe le cariche",
+      "E": "due cariche positive"
+    },
+    "risposta_corretta": "C",
+    "risposta": "negativa",
+    "pagina": 11,
+    "id": 191
+  },
+  {
+    "numero": 192,
+    "domanda": "L'anemia emolitica nel lupus eritematoso sistemico è dovuta a:",
+    "opzioni": {
+      "A": "autoanticorpi circolanti",
+      "B": "aplasia del midollo osseo",
+      "C": "deficienza di vitamina B12",
+      "D": "bassa concentrazione sierica di ferro",
+      "E": "deficiente sintesi di catene globiniche alfa e beta dell'emoglobina"
+    },
+    "risposta_corretta": "A",
+    "risposta": "autoanticorpi circolanti",
+    "pagina": 11,
+    "id": 192
+  },
+  {
+    "numero": 193,
+    "domanda": "Quale delle seguenti affermazioni relative alla BIOSINTESI EX-NOVO DEGLI ACIDI GRASSI e' VERA:",
+    "opzioni": {
+      "A": "gli enzimi che vi partecipano sono tutti attivi in forma fosforilata",
+      "B": "e' attivata dall'adrenalina",
+      "C": "richiede NADPH + H+ ed e' attivata da citrato",
+      "D": "e' favorita in situazioni di ipoglicemia",
+      "E": "ha come prodotti terminali ac.grassi insaturi"
+    },
+    "risposta_corretta": "C",
+    "risposta": "richiede NADPH + H+ ed e' attivata da citrato",
+    "pagina": 11,
+    "id": 193
+  },
+  {
+    "numero": 194,
+    "domanda": "Si ottiene urea dall'idrolisi di:",
+    "opzioni": {
+      "A": "acido aspartico",
+      "B": "arginina",
+      "C": "ornitina",
+      "D": "carbamil-fosfato",
+      "E": "citrullina"
+    },
+    "risposta_corretta": "B",
+    "risposta": "arginina",
+    "pagina": 11,
+    "id": 194
+  },
+  {
+    "numero": 195,
+    "domanda": "Quale delle seguenti affermazioni, riguardanti la biosintesi degli ACIDI BILIARI e' ESATTA:",
+    "opzioni": {
+      "A": "e' rallentata quando aumenta la quantita' di acidi biliari che ritornano al fegato",
+      "B": "e' indipendente dalla quantita' di acidi biliari che torna al fegato",
+      "C": "nessuna di quelle indicate",
+      "D": "diminuisce con l'aumentare dell'assorbimento del colesterolo",
+      "E": "viene accelerata quando aumenta la quantita'di acidi biliari che ritornano al fegato"
+    },
+    "risposta_corretta": "A",
+    "risposta": "e' rallentata quando aumenta la quantita' di acidi biliari che ritornano al fegato",
+    "pagina": 11,
+    "id": 195
+  },
+  {
+    "numero": 196,
+    "domanda": "la sintesi dei corpi chetonici",
+    "opzioni": {
+      "A": "produce alfachetobutirrato e piruvato",
+      "B": "aumenta quando l'apporto glucidico è scarso rispetto a quello lipidico",
+      "C": "diminuisce quando l'apporto lipidico è elevato",
+      "D": "produce alcaptone e metiletilchetone",
+      "E": "produce alfachetoglutarato e diossiacetone"
+    },
+    "risposta_corretta": "B",
+    "risposta": "aumenta quando l'apporto glucidico è scarso rispetto a quello lipidico",
+    "pagina": 11,
+    "id": 196
+  },
+  {
+    "numero": 197,
+    "domanda": "Quale tra le seguenti VITAMINE viene trasformata in un composto coenzimaticamente attivo a struttura nucleotidica?",
+    "opzioni": {
+      "A": "vitamina E",
+      "B": "riboflavina",
+      "C": "piridossale",
+      "D": "vitamina D",
+      "E": "biotina"
+    },
+    "risposta_corretta": "B",
+    "risposta": "riboflavina",
+    "pagina": 11,
+    "id": 197
+  },
+  {
+    "numero": 198,
+    "domanda": "Quali delle seguenti affermazioni relative al DNA mitocondriale è vera?",
+    "opzioni": {
+      "A": "tutte le proteine della catena respiratoria sono codificate dal DNA mitocondriale",
+      "B": "la trascrizione inizia con la formazione dell'ansa",
+      "C": "non codifica per RNA transfer",
+      "D": "è un DNA circolare a doppia elica",
+      "E": "è funzionalmente inattivo"
+    },
+    "risposta_corretta": "D",
+    "risposta": "è un DNA circolare a doppia elica",
+    "pagina": 12,
+    "id": 198
+  },
+  {
+    "numero": 199,
+    "domanda": "la funzione del glicogeno muscolare è quella di:",
+    "opzioni": {
+      "A": "essere la fonte principale di glucosio per la regolazione della glicemia",
+      "B": "produrre disaccaridi che vengono bruciati più facilmente anche in debito di ossigeno",
+      "C": "servire per la conversione nel galattosio necessario al ciclo dei pentosofosfati",
+      "D": "essere una fonte facilmente utilizzabile di glucosio all'interno del muscolo stesso",
+      "E": "servire per la produzione di acido glucuronico necessario per i processi di detossificazione"
+    },
+    "risposta_corretta": "D",
+    "risposta": "essere una fonte facilmente utilizzabile di glucosio all'interno del muscolo stesso",
+    "pagina": 12,
+    "id": 199
+  },
+  {
+    "numero": 200,
+    "domanda": "La biotina è:",
+    "opzioni": {
+      "A": "una vitamina idrosolubile che partecipa, come coenzima, alle reazioni di carbossilazione",
+      "B": "la vitamina dalla quale deriva la diidrobiotina, necessaria alle reazioni di riduzione",
+      "C": "l'iniziatore della sintesi dei fosfolipidi",
+      "D": "la vitamina dalla quale deriva la difosfobiotina, coenzima delle transaminazioni",
+      "E": "una vitamina liposolubile necessaria al trasporto delle unità monocarboniuose"
+    },
+    "risposta_corretta": "A",
+    "risposta": "una vitamina idrosolubile che partecipa, come coenzima, alle reazioni di carbossilazione",
+    "pagina": 12,
+    "id": 200
+  },
+  {
+    "numero": 201,
+    "domanda": "La aconitasi è un enzima che:",
+    "opzioni": {
+      "A": "stacca dall'acido aconitico una unità monocarboniosa",
+      "B": "converte l'acido citrico in isocitrico",
+      "C": "garantisce il trasporto dell'acetil-CoA dai mitocondri al citoplasma",
+      "D": "aggiunge una unità monocarboniosa al citrato",
+      "E": "trasforma l'aconitato in piruvato"
+    },
+    "risposta_corretta": "B",
+    "risposta": "converte l'acido citrico in isocitrico",
+    "pagina": 12,
+    "id": 201
+  },
+  {
+    "numero": 202,
+    "domanda": "Il calcio stimola la contrazione muscolare legandosi:",
+    "opzioni": {
+      "A": "alla tropomiosina",
+      "B": "all'actina",
+      "C": "alla troponina",
+      "D": "alla banda Z",
+      "E": "alla banda M"
+    },
+    "risposta_corretta": "C",
+    "risposta": "alla troponina",
+    "pagina": 12,
+    "id": 202
+  },
+  {
+    "numero": 203,
+    "domanda": "Delle reazioni allergiche di tipo anafilattico, quale classe di immunoglobuline è responsabile:",
+    "opzioni": {
+      "A": "IgD",
+      "B": "gM",
+      "C": "IgG",
+      "D": "IgE",
+      "E": "IgA"
+    },
+    "risposta_corretta": "D",
+    "risposta": "IgE",
+    "pagina": 12,
+    "id": 203
+  },
+  {
+    "numero": 204,
+    "domanda": "L'anidride carbonica prodotta nei tessuti periferici viene trasportata nel sangue:",
+    "opzioni": {
+      "A": "legata al gruppo eme dell'emoglobina",
+      "B": "legata ai gruppi carbossilici dell'emoglobina",
+      "C": "sotto forma di bicarbonato",
+      "D": "sotto forma di urea",
+      "E": "sotto forma di CO2 in soluzione"
+    },
+    "risposta_corretta": "C",
+    "risposta": "sotto forma di bicarbonato",
+    "pagina": 12,
+    "id": 204
+  },
+  {
+    "numero": 205,
+    "domanda": "La Km (costante di Michaelis-Menten) ha la/le seguente/i unità dimensionale/i:",
+    "opzioni": {
+      "A": "mol/litro",
+      "B": "secondo",
+      "C": "mol/secondo",
+      "D": "mole",
+      "E": "grammo"
+    },
+    "risposta_corretta": "A",
+    "risposta": "mol/litro",
+    "pagina": 12,
+    "id": 205
+  },
+  {
+    "numero": 206,
+    "domanda": "Quale, tra le seguenti acquisizioni è stata raggiunta grazie allo studio dei fenomeni di denaturazione e renaturazione delle proteine?",
+    "opzioni": {
+      "A": "la decifrazione del codice genetico",
+      "B": "la determinazione della struttura primaria delle proteine",
+      "C": "l'identificazione delle strutture secondarie delle proteine",
+      "D": "la dimostrazione che proteine omologhe hanno strutture tridimensionali simili",
+      "E": "la dimostrazione del fatto che l'attività biologica dipende dall'integrità della struttura tridimensionale della proteina"
+    },
+    "risposta_corretta": "E",
+    "risposta": "la dimostrazione del fatto che l'attività biologica dipende dall'integrità della struttura tridimensionale della proteina",
+    "pagina": 12,
+    "id": 206
+  },
+  {
+    "numero": 207,
+    "domanda": "la formazione del fruttosio1,6-difosfato nella glicolisi è:",
+    "opzioni": {
+      "A": "favorita da concentrazioni elvate di AMP e ADP",
+      "B": "inibita dal fosfato",
+      "C": "inibita da propionil-CoA",
+      "D": "favorita da concentrazioni elevate di citrato",
+      "E": "favorita da concentrazioni elevate da di ATP"
+    },
+    "risposta_corretta": "A",
+    "risposta": "favorita da concentrazioni elvate di AMP e ADP",
+    "pagina": 12,
+    "id": 207
+  },
+  {
+    "numero": 208,
+    "domanda": "In quale delle seguenti condizioni si ottiene del \"plasma\" da un campione di sangue:",
+    "opzioni": {
+      "A": "dopo centrifugazione di un campione di sangue coagulato",
+      "B": "dopo l'aggiunta di calcio ad un campione di siero",
+      "C": "dopo l'aggiunta di calcio ad un campione di sangue trattato con chelanti del calcio",
+      "D": "in nessuna di quelle proposte",
+      "E": "dopo centrifugazione di un campione di sangue trattato con anticoagulanti"
+    },
+    "risposta_corretta": "E",
+    "risposta": "dopo centrifugazione di un campione di sangue trattato con anticoagulanti",
+    "pagina": 12,
+    "id": 208
+  },
+  {
+    "numero": 209,
+    "domanda": "Quale dei seguenti enzimi utilizza, nell'ambito delle reazioni catalizzate, il coenzima tiamina pirofosfato?",
+    "opzioni": {
+      "A": "Fosfoenolpiruvato carbossichinasi",
+      "B": "Piruvato chinasi",
+      "C": "Piruvato carbossilasi",
+      "D": "Piruvato deidrogenasi (o decarbossilasi)",
+      "E": "Glutammato deidrogenasi"
+    },
+    "risposta_corretta": "D",
+    "risposta": "Piruvato deidrogenasi (o decarbossilasi)",
+    "pagina": 12,
+    "id": 209
+  },
+  {
+    "numero": 210,
+    "domanda": "Quale dei seguenti composti ha un potenziale di trasferimento per il fosfato più alto di quello dell'ATP?",
+    "opzioni": {
+      "A": "ribosio 5-fosfato",
+      "B": "glucosio 6-fosfato",
+      "C": "fosfoenolpiruvato",
+      "D": "gliceraldeide 3-fosfato",
+      "E": "fruttosio 1,6-difosfato"
+    },
+    "risposta_corretta": "C",
+    "risposta": "fosfoenolpiruvato",
+    "pagina": 12,
+    "id": 210
+  },
+  {
+    "numero": 211,
+    "domanda": "L'utilizzazione mitocondriale degli acili attivati:",
+    "opzioni": {
+      "A": "presuppone la sostituzione del CoA con un fosfato",
+      "B": "presuppone il passaggio attraverso la membrana mitocondriale dell'acido grasso libero",
+      "C": "richiede il funzionamento del sistema di trasporto carnitina-dipendente",
+      "D": "non richiede particolari meccanismi",
+      "E": "richiede un cotrasporto con il sodio"
+    },
+    "risposta_corretta": "C",
+    "risposta": "richiede il funzionamento del sistema di trasporto carnitina-dipendente",
+    "pagina": 12,
+    "id": 211
+  },
+  {
+    "numero": 212,
+    "domanda": "I corpi di Heinz sono un:",
+    "opzioni": {
+      "A": "reperto anatomo-patoIogico",
+      "B": "reperto ematochimico",
+      "C": "reperto istochimico",
+      "D": "reperto chimico-clinico",
+      "E": "nessuno dei precedenti"
+    },
+    "risposta_corretta": "B",
+    "risposta": "reperto ematochimico",
+    "pagina": 12,
+    "id": 212
+  },
+  {
+    "numero": 213,
+    "domanda": "Il GLUCAGONE e' un ormone pancreatico che agisce a livello epatico:",
+    "opzioni": {
+      "A": "inibendo la sintesi del glicogeno",
+      "B": "attivando la glicolisi",
+      "C": "attivando la fosfodiesterasi che agisce sui monofosfonucleotidi ciclici",
+      "D": "facendo incrementare i livelli di fruttosio-2,6-difosfato",
+      "E": "diminuendo il livello intracellulare di AMPciclico"
+    },
+    "risposta_corretta": "A",
+    "risposta": "inibendo la sintesi del glicogeno",
+    "pagina": 12,
+    "id": 213
+  },
+  {
+    "numero": 214,
+    "domanda": "dall'ossidazione degli acidi grassi a numero pari di C si produce:",
+    "opzioni": {
+      "A": "FADH2 e acetilcarnitina",
+      "B": "NADH, FADH2 e acetil-CoA",
+      "C": "direttamente ATP, come nella glicolisi",
+      "D": "NADH e teraidrobiopterina",
+      "E": "CO2 e citocromi ridotti"
+    },
+    "risposta_corretta": "B",
+    "risposta": "NADH, FADH2 e acetil-CoA",
+    "pagina": 12,
+    "id": 214
+  },
+  {
+    "numero": 215,
+    "domanda": "L'ormone che abbassa i livelli sierici del calcio é:",
+    "opzioni": {
+      "A": "il cortisone",
+      "B": "il TSH",
+      "C": "l'MSH",
+      "D": "la calcitonina",
+      "E": "il paratormone"
+    },
+    "risposta_corretta": "D",
+    "risposta": "la calcitonina",
+    "pagina": 12,
+    "id": 215
+  },
+  {
+    "numero": 216,
+    "domanda": "la melatonina deriva:",
+    "opzioni": {
+      "A": "dalla acetilazione delle eumelanine",
+      "B": "dalla N-acetilazione della serotonina",
+      "C": "dalla decarbossilazione della cistationina",
+      "D": "dalla aminazione della fenilalanina",
+      "E": "dalla idrossilazione della omocisteina"
+    },
+    "risposta_corretta": "B",
+    "risposta": "dalla N-acetilazione della serotonina",
+    "pagina": 13,
+    "id": 216
+  },
+  {
+    "numero": 217,
+    "domanda": "Nella glicolisi si ottiene ATP nella reazione catalizzata da:",
+    "opzioni": {
+      "A": "esocinasi",
+      "B": "aldolasi",
+      "C": "6-fosfofruttocinasi",
+      "D": "piruvato cinasi",
+      "E": "gliceraldeide 3-fosfatodeidrogenasi"
+    },
+    "risposta_corretta": "D",
+    "risposta": "piruvato cinasi",
+    "pagina": 13,
+    "id": 217
+  },
+  {
+    "numero": 218,
+    "domanda": "la glocogeno sintetasi è inibita:",
+    "opzioni": {
+      "A": "allostericamente da glucosio e fruttosio",
+      "B": "dal glicogeno neoformato",
+      "C": "dalla fosforilazione della molecola",
+      "D": "allostericamente dall'ATP",
+      "E": "dalla carbossilazione della molecola"
+    },
+    "risposta_corretta": "C",
+    "risposta": "dalla fosforilazione della molecola",
+    "pagina": 13,
+    "id": 218
+  },
+  {
+    "numero": 219,
+    "domanda": "Quale delle seguenti affermazioni relative al COLESTEROLO e' FALSA:",
+    "opzioni": {
+      "A": "e' il precursore del progesterone",
+      "B": "viene esterificato in circolo ad opera di una lecitina-colesterolo aciltransferasi (LCAT)",
+      "C": "produce corpi chetonici",
+      "D": "e' il precursore del cortisone",
+      "E": "viene esterificato nella cellula ad opera di una acilCoA-colesterolo aciltransferasi(ACAT)"
+    },
+    "risposta_corretta": "C",
+    "risposta": "produce corpi chetonici",
+    "pagina": 13,
+    "id": 219
+  },
+  {
+    "numero": 220,
+    "domanda": "La prima reazione nella BIOSINTESI del gruppo EME avviene tra:",
+    "opzioni": {
+      "A": "acetilCoA e acido ossalacetico",
+      "B": "acido aspartico e acido piruvico",
+      "C": "glicina e acido piruvico",
+      "D": "acido aspartico e succinilCoA",
+      "E": "glicina e succinilCoA"
+    },
+    "risposta_corretta": "E",
+    "risposta": "glicina e succinilCoA",
+    "pagina": 13,
+    "id": 220
+  },
+  {
+    "numero": 221,
+    "domanda": "La sintesi dei trigliceridi nel tessuto adiposo è favorita da:",
+    "opzioni": {
+      "A": "una elevata glucagonemia",
+      "B": "una alta insulinemia",
+      "C": "una bassa glicemia",
+      "D": "un elevato livello di adrenalina e noradrenalina",
+      "E": "una alimentazione ipocalorica"
+    },
+    "risposta_corretta": "B",
+    "risposta": "una alta insulinemia",
+    "pagina": 13,
+    "id": 221
+  },
+  {
+    "numero": 222,
+    "domanda": "In condizioni prolungate di DIGIUNO:",
+    "opzioni": {
+      "A": "si utilizzano esclusivamente le riserve lipidiche e si inibisce la gluconeogenesi",
+      "B": "il bilancio azotato è positivo",
+      "C": "la glicolisi anaerobia viene accelerata",
+      "D": "si utilizzano le riserve lipidiche e si attiva la gluconeogenesi",
+      "E": "si utilizzano esclusivamente le riserve di glicogeno"
+    },
+    "risposta_corretta": "D",
+    "risposta": "si utilizzano le riserve lipidiche e si attiva la gluconeogenesi",
+    "pagina": 13,
+    "id": 222
+  },
+  {
+    "numero": 223,
+    "domanda": "Quali dei seguenti componenti della catena mitondriale di trasporto degli elettroni non sono parte di un complesso lipoproteico di membrana?",
+    "opzioni": {
+      "A": "proteine ferro-zolfo",
+      "B": "ubichinone e citrocromo c",
+      "C": "citocromo b e c1",
+      "D": "citocromo a e a3",
+      "E": "FAD, FMN"
+    },
+    "risposta_corretta": "B",
+    "risposta": "ubichinone e citrocromo c",
+    "pagina": 13,
+    "id": 223
+  },
+  {
+    "numero": 224,
+    "domanda": "La velocità iniziale di una reazione enzimatica risulta di regola",
+    "opzioni": {
+      "A": "proporzionale alla concentrazione del substrato",
+      "B": "indipendente dalla temperatura a cui avviene la reazione",
+      "C": "uguale alla velocità massima dell'enzima a pH neutro",
+      "D": "proporzionale alla velocità massima dell'enzima",
+      "E": "direttamente proporzionale alla concentrazione dell'enzima in condizioni ottimali"
+    },
+    "risposta_corretta": "E",
+    "risposta": "direttamente proporzionale alla concentrazione dell'enzima in condizioni ottimali",
+    "pagina": 13,
+    "id": 224
+  },
+  {
+    "numero": 225,
+    "domanda": "In una reazione enzimatica, la concentrazione dell'enzima influenza:",
+    "opzioni": {
+      "A": "La costante di equilibrio della reazione",
+      "B": "La specificità del processo enzimatico",
+      "C": "L'energia di attivazione del processo",
+      "D": "La Vmax",
+      "E": "La Km"
+    },
+    "risposta_corretta": "D",
+    "risposta": "La Vmax",
+    "pagina": 13,
+    "id": 225
+  },
+  {
+    "numero": 226,
+    "domanda": "In una dieta ricca in carboidrati, quale dei seguenti processi decorre nel fegato con la massima attivita'?",
+    "opzioni": {
+      "A": "gluconeogenesi",
+      "B": "chetogenesi",
+      "C": "glicolisi anaerobia",
+      "D": "alfa-ossidazione degli acidi grassi",
+      "E": "biosintesi ex novo degli acidi grassi"
+    },
+    "risposta_corretta": "E",
+    "risposta": "biosintesi ex novo degli acidi grassi",
+    "pagina": 13,
+    "id": 226
+  },
+  {
+    "numero": 227,
+    "domanda": "La biosintesi degli acidi grassi avviene",
+    "opzioni": {
+      "A": "con la la partecipazione di carnitina",
+      "B": "in seguito a secrezione di glucagone",
+      "C": "prevalentemente all'interno dei mitocondri",
+      "D": "attraverso una via diversa da quella del loro catabolismo",
+      "E": "solo come conseguenza di un'alimentazione ricca di lipidi"
+    },
+    "risposta_corretta": "D",
+    "risposta": "attraverso una via diversa da quella del loro catabolismo",
+    "pagina": 13,
+    "id": 227
+  },
+  {
+    "numero": 228,
+    "domanda": "L'enzima succinico deidrogenasi:",
+    "opzioni": {
+      "A": "E' una flavoproteina con il FAD covalentemente legato all'apoenzima",
+      "B": "Appartiene alla classe delle idrolasi",
+      "C": "Rimuove 2 atomi di idrogeno legati allo stesso atomo di carbonio",
+      "D": "Trasforma l'acido succinico in acido malico",
+      "E": "E' un enzima del citosol"
+    },
+    "risposta_corretta": "A",
+    "risposta": "E' una flavoproteina con il FAD covalentemente legato all'apoenzima",
+    "pagina": 13,
+    "id": 228
+  },
+  {
+    "numero": 229,
+    "domanda": "L'ormone CALCITONINA favorisce:",
+    "opzioni": {
+      "A": "la deposizione del calcio nelle ossa",
+      "B": "la mobilizzazione del calcio dalle ossa",
+      "C": "l'attivazione della vitamina D",
+      "D": "il legame del calcio con proteine plasmatiche",
+      "E": "l'eliminazione del fosfato a livello renale"
+    },
+    "risposta_corretta": "A",
+    "risposta": "la deposizione del calcio nelle ossa",
+    "pagina": 13,
+    "id": 229
+  },
+  {
+    "numero": 230,
+    "domanda": "Nell'ipertiroidismo si osserva:",
+    "opzioni": {
+      "A": "Diminuzione del consumo di ossigeno basale",
+      "B": "Aumento della gittata cardiaca",
+      "C": "Diminuzione del catabolismo proteico",
+      "D": "Aumento del colesterolo nel sangue",
+      "E": "Diminuita sudorazione"
+    },
+    "risposta_corretta": "B",
+    "risposta": "Aumento della gittata cardiaca",
+    "pagina": 13,
+    "id": 230
+  },
+  {
+    "numero": 231,
+    "domanda": "Indicare quale delle seguenti vitamine è liposolubile",
+    "opzioni": {
+      "A": "vitamina PP",
+      "B": "vitamina B12",
+      "C": "vitamina B 6",
+      "D": "vitamina K",
+      "E": "vitamina C"
+    },
+    "risposta_corretta": "D",
+    "risposta": "vitamina K",
+    "pagina": 13,
+    "id": 231
+  },
+  {
+    "numero": 232,
+    "domanda": "Quale delle seguenti affermazioni relative alla DUPLICAZIONE del DNA e' FALSA:",
+    "opzioni": {
+      "A": "la DNA-polimerasi e' capace di sintetizzare tanto in direzione 5'-3' che 3'-5' (sintesi bidirezionale)",
+      "B": "entrambe le catene fungono da stampo",
+      "C": "e' richiesto come \"primer\" un frammento di RNA",
+      "D": "le due catene vengono sintetizzate contemporaneamente",
+      "E": "nessuna di quelle indicate"
+    },
+    "risposta_corretta": "A",
+    "risposta": "la DNA-polimerasi e' capace di sintetizzare tanto in direzione 5'-3' che 3'-5' (sintesi bidirezionale)",
+    "pagina": 13,
+    "id": 232
+  },
+  {
+    "numero": 233,
+    "domanda": "Gli scambi tra capillari sistemici e tessuti determinano:",
+    "opzioni": {
+      "A": "una diminuzione del valore di ematocrito",
+      "B": "uno spostamento a destra della curva di dissociazione dell'emoglobina",
+      "C": "una diminuzione degli ioni bicarbonato nel plasma",
+      "D": "una diminuzione della concentrazione dei cloruri negli eritrociti",
+      "E": "un aumento del pH del sangue"
+    },
+    "risposta_corretta": "B",
+    "risposta": "uno spostamento a destra della curva di dissociazione dell'emoglobina",
+    "pagina": 13,
+    "id": 233
+  },
+  {
+    "numero": 234,
+    "domanda": "L'ANIDRASI CARBONICA e' un enzima che:",
+    "opzioni": {
+      "A": "catalizza la formazione della metaemoglobina",
+      "B": "catalizza la formazione di carbaminoemoglobina",
+      "C": "utilizza come coenzima la difosfotiamina",
+      "D": "catalizza la formazione di ac.carbonico da anidride carbonica e acqua e viceversa",
+      "E": "catalizza la decarbossilazione degli amminoacidi"
+    },
+    "risposta_corretta": "D",
+    "risposta": "catalizza la formazione di ac.carbonico da anidride carbonica e acqua e viceversa",
+    "pagina": 13,
+    "id": 234
+  },
+  {
+    "numero": 235,
+    "domanda": "Un possibile meccanismo di attivazione degli oncogeni è:",
+    "opzioni": {
+      "A": "Crossing-over cromatidico",
+      "B": "Segmentazione genica",
+      "C": "Incorporazione di virus a DNA",
+      "D": "Traslocazione cromosomica",
+      "E": "Delezione genica"
+    },
+    "risposta_corretta": "D",
+    "risposta": "Traslocazione cromosomica",
+    "pagina": 14,
+    "id": 235
+  },
+  {
+    "numero": 236,
+    "domanda": "In quale compartimento cellulare avviene la sintesi degli acidi grassi?",
+    "opzioni": {
+      "A": "nei lisosomi",
+      "B": "nel citoplasma",
+      "C": "nei mitocondri",
+      "D": "nei perossisomi",
+      "E": "nell'apparato del Golgi"
+    },
+    "risposta_corretta": "B",
+    "risposta": "nel citoplasma",
+    "pagina": 14,
+    "id": 236
+  },
+  {
+    "numero": 237,
+    "domanda": "Indicare l'affermazione esatta. I sali biliari:",
+    "opzioni": {
+      "A": "si formano nel corso della sintesi del colesterolo",
+      "B": "sono indispensabili per la digestione e l'assorbimento dei grassi",
+      "C": "derivano dalla coniugazione dell'acido colico con la lisina o la fenilalanina",
+      "D": "derivano dal catabolismo dell'eme",
+      "E": "sono indispensabili per la digestione dei glucidi"
+    },
+    "risposta_corretta": "B",
+    "risposta": "sono indispensabili per la digestione e l'assorbimento dei grassi",
+    "pagina": 14,
+    "id": 237
+  },
+  {
+    "numero": 238,
+    "domanda": "un aumento della concentrazione di ammoniaca nel tessuto nervoso può provocare:",
+    "opzioni": {
+      "A": "un aumneto della sintesi delle catecolammine",
+      "B": "un aumento della sintesi di urea nel SNC",
+      "C": "un aumento della sintesi della glutammina",
+      "D": "una inibizione della asparagina sintetasi",
+      "E": "un aumento della velocità del ciclo di Krebs"
+    },
+    "risposta_corretta": "C",
+    "risposta": "un aumento della sintesi della glutammina",
+    "pagina": 14,
+    "id": 238
+  },
+  {
+    "numero": 239,
+    "domanda": "Per reazione di fosforilazione a livello del substrato si intende:",
+    "opzioni": {
+      "A": "La sintesi di ATP a livello della catena respiratoria mitocondriale",
+      "B": "Il trasferimento del gruppo fosforico dell'ATP su un substrato",
+      "C": "La sintesi di ATP a partire da ADP e Pi",
+      "D": "La scissione di un residuo di acido fosforico mediante meccanismo idrolitico",
+      "E": "Il trasferimento del gruppo fosforico da substrati particolarmente reattivi ( 2-fosfoenolpiruvato, succinil-CoA, acido 1-3- bisfosfoglicerico) sull'ADP per formare ATP"
+    },
+    "risposta_corretta": "E",
+    "risposta": "Il trasferimento del gruppo fosforico da substrati particolarmente reattivi ( 2-fosfoenolpiruvato, succinil-CoA, acido 1-3- bisfosfoglicerico) sull'ADP per formare ATP",
+    "pagina": 14,
+    "id": 239
+  },
+  {
+    "numero": 240,
+    "domanda": "Quale delle affermazioni sottoriportate è VERA?",
+    "opzioni": {
+      "A": "la trasformazione del 3-idrossi-3-metil-glutarilCoA in acido mevalonico è catalizzata da una carbossilasi",
+      "B": "la trasformazione dell'UDPgalattosio in UDPglucosio è catalizzata da una reduttasi",
+      "C": "la trasformazione del glucosio 1-fosfato in UDPglucosio in presenza di UTP è catalizzata da una UMP-trasferasi",
+      "D": "la trasformazione dell'acido glutammico in glutammina è catalizzata da una decarbossilasi",
+      "E": "la trasformazione dell'acido acetacetico in acetone è catalizzata da una deidrogenasi"
+    },
+    "risposta_corretta": "C",
+    "risposta": "la trasformazione del glucosio 1-fosfato in UDPglucosio in presenza di UTP è catalizzata da una UMP-trasferasi",
+    "pagina": 14,
+    "id": 240
+  },
+  {
+    "numero": 241,
+    "domanda": "La Km di un enzima rappresenta:",
+    "opzioni": {
+      "A": "la concentrazione di substrato alla quale l'enzima funziona alla velocità semimassimale",
+      "B": "la concentrazione media alla quale l'enzima si trova nell'organismo",
+      "C": "la costante di massa dell'enzima",
+      "D": "la concentrazione che l'enzima ha nella cellula (costante metabolica)",
+      "E": "la concentrazione che il substrato deve raggiungere nel sito attivo perché l'enzima possa funzionare"
+    },
+    "risposta_corretta": "A",
+    "risposta": "la concentrazione di substrato alla quale l'enzima funziona alla velocità semimassimale",
+    "pagina": 14,
+    "id": 241
+  },
+  {
+    "numero": 242,
+    "domanda": "Tutti gli acidi grassi insaturi naturali di uso alimentare per l'uomo contengono:",
+    "opzioni": {
+      "A": "almeno una coppia di doppi legami coniugati",
+      "B": "doppi legami misti cis e trans",
+      "C": "almeno una tripletta di doppi legami coniugati",
+      "D": "almeno un doppio legame, ma sempre in configurazione trans",
+      "E": "almeno un doppio legame, ma sempre in configurazione cis"
+    },
+    "risposta_corretta": "E",
+    "risposta": "almeno un doppio legame, ma sempre in configurazione cis",
+    "pagina": 14,
+    "id": 242
+  },
+  {
+    "numero": 243,
+    "domanda": "La percentuale di anidride carbonica trasportata nel sangue come bicarbonato è",
+    "opzioni": {
+      "A": "80-90%",
+      "B": "5%",
+      "C": "50-60%",
+      "D": "15-30%",
+      "E": "10-20%"
+    },
+    "risposta_corretta": "A",
+    "risposta": "80-90%",
+    "pagina": 14,
+    "id": 243
+  },
+  {
+    "numero": 244,
+    "domanda": "i precursori della sintesi dell'eme sono:",
+    "opzioni": {
+      "A": "propionil-CoA e alanina",
+      "B": "succinil-CoA, glutammina e treonina",
+      "C": "succinil-CoA e glicina",
+      "D": "propionil-CoA e serina",
+      "E": "glicina e malonil-CoA"
+    },
+    "risposta_corretta": "C",
+    "risposta": "succinil-CoA e glicina",
+    "pagina": 14,
+    "id": 244
+  },
+  {
+    "numero": 245,
+    "domanda": "Quali delle seguenti affermazioni relative all'ACIDO ASPARTICO è FALSA?",
+    "opzioni": {
+      "A": "e' un aminoacido gluconeogenetico",
+      "B": "partecipa alla biosintesi dell'urea",
+      "C": "e' il precursore diretto del fosfoenolpiruvato",
+      "D": "partecipa alla biosintesi dei nucleotidi pirimidinici",
+      "E": "deriva dall'acido ossalacetico"
+    },
+    "risposta_corretta": "C",
+    "risposta": "e' il precursore diretto del fosfoenolpiruvato",
+    "pagina": 14,
+    "id": 245
+  },
+  {
+    "numero": 246,
+    "domanda": "Da che cosa è costituito la maggior parte dell'azoto totale urinario:",
+    "opzioni": {
+      "A": "amminoacidi",
+      "B": "creatinina",
+      "C": "ammoniaca",
+      "D": "acido urico",
+      "E": "urea"
+    },
+    "risposta_corretta": "E",
+    "risposta": "urea",
+    "pagina": 14,
+    "id": 246
+  },
+  {
+    "numero": 247,
+    "domanda": "La renina è:",
+    "opzioni": {
+      "A": "un lipide",
+      "B": "un enzima",
+      "C": "un polisaccaride",
+      "D": "una malattia renale",
+      "E": "un coenzima"
+    },
+    "risposta_corretta": "B",
+    "risposta": "un enzima",
+    "pagina": 14,
+    "id": 247
+  },
+  {
+    "numero": 248,
+    "domanda": "Quale di queste espressioni rappresenta l'equazione di Lineweaver-Burk (doppi reciproci)?",
+    "opzioni": {
+      "A": "1/V0 = Km Vmax 1/[S] + 1/[S]",
+      "B": "1/V0= Km[S] + Vmax",
+      "C": "1/V0 = Km/Vmax 1/[S] + 1/Vmax",
+      "D": "1/V0= VmaxKm[S]",
+      "E": "1/V0 = [S] Km Vmax + 1/Vmax"
+    },
+    "risposta_corretta": "C",
+    "risposta": "1/V0 = Km/Vmax 1/[S] + 1/Vmax",
+    "pagina": 14,
+    "id": 248
+  },
+  {
+    "numero": 249,
+    "domanda": "La secrezione di HCl da parte delle cellule delle ghiandole gastriche:",
+    "opzioni": {
+      "A": "è realizzata da una pompa ATPasica ed è stimolata da acetilcolina e gastrina",
+      "B": "è utile per l'emulsionamento dei grassi",
+      "C": "determina un pH acido necessario per l'attività dell'amilasi pancreatica",
+      "D": "è necessaria per la trasformazione del tripsinogeno in tripsina",
+      "E": "è particolarmente intensa nella fase di digiuno."
+    },
+    "risposta_corretta": "A",
+    "risposta": "è realizzata da una pompa ATPasica ed è stimolata da acetilcolina e gastrina",
+    "pagina": 14,
+    "id": 249
+  },
+  {
+    "numero": 250,
+    "domanda": "Quale enzima salivare idrolizza l'amido?",
+    "opzioni": {
+      "A": "pepsina",
+      "B": "alfa amilasi",
+      "C": "lisozima",
+      "D": "beta amilasi",
+      "E": "maltasi"
+    },
+    "risposta_corretta": "B",
+    "risposta": "alfa amilasi",
+    "pagina": 14,
+    "id": 250
+  },
+  {
+    "numero": 251,
+    "domanda": "Si riscontra glicosuria:",
+    "opzioni": {
+      "A": "nel diabete asintomatico",
+      "B": "nel diabete potenziale",
+      "C": "nel diabete conclamato",
+      "D": "in nessun caso",
+      "E": "nel diabete latente"
+    },
+    "risposta_corretta": "C",
+    "risposta": "nel diabete conclamato",
+    "pagina": 14,
+    "id": 251
+  },
+  {
+    "numero": 252,
+    "domanda": "Quale delle seguenti affermazioni sul ciclo dell'urea è corretta?",
+    "opzioni": {
+      "A": "il processo si svolge interamente nel citosol",
+      "B": "il processo si svolge prevalentemente nel cervello",
+      "C": "uno degli enzimi coinvolti nel ciclo è l'ureasi",
+      "D": "il processo non abbisogna di energia (ATP)",
+      "E": "l'ammoniaca vi partecipa sotto forma di carbamilofsfato"
+    },
+    "risposta_corretta": "E",
+    "risposta": "l'ammoniaca vi partecipa sotto forma di carbamilofsfato",
+    "pagina": 14,
+    "id": 252
+  },
+  {
+    "numero": 253,
+    "domanda": "I chilomicroni sono prevalentemente costituiti da:",
+    "opzioni": {
+      "A": "trigliceridi",
+      "B": "colesterolo",
+      "C": "acidi grassi non esterificati",
+      "D": "fosfogliceridi",
+      "E": "sfingolipidi"
+    },
+    "risposta_corretta": "A",
+    "risposta": "trigliceridi",
+    "pagina": 15,
+    "id": 253
+  },
+  {
+    "numero": 254,
+    "domanda": "Il deficit di lattasi:",
+    "opzioni": {
+      "A": "non si associa a sintomi clinici rilevabili",
+      "B": "influenza l'utilizzazione del glucosio da parte del fegato",
+      "C": "provoca intolleranza al latte e ai suoi derivati",
+      "D": "è un'affezione più grave del diabete mellito",
+      "E": "provoca una forma di intolleranza al glucoso"
+    },
+    "risposta_corretta": "C",
+    "risposta": "provoca intolleranza al latte e ai suoi derivati",
+    "pagina": 15,
+    "id": 254
+  },
+  {
+    "numero": 255,
+    "domanda": "Il 2,3bisfosfoglicerato",
+    "opzioni": {
+      "A": "modifica la conformazione dell'emoglobina",
+      "B": "è un attivatore di alcuni enzimi della glicolisi",
+      "C": "è il messaggero degli ormoni steroidei",
+      "D": "viene sintetizzato in tutti i tipi di cellule",
+      "E": "rappresenta la principale riserva energetica della cellula"
+    },
+    "risposta_corretta": "A",
+    "risposta": "modifica la conformazione dell'emoglobina",
+    "pagina": 15,
+    "id": 255
+  },
+  {
+    "numero": 256,
+    "domanda": "nel muscolo in debito di ossigeno l'energia viene ricavata:",
+    "opzioni": {
+      "A": "dall'utilizzazione del lattato",
+      "B": "dall'utilizzazione delle proteine",
+      "C": "dal trasporto di ioni che genera un potenziale",
+      "D": "dall'ossidazione degli acidi grassi",
+      "E": "dall'utilizzazione del glucosio-6-P"
+    },
+    "risposta_corretta": "E",
+    "risposta": "dall'utilizzazione del glucosio-6-P",
+    "pagina": 15,
+    "id": 256
+  },
+  {
+    "numero": 257,
+    "domanda": "in generale i recettori ormanali possiedono:",
+    "opzioni": {
+      "A": "una sequenza nucleotidica che deve essere riconosciuta dall'ormone",
+      "B": "una struttura unitaria completamente interna alla membrana",
+      "C": "un sito attivo e un sito allosterico il cui funzionamento richiede energia",
+      "D": "due domini funzionali uno dei quali lega l'ormone e l'altro ne trasduce il segnale",
+      "E": "un sito con una struttura generica che si adatta, di volta in volta, a quella dell'ormone che vi si lega"
+    },
+    "risposta_corretta": "D",
+    "risposta": "due domini funzionali uno dei quali lega l'ormone e l'altro ne trasduce il segnale",
+    "pagina": 15,
+    "id": 257
+  },
+  {
+    "numero": 258,
+    "domanda": "Il cianuro è un veleno perché:",
+    "opzioni": {
+      "A": "Aumenta il pH del sangue",
+      "B": "Inibisce le pompe protoniche mitocondriali",
+      "C": "Si lega a componenti di membrane eritrocitarie",
+      "D": "Inibisce la citocromo ossidasi (complesso IV della catena respiratoria)",
+      "E": "Agisce disaccoppiando la fosforilazione ossidativa"
+    },
+    "risposta_corretta": "D",
+    "risposta": "Inibisce la citocromo ossidasi (complesso IV della catena respiratoria)",
+    "pagina": 15,
+    "id": 258
+  },
+  {
+    "numero": 259,
+    "domanda": "Il processo di respirazione cellulare",
+    "opzioni": {
+      "A": "rimuove l'anidride carbonica dai globuli rossi",
+      "B": "permette di ricavare energia dai substrati metabolici",
+      "C": "comporta il consumo di ATP",
+      "D": "produce lattato",
+      "E": "produce anidride carbonica"
+    },
+    "risposta_corretta": "B",
+    "risposta": "permette di ricavare energia dai substrati metabolici",
+    "pagina": 15,
+    "id": 259
+  },
+  {
+    "numero": 260,
+    "domanda": "L'acidosi respiratoria:",
+    "opzioni": {
+      "A": "E' associata ad eccessiva ritenzione di CO2",
+      "B": "Si ha nell'avvelenamento da ossido di carbonio",
+      "C": "Consiste in un odore caratteristico dell'alito dopo un pasto prevalentemente acido",
+      "D": "Consiste in un odore pungente dell'alito",
+      "E": "E' causata da polipnea"
+    },
+    "risposta_corretta": "A",
+    "risposta": "E' associata ad eccessiva ritenzione di CO2",
+    "pagina": 15,
+    "id": 260
+  },
+  {
+    "numero": 261,
+    "domanda": "Di quale frazione subcellulare la citocromo ossidasi è un \"enzima marker\"?",
+    "opzioni": {
+      "A": "Citosol",
+      "B": "Nucleo",
+      "C": "Microsomi",
+      "D": "Mitocondri",
+      "E": "Lisosomi"
+    },
+    "risposta_corretta": "D",
+    "risposta": "Mitocondri",
+    "pagina": 15,
+    "id": 261
+  },
+  {
+    "numero": 262,
+    "domanda": "L'organismo umano non può convertire:",
+    "opzioni": {
+      "A": "alcuni amminoacidi in corpi chetonici",
+      "B": "i lipidi in glucidi",
+      "C": "i lipidi in corpi chetonici",
+      "D": "alcuni amminoacidi in glucidi",
+      "E": "i glucidi in lipidi"
+    },
+    "risposta_corretta": "B",
+    "risposta": "i lipidi in glucidi",
+    "pagina": 15,
+    "id": 262
+  },
+  {
+    "numero": 263,
+    "domanda": "Da quale molecola si parte per la biosintesi del colesterolo:",
+    "opzioni": {
+      "A": "acido colico",
+      "B": "acetil CoA",
+      "C": "palmitoil CoA",
+      "D": "acido palmitico",
+      "E": "ciclopentano"
+    },
+    "risposta_corretta": "B",
+    "risposta": "acetil CoA",
+    "pagina": 15,
+    "id": 263
+  },
+  {
+    "numero": 264,
+    "domanda": "Quale di queste affermazioni riguardanti il COENZIMA A e' FALSA:",
+    "opzioni": {
+      "A": "interviene nelle reazioni di deidrogenazione",
+      "B": "ha un gruppo sulfidrilico (SH) reattivo",
+      "C": "ha sede sia citoplasmatica che mitocondriale",
+      "D": "e' un trasportatore transitorio di gruppi acilici",
+      "E": "contiene una molecola di acido pantotenico"
+    },
+    "risposta_corretta": "A",
+    "risposta": "interviene nelle reazioni di deidrogenazione",
+    "pagina": 15,
+    "id": 264
+  },
+  {
+    "numero": 265,
+    "domanda": "Quale delle seguenti considerazioni relative al RAPPORTO P/O (numero di molecole di fosfato inorganico utilizzate per fosforilare l'ADP, per atomo di ossigeno consumato, lungo la catena respiratoria) e' VERA:",
+    "opzioni": {
+      "A": "aumenta in presenza di un eccesso di ormoni tiroidei",
+      "B": "e' uguale a 3 quando il trasporto degli elettroni inizia dal NADH + H+",
+      "C": "e' indipendente dal coenzima ridotto (NADH + H+, o FADH2) che viene ossidato per il tramite della catena respiratoria",
+      "D": "aumenta in presenza di agenti disaccoppianti della fosforilazione ossidativa",
+      "E": "e' uguale a 1 quando il trasporto degli elettroni inizia dal FADH2"
+    },
+    "risposta_corretta": "B",
+    "risposta": "e' uguale a 3 quando il trasporto degli elettroni inizia dal NADH + H+",
+    "pagina": 15,
+    "id": 265
+  },
+  {
+    "numero": 266,
+    "domanda": "Indicare l'affermazione CORRETTA. Il ciclo dell'urea:",
+    "opzioni": {
+      "A": "produce l'urea staccandola dal carbamil-fosfato",
+      "B": "si svolge prevalentemente a livello renale",
+      "C": "consuma ATP",
+      "D": "produce l'urea staccandola dalla dall'ornitina",
+      "E": "consuma CO2 per ricavare il gruppo chetonico dell'urea"
+    },
+    "risposta_corretta": "C",
+    "risposta": "consuma ATP",
+    "pagina": 15,
+    "id": 266
+  },
+  {
+    "numero": 267,
+    "domanda": "la vitamina D, nella sua forma più attiva è:",
+    "opzioni": {
+      "A": "di-aminata",
+      "B": "di-idrossilata",
+      "C": "decarbossilata",
+      "D": "idrogenata",
+      "E": "metilata"
+    },
+    "risposta_corretta": "B",
+    "risposta": "di-idrossilata",
+    "pagina": 15,
+    "id": 267
+  },
+  {
+    "numero": 268,
+    "domanda": "Nell'organismo umano l'urea",
+    "opzioni": {
+      "A": "viene utilizzata nella sintesi degli amminoacidi",
+      "B": "viene trasformata in glutammina",
+      "C": "si trasforma in anidride carbonica e acqua",
+      "D": "si forma nel rene",
+      "E": "si forma dal catabolismo degli amminoacidi"
+    },
+    "risposta_corretta": "E",
+    "risposta": "si forma dal catabolismo degli amminoacidi",
+    "pagina": 15,
+    "id": 268
+  },
+  {
+    "numero": 269,
+    "domanda": "Durante la BIOSINTESI EX-NOVO DEGLI ACIDI GRASSI, quale vitamina e' coinvolta nella reazione di carbossilazione dell'acetilCoA a malonilCoA:",
+    "opzioni": {
+      "A": "niacina",
+      "B": "vitamina D",
+      "C": "riboflavina",
+      "D": "biotina",
+      "E": "vitamina C"
+    },
+    "risposta_corretta": "D",
+    "risposta": "biotina",
+    "pagina": 15,
+    "id": 269
+  },
+  {
+    "numero": 270,
+    "domanda": "La comparsa di proprietà differenziative in una cellula eucariotica è dovuta a:",
+    "opzioni": {
+      "A": "espressione simultanea di tutti i geni",
+      "B": "inibizione simultanea di tutti i geni",
+      "C": "amplificazione dei geni espressi",
+      "D": "delezione selettiva di geni specifici",
+      "E": "espressione selettiva di geni specifici"
+    },
+    "risposta_corretta": "E",
+    "risposta": "espressione selettiva di geni specifici",
+    "pagina": 15,
+    "id": 270
+  },
+  {
+    "numero": 271,
+    "domanda": "Quale delle seguenti affermazioni riguardanti la METAEMOGLOBINA e' VERA:",
+    "opzioni": {
+      "A": "si forma in presenza di ossido di carbonio",
+      "B": "contiene ferro trivalente",
+      "C": "possiede quattro catene beta",
+      "D": "si forma solo alle basse tensioni di ossigeno",
+      "E": "possiede quattro catene alfa"
+    },
+    "risposta_corretta": "B",
+    "risposta": "contiene ferro trivalente",
+    "pagina": 15,
+    "id": 271
+  },
+  {
+    "numero": 272,
+    "domanda": "Durante l'ebollizione di un liquido a pressione costante:",
+    "opzioni": {
+      "A": "la temperatura diminuisce all'aumentare del tempo",
+      "B": "la temperatura è funzione della quantità di calore fornita al liquido per unità di tempo",
+      "C": "la temperatura rimane costante",
+      "D": "la temperatura cresce all'aumentare del tempo",
+      "E": "la temperatura cresce in funzione della diminuzione del volume di liquido"
+    },
+    "risposta_corretta": "C",
+    "risposta": "la temperatura rimane costante",
+    "pagina": 16,
+    "id": 272
+  },
+  {
+    "numero": 273,
+    "domanda": "Quale delle seguenti situazioni favorisce l'accumulo di CORPI CHETONICI:",
+    "opzioni": {
+      "A": "una diminuita increzione di adrenalina",
+      "B": "un eccesso di ATP",
+      "C": "un eccesso dietetico di proteine",
+      "D": "il deficit di insulina",
+      "E": "una eccessiva disponibilita' di glucosio"
+    },
+    "risposta_corretta": "D",
+    "risposta": "il deficit di insulina",
+    "pagina": 16,
+    "id": 273
+  },
+  {
+    "numero": 274,
+    "domanda": "Indicare la risposta esatta. Il glutatione:",
+    "opzioni": {
+      "A": "è contenuto in tutte le cellule ad eccezione degli eritrociti",
+      "B": "è coinvolto in reazioni di ossidoriduzione",
+      "C": "è un dipeptide",
+      "D": "funziona solo nella forma ossidata",
+      "E": "contiene metionina"
+    },
+    "risposta_corretta": "B",
+    "risposta": "è coinvolto in reazioni di ossidoriduzione",
+    "pagina": 16,
+    "id": 274
+  },
+  {
+    "numero": 275,
+    "domanda": "Gli acidi grassi essenziali sono precursori",
+    "opzioni": {
+      "A": "dell'AMP ciclico",
+      "B": "dei corticosteroidi",
+      "C": "degli estrogeni",
+      "D": "delle lipoproteine",
+      "E": "delle prostaglandine"
+    },
+    "risposta_corretta": "E",
+    "risposta": "delle prostaglandine",
+    "pagina": 16,
+    "id": 275
+  },
+  {
+    "numero": 276,
+    "domanda": "la glutammico deidrogenasi",
+    "opzioni": {
+      "A": "usa come coenzima NAD ma anche NADP",
+      "B": "toglie un idrogeno al gruppo amminico del glutammico",
+      "C": "catalizza la decarbossilazione ossidativa del glutammico",
+      "D": "trasforma la glutammina in glutammico",
+      "E": "catalizza la carbossilazione riduttiva del glutammico"
+    },
+    "risposta_corretta": "A",
+    "risposta": "usa come coenzima NAD ma anche NADP",
+    "pagina": 16,
+    "id": 276
+  },
+  {
+    "numero": 277,
+    "domanda": "Quale delle seguenti reazioni NON è catalizzata da una \"CINASI\"?",
+    "opzioni": {
+      "A": "la trasformazione del glucosio 6-fosfato in glucosio",
+      "B": "la formazione di ATP da 2 molecole di ADP",
+      "C": "la formazione di fosforilasi \"a\" da fosforilasi \"b\"",
+      "D": "la formazione di fruttosio 1,6 difosfato da fruttosio 6-fosfato",
+      "E": "la formazione di glucosio 6-fosfato da glucosio"
+    },
+    "risposta_corretta": "A",
+    "risposta": "la trasformazione del glucosio 6-fosfato in glucosio",
+    "pagina": 16,
+    "id": 277
+  },
+  {
+    "numero": 278,
+    "domanda": "Il dosaggio dell'emoglobina glicosilata HbA1c costituisce un controllo di un trattamento:",
+    "opzioni": {
+      "A": "iperglicemizzante",
+      "B": "per il diabete insipido",
+      "C": "ipoglicemizzante",
+      "D": "per l'ipossia",
+      "E": "per la gotta"
+    },
+    "risposta_corretta": "C",
+    "risposta": "ipoglicemizzante",
+    "pagina": 16,
+    "id": 278
+  },
+  {
+    "numero": 279,
+    "domanda": "Quali immunoglobuline si trovano in maggiore quantità nelle secrezioni delle mucose:",
+    "opzioni": {
+      "A": "IgD",
+      "B": "IgE",
+      "C": "IgG",
+      "D": "IgA",
+      "E": "IgM"
+    },
+    "risposta_corretta": "D",
+    "risposta": "IgA",
+    "pagina": 16,
+    "id": 279
+  },
+  {
+    "numero": 280,
+    "domanda": "Tutti i seguenti composti sono componenti funzionali della CATENA RESPIRATORIA, eccetto:",
+    "opzioni": {
+      "A": "NAD+",
+      "B": "ubichinone",
+      "C": "FAD",
+      "D": "carnitina",
+      "E": "citocromo c"
+    },
+    "risposta_corretta": "D",
+    "risposta": "carnitina",
+    "pagina": 16,
+    "id": 280
+  },
+  {
+    "numero": 281,
+    "domanda": "La via dei PENTOSO-FOSFATI (shunt dell'esosomonofosfato) serve:",
+    "opzioni": {
+      "A": "alla riossidazione del NADPH prodotto a livello citoplasmatico",
+      "B": "alla produzione di pentoso-fosfati e di NADP ridotto",
+      "C": "alla riossidazione del NADH prodotto dalla glicolisi",
+      "D": "alla produzione di 2,3 difosfoglicerato e di glutatione ridotto",
+      "E": "alla produzione di glucosio-1-fosfato da cui si producono pentosi e NADP ridotto"
+    },
+    "risposta_corretta": "B",
+    "risposta": "alla produzione di pentoso-fosfati e di NADP ridotto",
+    "pagina": 16,
+    "id": 281
+  },
+  {
+    "numero": 282,
+    "domanda": "Il trasporto attivo è quel processo per cui una sostanza:",
+    "opzioni": {
+      "A": "attraversa una membrana dall'ambiente esterno al citosol",
+      "B": "attraversa una membrana da un compartimento a più bassa concentrazione ad uno a più alta",
+      "C": "attraversa una membrana",
+      "D": "attraversa una membrana dal citosol all'ambiente esterno",
+      "E": "attraversa una membrana da un compartimento a più alta concentrazione ad uno a più bassa concentrazione"
+    },
+    "risposta_corretta": "B",
+    "risposta": "attraversa una membrana da un compartimento a più bassa concentrazione ad uno a più alta",
+    "pagina": 16,
+    "id": 282
+  },
+  {
+    "numero": 283,
+    "domanda": "L'ACIDO OROTICO e' un intermedio nella sintesi di:",
+    "opzioni": {
+      "A": "urea",
+      "B": "adrenalina",
+      "C": "nucleotidi pirimidinici",
+      "D": "colesterolo",
+      "E": "nucleotidi purinici"
+    },
+    "risposta_corretta": "C",
+    "risposta": "nucleotidi pirimidinici",
+    "pagina": 16,
+    "id": 283
+  },
+  {
+    "numero": 284,
+    "domanda": "le reazioni di transaminazione:",
+    "opzioni": {
+      "A": "richiedono coenzima A",
+      "B": "richiedono cisteina",
+      "C": "utilizzano l'energia di un legame tioestereo che si forma nel decorso della reazione",
+      "D": "decorrono con la formazione di una base di Schiff intermedia",
+      "E": "richiedono difosfotiamina"
+    },
+    "risposta_corretta": "D",
+    "risposta": "decorrono con la formazione di una base di Schiff intermedia",
+    "pagina": 16,
+    "id": 284
+  },
+  {
+    "numero": 285,
+    "domanda": "Quale dei seguenti composti è un precursore sia della biosintesi del colesterolo che dei corpi chetonici:",
+    "opzioni": {
+      "A": "isopentenil pirofosfato",
+      "B": "farnesil pirofosfato",
+      "C": "mevalonato",
+      "D": "beta-idrossi beta-metilglutaril CoA",
+      "E": "metilmalonil CoA"
+    },
+    "risposta_corretta": "D",
+    "risposta": "beta-idrossi beta-metilglutaril CoA",
+    "pagina": 16,
+    "id": 285
+  },
+  {
+    "numero": 286,
+    "domanda": "Quale dei seguenti acidi grassi è costituito da due atomi di carbonio?",
+    "opzioni": {
+      "A": "acido caproico",
+      "B": "acido stearico",
+      "C": "acido acetico",
+      "D": "acido palmitico",
+      "E": "acido butirrico"
+    },
+    "risposta_corretta": "C",
+    "risposta": "acido acetico",
+    "pagina": 16,
+    "id": 286
+  },
+  {
+    "numero": 287,
+    "domanda": "L'organismo umano non è in grado di sintetizzare:",
+    "opzioni": {
+      "A": "nessuno degli amminoacidi a 5 C perché la catena è troppo lunga",
+      "B": "gli amminoacidi bicarbossilici",
+      "C": "nessuno degli amminoacidi glucogenici",
+      "D": "nessuno degli amminoacidi idrofobici",
+      "E": "gli amminoacidi a catena ramificata"
+    },
+    "risposta_corretta": "E",
+    "risposta": "gli amminoacidi a catena ramificata",
+    "pagina": 16,
+    "id": 287
+  },
+  {
+    "numero": 288,
+    "domanda": "l'energia utilizzata per la sintesi mitocondriale dell'ATP:",
+    "opzioni": {
+      "A": "è conservata sotto forma di gradiente protonico creato dal funzionamento della catena respiratoria",
+      "B": "può essere conservata solo se la membrana mitocondriale interna è permeabile ai protoni per espellerli",
+      "C": "può essere prodotta anche dalla glicolisi",
+      "D": "è conservata sotto forma di legami ad alta energia in lunghe catene di fosfati",
+      "E": "non può essre utilizzata da nessun altro sistema"
+    },
+    "risposta_corretta": "A",
+    "risposta": "è conservata sotto forma di gradiente protonico creato dal funzionamento della catena respiratoria",
+    "pagina": 16,
+    "id": 288
+  },
+  {
+    "numero": 289,
+    "domanda": "L'aumento della concentrazione cellulare di citrato",
+    "opzioni": {
+      "A": "attiva il processo di gluconeogenesi",
+      "B": "fa rallentare la biosintesi degli acidi grassi",
+      "C": "attiva la biosintesi degli acidi grassi",
+      "D": "si verifica quando si abbassa la glicemia",
+      "E": "fa aumentare il catabolismo degli acidi grassi"
+    },
+    "risposta_corretta": "C",
+    "risposta": "attiva la biosintesi degli acidi grassi",
+    "pagina": 16,
+    "id": 289
+  },
+  {
+    "numero": 290,
+    "domanda": "Le transaminasi sono enzimi che:",
+    "opzioni": {
+      "A": "introducono gruppi amminici sulle monoammine per trasformarle in poliammine",
+      "B": "trasferiscono il gruppo amminico degli amminoacidi sull'ornitina per iniziare la sintesi dell'urea",
+      "C": "attaccano direttamente lo ione ammonio (NH4+) su un chetoacido trasformandolo nell'amminoacido corrispondente",
+      "D": "contengono piridossalfosfato",
+      "E": "trasformano un amminoacido nel corrispondente idrossiacido e viceversa"
+    },
+    "risposta_corretta": "D",
+    "risposta": "contengono piridossalfosfato",
+    "pagina": 17,
+    "id": 290
+  },
+  {
+    "numero": 291,
+    "domanda": "La beta-2-microglobulina è:",
+    "opzioni": {
+      "A": "una catena delle Ig",
+      "B": "un fattore del complemento",
+      "C": "un fattore della coagulazione",
+      "D": "un peptide vasoattivo",
+      "E": "una catena degli antigeni di istocompatibilità"
+    },
+    "risposta_corretta": "E",
+    "risposta": "una catena degli antigeni di istocompatibilità",
+    "pagina": 17,
+    "id": 291
+  },
+  {
+    "numero": 292,
+    "domanda": "La fonte di energia utilizzata dalle cellule di fini del trasporto attivo attraverso la membrana plasmatica è rappresentata:",
+    "opzioni": {
+      "A": "a seconda dei casi, da ATP e dal gradiente di un composto diverso da quello trasportato diretto in senso opposto a quello del trasporto",
+      "B": "a seconda dei casi, da ATP, dal gradiente di un composto diverso da quello trasportato diretto nello stesso senso del trasporto, o dal gradiente di un composto diverso orientato in senso opposto",
+      "C": "a seconda dei casi, da ATP o dal gradiente di un composto diverso da quello trasportato diretto nello stesso senso del trasporto",
+      "D": "dal gradiente di concentrazione del composto trasportato",
+      "E": "sempre e solo da ATP"
+    },
+    "risposta_corretta": "B",
+    "risposta": "a seconda dei casi, da ATP, dal gradiente di un composto diverso da quello trasportato diretto nello stesso senso del trasporto, o dal gradiente di un composto diverso orientato in senso opposto",
+    "pagina": 17,
+    "id": 292
+  },
+  {
+    "numero": 293,
+    "domanda": "Quale delle seguenti condizioni non si riscontra nell'anemia sideropenica?",
+    "opzioni": {
+      "A": "riduzione del contenuto corpuscolare medio di Hb",
+      "B": "riduzione del volume corpuscolare medio di Hb",
+      "C": "riduzione della concentrazione corpuscolare media di Hb",
+      "D": "riduzione della capacità totale di legare Fe (transferrinemia totale)",
+      "E": "tutte le precedenti"
+    },
+    "risposta_corretta": "D",
+    "risposta": "riduzione della capacità totale di legare Fe (transferrinemia totale)",
+    "pagina": 17,
+    "id": 293
+  },
+  {
+    "numero": 294,
+    "domanda": "La glutammina:",
+    "opzioni": {
+      "A": "viene sintetizzata solo nel fegato",
+      "B": "serve, tra l'altro, per la sintesi del carbamilfosfato che viene utilizzato nella biosintesi dei nucleotidi pirimidinici",
+      "C": "è un aminoacido essenziale",
+      "D": "si forma a partire dalla lisina",
+      "E": "non richiede ATP per la sua sintesi"
+    },
+    "risposta_corretta": "B",
+    "risposta": "serve, tra l'altro, per la sintesi del carbamilfosfato che viene utilizzato nella biosintesi dei nucleotidi pirimidinici",
+    "pagina": 17,
+    "id": 294
+  },
+  {
+    "numero": 295,
+    "domanda": "Il pH ematico:",
+    "opzioni": {
+      "A": "è uno dei fattori che regolano la valenza del ferro dell'emoglobina",
+      "B": "a valori prossimi a quelli del limite inferiore di compatibilità con la vita può provocare emolisi",
+      "C": "tende ad aumentare nell'esercizio muscolare intenso",
+      "D": "è regolato principalmente da elettroliti anfoteri come le proteine plasmatiche",
+      "E": "tende a diminuire in caso di diarrea profusa"
+    },
+    "risposta_corretta": "E",
+    "risposta": "tende a diminuire in caso di diarrea profusa",
+    "pagina": 17,
+    "id": 295
+  },
+  {
+    "numero": 296,
+    "domanda": "La nicotinamide è:",
+    "opzioni": {
+      "A": "l'amide dell'acido glutammico",
+      "B": "un precursore degli acidi nucleici",
+      "C": "una vitamina del gruppo B",
+      "D": "un precursore del FAD",
+      "E": "una vitamina liposolubile"
+    },
+    "risposta_corretta": "C",
+    "risposta": "una vitamina del gruppo B",
+    "pagina": 17,
+    "id": 296
+  },
+  {
+    "numero": 297,
+    "domanda": "La membrana mitocondriale interna possiede trasportatori per:",
+    "opzioni": {
+      "A": "ossaloacetato",
+      "B": "citrato e malato",
+      "C": "FADH2",
+      "D": "AMP",
+      "E": "NADH"
+    },
+    "risposta_corretta": "B",
+    "risposta": "citrato e malato",
+    "pagina": 17,
+    "id": 297
+  },
+  {
+    "numero": 298,
+    "domanda": "Indicare 1'affermazione esatta. La chetosi può essere in parte attribuita a:",
+    "opzioni": {
+      "A": "eccessiva formazione di acetil CoA",
+      "B": "mancata formazione di acetil CoA",
+      "C": "incremento dell'utilizzazione del glucosio nella via glicolitica",
+      "D": "incremento della velocità del ciclo citrico",
+      "E": "rallentamento del metabolismo dei grassi"
+    },
+    "risposta_corretta": "A",
+    "risposta": "eccessiva formazione di acetil CoA",
+    "pagina": 17,
+    "id": 298
+  },
+  {
+    "numero": 299,
+    "domanda": "Nella catena respiratoria il CoQ può venire ridotto:",
+    "opzioni": {
+      "A": "dai complessi primo e secondo",
+      "B": "dalla citocromo ossidasi",
+      "C": "dal cit. c",
+      "D": "dal complesso quarto",
+      "E": "dalla ATP sintetasi"
+    },
+    "risposta_corretta": "A",
+    "risposta": "dai complessi primo e secondo",
+    "pagina": 17,
+    "id": 299
+  },
+  {
+    "numero": 300,
+    "domanda": "Viene liberata anidride carbonica nella reazione catalizzata dalla:",
+    "opzioni": {
+      "A": "lattico deidrogenasi",
+      "B": "succinico deidrogenasi",
+      "C": "aconitico deidrogenasi",
+      "D": "isocitrico deidrogenasi",
+      "E": "malico deidrogenasi"
+    },
+    "risposta_corretta": "D",
+    "risposta": "isocitrico deidrogenasi",
+    "pagina": 17,
+    "id": 300
+  },
+  {
+    "numero": 301,
+    "domanda": "La glucochinasi:",
+    "opzioni": {
+      "A": "E' presente in tutti gli organi e tessuti",
+      "B": "Catalizza l'idrolisi del glucosio-6-P in glucosio e Pi",
+      "C": "E' specifica per il glucosio per il quale ha una bassa affinità",
+      "D": "E' inibita dal prodotto della reazione, il glucosio-6-P",
+      "E": "E' specifica per il glucosio per il quale ha una elevata affinità"
+    },
+    "risposta_corretta": "C",
+    "risposta": "E' specifica per il glucosio per il quale ha una bassa affinità",
+    "pagina": 17,
+    "id": 301
+  },
+  {
+    "numero": 302,
+    "domanda": "la adrenalina e a noradrenalina vengono sintetizzate a partire da:",
+    "opzioni": {
+      "A": "istidina",
+      "B": "leucina e isoleucina",
+      "C": "triptofano",
+      "D": "fenilalanina e tirosina",
+      "E": "prolina"
+    },
+    "risposta_corretta": "D",
+    "risposta": "fenilalanina e tirosina",
+    "pagina": 17,
+    "id": 302
+  },
+  {
+    "numero": 303,
+    "domanda": "Quale delle seguenti affermazioni relative alle glicoproteine è errata:",
+    "opzioni": {
+      "A": "In esse la porzione glucidica può arrivare anche fino al 50%",
+      "B": "La componente glucidica è spesso un oligosaccaride molto ramificato",
+      "C": "Hanno generalmente una localizzazione intracellulare",
+      "D": "Il legame glicosidico tra la componente glucidica e quella proteica coinvolge frequentemente un residuo di asparagina",
+      "E": "Molte di esse svolgono un importantissimo ruolo nei processi di riconoscimento intercellulare"
+    },
+    "risposta_corretta": "C",
+    "risposta": "Hanno generalmente una localizzazione intracellulare",
+    "pagina": 17,
+    "id": 303
+  },
+  {
+    "numero": 304,
+    "domanda": "Quale dei acidi grassi è l'acido linoleico?",
+    "opzioni": {
+      "A": "C18:0",
+      "B": "C18:1 omega 9",
+      "C": "C18:2 omega 6",
+      "D": "C18:3 omega 3",
+      "E": "C20:4 omega 6"
+    },
+    "risposta_corretta": "C",
+    "risposta": "C18:2 omega 6",
+    "pagina": 17,
+    "id": 304
+  },
+  {
+    "numero": 305,
+    "domanda": "L'ossalacetato si forma:",
+    "opzioni": {
+      "A": "per ossidazione del malato",
+      "B": "per decarbossilazione del piruvato",
+      "C": "durante la via glicolitica",
+      "D": "per carbossilazione dell'acetato",
+      "E": "per riduzione del malato"
+    },
+    "risposta_corretta": "A",
+    "risposta": "per ossidazione del malato",
+    "pagina": 17,
+    "id": 305
+  },
+  {
+    "numero": 306,
+    "domanda": "Un deficit di carnitina può interferire con il:",
+    "opzioni": {
+      "A": "metabolismo degli zuccheri",
+      "B": "metabolismo degli acidi grassi",
+      "C": "metabolismo degli acidi biliari",
+      "D": "metabolismo degli acidi nucleici",
+      "E": "metabolismo delle proteine"
+    },
+    "risposta_corretta": "B",
+    "risposta": "metabolismo degli acidi grassi",
+    "pagina": 17,
+    "id": 306
+  },
+  {
+    "numero": 307,
+    "domanda": "Quale amminoacido possiede nella molecola un atomo di zolfo",
+    "opzioni": {
+      "A": "metionina",
+      "B": "serina",
+      "C": "istidina",
+      "D": "leucina",
+      "E": "glicina"
+    },
+    "risposta_corretta": "A",
+    "risposta": "metionina",
+    "pagina": 17,
+    "id": 307
+  },
+  {
+    "numero": 308,
+    "domanda": "l'acido arachidonico può essere utilizzato per la sintesi di:",
+    "opzioni": {
+      "A": "sostanze oppioidi nel cervello",
+      "B": "prostaglandine",
+      "C": "ciclopentanoperiidrofenantrene",
+      "D": "radicali lberi nei mitocondri per regolare il trasporto degli elettroni nella catena respiratoria",
+      "E": "endorfine"
+    },
+    "risposta_corretta": "B",
+    "risposta": "prostaglandine",
+    "pagina": 18,
+    "id": 308
+  },
+  {
+    "numero": 309,
+    "domanda": "La beta-idrossi-beta-metil-glutaril-CoA reduttasi",
+    "opzioni": {
+      "A": "è un enzima mitocondriale",
+      "B": "è un enzima coenzima A dipendente",
+      "C": "è un enzima della sintesi del colesterolo, sede di regolazione",
+      "D": "contiene ferro",
+      "E": "è un enzima della sintesi dei corpi chetonici, sede di regolazione"
+    },
+    "risposta_corretta": "C",
+    "risposta": "è un enzima della sintesi del colesterolo, sede di regolazione",
+    "pagina": 18,
+    "id": 309
+  },
+  {
+    "numero": 310,
+    "domanda": "I livelli di ATP all'interno della cellula",
+    "opzioni": {
+      "A": "subiscono cospicue variazioni durante gli esercizi fisici",
+      "B": "dipendono dall'ATP circolante",
+      "C": "vengono mantenuti solo attraverso i processi glicolitici",
+      "D": "uguagliano i livelli di creatinfosfato",
+      "E": "sono mantenuti con il contributo del creatinfosfato"
+    },
+    "risposta_corretta": "E",
+    "risposta": "sono mantenuti con il contributo del creatinfosfato",
+    "pagina": 18,
+    "id": 310
+  },
+  {
+    "numero": 311,
+    "domanda": "La mioglobina",
+    "opzioni": {
+      "A": "è un enzima",
+      "B": "lega l'anidride carbonica",
+      "C": "ha una struttura globulare",
+      "D": "si trova negli eritrociti",
+      "E": "è una proteina di membrana"
+    },
+    "risposta_corretta": "C",
+    "risposta": "ha una struttura globulare",
+    "pagina": 18,
+    "id": 311
+  },
+  {
+    "numero": 312,
+    "domanda": "In quale dei seguenti organi o tessuti I CORPI CHETONICI possono essere sintetizzati a partire dall'acetilCoA?",
+    "opzioni": {
+      "A": "fegato",
+      "B": "sangue",
+      "C": "intestino",
+      "D": "muscolo scheletrico",
+      "E": "cervello"
+    },
+    "risposta_corretta": "A",
+    "risposta": "fegato",
+    "pagina": 18,
+    "id": 312
+  },
+  {
+    "numero": 313,
+    "domanda": "L'enzima idrolitico lattasi scinde il lattosio producendo:",
+    "opzioni": {
+      "A": "2 molecole di galattosio",
+      "B": "Galattosio e mannosio",
+      "C": "Glucosio e galattosio",
+      "D": "2 molecole di fruttosio",
+      "E": "Glucosio e fruttosio"
+    },
+    "risposta_corretta": "C",
+    "risposta": "Glucosio e galattosio",
+    "pagina": 18,
+    "id": 313
+  },
+  {
+    "numero": 314,
+    "domanda": "Il COLESTEROLO puo'essere un precursore di:",
+    "opzioni": {
+      "A": "acido folico",
+      "B": "ubichinone",
+      "C": "adrenalina",
+      "D": "progesterone",
+      "E": "coenzima A"
+    },
+    "risposta_corretta": "D",
+    "risposta": "progesterone",
+    "pagina": 18,
+    "id": 314
+  },
+  {
+    "numero": 315,
+    "domanda": "Quali delle seguenti glicoproteine è presente nel plasma in maggiore concentrazione:",
+    "opzioni": {
+      "A": "transferrina",
+      "B": "alfa 1 glicoproteina acida",
+      "C": "aptoglobine",
+      "D": "ceruloplasmina",
+      "E": "prealbumina"
+    },
+    "risposta_corretta": "A",
+    "risposta": "transferrina",
+    "pagina": 18,
+    "id": 315
+  },
+  {
+    "numero": 316,
+    "domanda": "Quale di queste affermazioni, riguardo gli AMINOACIDI e' FALSA?",
+    "opzioni": {
+      "A": "possono essere precursori di neurotrasmettitori",
+      "B": "possono tutti essere trasformati in glucosio",
+      "C": "uno di essi, l'aspartato, partecipa al ciclo dell'urea",
+      "D": "possono prendere parte alla sintesi proteica",
+      "E": "uno di essi, la serina, partecipa alla sintesi di fosfolipidi"
+    },
+    "risposta_corretta": "B",
+    "risposta": "possono tutti essere trasformati in glucosio",
+    "pagina": 18,
+    "id": 316
+  },
+  {
+    "numero": 317,
+    "domanda": "Quale delle seguenti affermazioni riguardanti le VLDL (lipoproteine a bassissima densita') e' ESATTA:",
+    "opzioni": {
+      "A": "sono sintetizzate a livello dell'adipocita",
+      "B": "non contengono trigliceridi",
+      "C": "consentono il trasporto dei trigliceridi dal fegato ad altri tessuti",
+      "D": "sono le lipoproteine a maggior contenuto della componente proteica",
+      "E": "trasportano trigliceridi dal tessuto adiposo al fegato"
+    },
+    "risposta_corretta": "C",
+    "risposta": "consentono il trasporto dei trigliceridi dal fegato ad altri tessuti",
+    "pagina": 18,
+    "id": 317
+  },
+  {
+    "numero": 318,
+    "domanda": "Uno dei prodotti formati durante la glicolisi può rappresentare il metabolita iniziale per la sintesi dei trigliceridi. Esso è:",
+    "opzioni": {
+      "A": "l'acido 1,3-difosfoglicerico",
+      "B": "l'acido piruvico",
+      "C": "l'acido lattico",
+      "D": "il diidrossiacetone fosfato",
+      "E": "l'acido 2-fosfoenolpiruvico"
+    },
+    "risposta_corretta": "D",
+    "risposta": "il diidrossiacetone fosfato",
+    "pagina": 18,
+    "id": 318
+  },
+  {
+    "numero": 319,
+    "domanda": "Indicare l' affermazione ESATTA. Il glucagone:",
+    "opzioni": {
+      "A": "provoca l'attivazione dell'adenilato ciclasi con la formazione di AMP ciclico da ATP",
+      "B": "è un ormone prodotto dalle ghiandole surrenali",
+      "C": "è un polisaccaride formato da unità di glucosio",
+      "D": "determina un abbassamento della glicemia",
+      "E": "è un enzima coinvolto nella conversione del glicogeno epatico in glucosio libero"
+    },
+    "risposta_corretta": "A",
+    "risposta": "provoca l'attivazione dell'adenilato ciclasi con la formazione di AMP ciclico da ATP",
+    "pagina": 18,
+    "id": 319
+  },
+  {
+    "numero": 320,
+    "domanda": "Durante il LAVORO MUSCOLARE si osservano tutti i processi sottoelencati, eccetto uno:",
+    "opzioni": {
+      "A": "sintesi di ATP esclusivamente da fosforilazione ossidativa mitocondriale",
+      "B": "legame del calcio alla troponina",
+      "C": "cambiamento di conformazione della miosina",
+      "D": "aumento della concentrazione intracellulare del calcio",
+      "E": "formazione di ATP per azione della miocinasi"
+    },
+    "risposta_corretta": "A",
+    "risposta": "sintesi di ATP esclusivamente da fosforilazione ossidativa mitocondriale",
+    "pagina": 18,
+    "id": 320
+  },
+  {
+    "numero": 321,
+    "domanda": "La percentuale più elevata di immunoglobuline circolanti è rappresentata da",
+    "opzioni": {
+      "A": "IgE",
+      "B": "IgA",
+      "C": "IgG",
+      "D": "IgD",
+      "E": "IgM"
+    },
+    "risposta_corretta": "C",
+    "risposta": "IgG",
+    "pagina": 18,
+    "id": 321
+  },
+  {
+    "numero": 322,
+    "domanda": "Il muscolo, in condizioni di aerobiosi e apporto nutritivo bilanciato usa come combustibile metabolico prevalentemente:",
+    "opzioni": {
+      "A": "acidi grassi",
+      "B": "saccarosio",
+      "C": "glucosio e amminoacidi",
+      "D": "fosfolipidi e fosfoproteine",
+      "E": "glicoproteine"
+    },
+    "risposta_corretta": "A",
+    "risposta": "acidi grassi",
+    "pagina": 18,
+    "id": 322
+  },
+  {
+    "numero": 323,
+    "domanda": "la serotonina deriva:",
+    "opzioni": {
+      "A": "dal triptofano",
+      "B": "dalla prolina",
+      "C": "dalla lisina",
+      "D": "dalla tirosina",
+      "E": "dalla fenilalanina"
+    },
+    "risposta_corretta": "A",
+    "risposta": "dal triptofano",
+    "pagina": 18,
+    "id": 323
+  },
+  {
+    "numero": 324,
+    "domanda": "Per induzione enzimatica si intende:",
+    "opzioni": {
+      "A": "L'innesco del processo di biosintesi di specifiche proteine enzimatiche in risposta a stimoli ormonali o ambientali",
+      "B": "Un meccanismo di modificazione post-traduzionale di proteine enzimatiche",
+      "C": "L'attivazione di enzimi mediante fosforilazione",
+      "D": "L'attivazione di enzimi mediante interazione con metaboliti specifici e in siti distinti da quello catalitico",
+      "E": "L'attivazione di precursori inattivi (zimogeni) mediante proteolisi"
+    },
+    "risposta_corretta": "A",
+    "risposta": "L'innesco del processo di biosintesi di specifiche proteine enzimatiche in risposta a stimoli ormonali o ambientali",
+    "pagina": 18,
+    "id": 324
+  },
+  {
+    "numero": 325,
+    "domanda": "Quale dei seguenti ormoni provoca lo svuotamento della CISTIFELLEA:",
+    "opzioni": {
+      "A": "colecistochinina",
+      "B": "gastrina",
+      "C": "glucagone",
+      "D": "adrenalina",
+      "E": "calcitonina"
+    },
+    "risposta_corretta": "A",
+    "risposta": "colecistochinina",
+    "pagina": 18,
+    "id": 325
+  },
+  {
+    "numero": 326,
+    "domanda": "Il numero di specie di tRNA in una cellula è:",
+    "opzioni": {
+      "A": "61, pari cioè al numero di triplette codificanti",
+      "B": "variabile a seconda del tipo di tessuto",
+      "C": "maggiore di 20 e minore di 61",
+      "D": "64, pari cioè al numero di possibili triplette",
+      "E": "20, pari cioè al numero di amminoacidi"
+    },
+    "risposta_corretta": "C",
+    "risposta": "maggiore di 20 e minore di 61",
+    "pagina": 18,
+    "id": 326
+  },
+  {
+    "numero": 327,
+    "domanda": "Un'improvvisa OSTRUZIONE DEL DEFLUSSO DELLA BILE verso l'intestino è accompagnata, tra l'altro, dalla eliminazione di urine di colore scuro (urine color marsala). Questa intensa colorazione delle urine è dovuta alla presenza di",
+    "opzioni": {
+      "A": "bilirubina indiretta",
+      "B": "bilirubina diretta",
+      "C": "emoglobina",
+      "D": "urobilina",
+      "E": "acido omogentisico"
+    },
+    "risposta_corretta": "B",
+    "risposta": "bilirubina diretta",
+    "pagina": 19,
+    "id": 327
+  },
+  {
+    "numero": 328,
+    "domanda": "A livello del sangue periferico, e quindi alle pressioni parziali di ossigeno dei tessuti periferici, la produzione di H+, che deriva dalla formazione di anidride carbonica, ha il seguente effetto sull'EMOGLOBINA:",
+    "opzioni": {
+      "A": "favorire l'assunzione di una conformazione più \"rilassata\"",
+      "B": "diminuire l'affinità per l'ossigeno favorendone la liberazione",
+      "C": "nessuna influenza sulla affinità per l'ossigeno",
+      "D": "aumentare l'affinità per l'ossigeno favorendone l'assunzione",
+      "E": "provocare la trasformazione della forma tetramerica in quella monomerica"
+    },
+    "risposta_corretta": "B",
+    "risposta": "diminuire l'affinità per l'ossigeno favorendone la liberazione",
+    "pagina": 19,
+    "id": 328
+  },
+  {
+    "numero": 329,
+    "domanda": "Durante la fase avanzata di digiuno:",
+    "opzioni": {
+      "A": "si ha un'attiva glicogenosintesi",
+      "B": "la gluconeogenesi epatica è rallentata",
+      "C": "si ha un aumento del rapporto ematico insulina/glucagone",
+      "D": "la concentrazione ematica degli acidi grassi aumenta",
+      "E": "aumenta la concentrazione delle VLDL"
+    },
+    "risposta_corretta": "D",
+    "risposta": "la concentrazione ematica degli acidi grassi aumenta",
+    "pagina": 19,
+    "id": 329
+  },
+  {
+    "numero": 330,
+    "domanda": "A livello della catena respiratoria, i protoni che rientrano nella matrice mitocondriale dallo spazio intermembrana attraverso il complesso F0 - F1 ATPasi:",
+    "opzioni": {
+      "A": "portano in matrice cariche positive per bilanciare l'elettronegatività creata dall'ingresso del Pi e dell'ADP",
+      "B": "servono a consentire la sintesi di ATP a partire da ADP e Pi",
+      "C": "vengono scambiati in antiporto con Na+",
+      "D": "creano il pH ottimale per la sintesi di ATP nella matrice mitocondriale",
+      "E": "sono scambiati in antiporto con l'efflusso di ATP"
+    },
+    "risposta_corretta": "B",
+    "risposta": "servono a consentire la sintesi di ATP a partire da ADP e Pi",
+    "pagina": 19,
+    "id": 330
+  },
+  {
+    "numero": 331,
+    "domanda": "la glucochinasi:",
+    "opzioni": {
+      "A": "è un enzima prevalentemente cerebrale",
+      "B": "è un enzima prevalentemente muscolare",
+      "C": "è inibita dal glucosio-6-P",
+      "D": "è un enzima epatico ed è inducibile",
+      "E": "è un enzima ubiquitario"
+    },
+    "risposta_corretta": "D",
+    "risposta": "è un enzima epatico ed è inducibile",
+    "pagina": 19,
+    "id": 331
+  },
+  {
+    "numero": 332,
+    "domanda": "L'insulina",
+    "opzioni": {
+      "A": "controlla il ciclo dell'urea",
+      "B": "provoca iperglicemia",
+      "C": "favorisce la sintesi degli acidi grassi",
+      "D": "inibisce la glicolisi",
+      "E": "stimola il catabolismo delle proteine"
+    },
+    "risposta_corretta": "C",
+    "risposta": "favorisce la sintesi degli acidi grassi",
+    "pagina": 19,
+    "id": 332
+  },
+  {
+    "numero": 333,
+    "domanda": "Il glutatione è un",
+    "opzioni": {
+      "A": "trigliceride",
+      "B": "fosfolipide",
+      "C": "cerebroside",
+      "D": "peptide",
+      "E": "polisaccaride"
+    },
+    "risposta_corretta": "D",
+    "risposta": "peptide",
+    "pagina": 19,
+    "id": 333
+  },
+  {
+    "numero": 334,
+    "domanda": "L'acido pantotenico è:",
+    "opzioni": {
+      "A": "il prodotto della demolizione della carnitina",
+      "B": "un precursore della sintesi dell'emoglobina",
+      "C": "una vitamina fortemente lipofilica",
+      "D": "un derivato del catabolismo del colesterolo",
+      "E": "il precursore del coenzima A"
+    },
+    "risposta_corretta": "E",
+    "risposta": "il precursore del coenzima A",
+    "pagina": 19,
+    "id": 334
+  },
+  {
+    "numero": 335,
+    "domanda": "Le proteine integrali di membrana",
+    "opzioni": {
+      "A": "attraversano la membrana da un lato all'altro",
+      "B": "hanno tutte la capacità di trasportare ioni",
+      "C": "sono legate solo a un lato della membrana",
+      "D": "hanno un contenuto relativamente basso di residui idrofobici",
+      "E": "formano sempre legami covalenti con i lipidi"
+    },
+    "risposta_corretta": "A",
+    "risposta": "attraversano la membrana da un lato all'altro",
+    "pagina": 19,
+    "id": 335
+  },
+  {
+    "numero": 336,
+    "domanda": "Quale dei seguenti reattivi chimici è usato nella tecnica di analisi delle proteine denominata \"degradazione di Edman\"?",
+    "opzioni": {
+      "A": "ninidrina",
+      "B": "fenilisotiocianato",
+      "C": "acido monoiodoacetico",
+      "D": "fluorescamina",
+      "E": "cloruro di dansile"
+    },
+    "risposta_corretta": "B",
+    "risposta": "fenilisotiocianato",
+    "pagina": 19,
+    "id": 336
+  },
+  {
+    "numero": 337,
+    "domanda": "Quale delle seguenti considerazioni sulla GLICOGENOSINTETASI e' FALSA:",
+    "opzioni": {
+      "A": "la forma \"dipendente\" (D) e' attivata da glucosio-6-fosfato",
+      "B": "catalizza la formazione di legami (1-->4) alfa-glicosidici",
+      "C": "utilizza come substrato UDPglucosio",
+      "D": "la forma \"indipendente\" (I) e' defosforilata",
+      "E": "e' inibita da eccesso di glucosio-6-fosfato"
+    },
+    "risposta_corretta": "E",
+    "risposta": "e' inibita da eccesso di glucosio-6-fosfato",
+    "pagina": 19,
+    "id": 337
+  },
+  {
+    "numero": 338,
+    "domanda": "Il NAD+:",
+    "opzioni": {
+      "A": "attraversa liberamente la membrana mitocondriale interna",
+      "B": "contiene ribitolo",
+      "C": "è il coenzima delle deidrogenasi",
+      "D": "è covalentemente legato al proprio enzima",
+      "E": "nella sua struttura contiene riboflavina"
+    },
+    "risposta_corretta": "C",
+    "risposta": "è il coenzima delle deidrogenasi",
+    "pagina": 19,
+    "id": 338
+  },
+  {
+    "numero": 339,
+    "domanda": "Acetoacetato, beta-idrossibutirrato e acetone",
+    "opzioni": {
+      "A": "vengono trasformati in triacilgliceroli",
+      "B": "sono presenti nel sangue in piccole quantità in condizioni fisiologiche",
+      "C": "vengono immagazzinati come tali nel tessuto adiposo",
+      "D": "si formano in conseguenza di un'alimentazione ricca di lipidi",
+      "E": "sono precursori degli acidi grassi"
+    },
+    "risposta_corretta": "B",
+    "risposta": "sono presenti nel sangue in piccole quantità in condizioni fisiologiche",
+    "pagina": 19,
+    "id": 339
+  },
+  {
+    "numero": 340,
+    "domanda": "Il principale componente proteico della frazione LDL della lipoproteine plasmatiche è rappresentato da:",
+    "opzioni": {
+      "A": "Apolipoproteina D",
+      "B": "Polipoproteina C",
+      "C": "Apolipoproteina B",
+      "D": "Apolipoproteina E",
+      "E": "Apolipoproteina A"
+    },
+    "risposta_corretta": "C",
+    "risposta": "Apolipoproteina B",
+    "pagina": 19,
+    "id": 340
+  },
+  {
+    "numero": 341,
+    "domanda": "Le reazioni di transaminazione:",
+    "opzioni": {
+      "A": "Si svolgono unicamente nelle cellule epatiche",
+      "B": "Implicano la formazione di una base di Schiff come intermedio",
+      "C": "Producono ammoniaca libera",
+      "D": "Richiedono la presenza del coenzima A",
+      "E": "Implicano l'ossidazione del gruppo amminico dell'aminoacido con diretto intervento di O2"
+    },
+    "risposta_corretta": "B",
+    "risposta": "Implicano la formazione di una base di Schiff come intermedio",
+    "pagina": 19,
+    "id": 341
+  },
+  {
+    "numero": 342,
+    "domanda": "Quale dei seguenti composti ha un elevato potenziale di trasferimento del fosfato?",
+    "opzioni": {
+      "A": "Acilfosfato.",
+      "B": "Glucosio-1-fosfato",
+      "C": "AMP",
+      "D": "2-fosfoglicerato",
+      "E": "Glicerolo-3-fosfato"
+    },
+    "risposta_corretta": "A",
+    "risposta": "Acilfosfato.",
+    "pagina": 19,
+    "id": 342
+  },
+  {
+    "numero": 343,
+    "domanda": "Quale delle seguenti proteine è assente nel plasma dei pazienti con morbo di Wilson o degenerazione epatolenticolare?",
+    "opzioni": {
+      "A": "il fibrinogeno",
+      "B": "la ceruloplasmina",
+      "C": "la transferrina",
+      "D": "il fattore reumatoide",
+      "E": "la proteina C reattiva"
+    },
+    "risposta_corretta": "B",
+    "risposta": "la ceruloplasmina",
+    "pagina": 19,
+    "id": 343
+  },
+  {
+    "numero": 344,
+    "domanda": "I fosfolipidi",
+    "opzioni": {
+      "A": "sono molecole apolari",
+      "B": "rappresentano la principale riserva energetica della cellula",
+      "C": "si formano dal catabolismo del colesterolo",
+      "D": "sono tra i componenti delle membrane cellulari",
+      "E": "contengono solo acidi grassi saturi"
+    },
+    "risposta_corretta": "D",
+    "risposta": "sono tra i componenti delle membrane cellulari",
+    "pagina": 19,
+    "id": 344
+  },
+  {
+    "numero": 345,
+    "domanda": "Indicare la risposta errata riguardante il colesterolo",
+    "opzioni": {
+      "A": "è il precursore degli ormoni steroidei",
+      "B": "è solubile in acqua",
+      "C": "la sua concentrazione nella bile è 390 mg/dl",
+      "D": "è un costituente delle membrane",
+      "E": "nel sangue si trova legato alle proteine del plasma e ad acidi grassi"
+    },
+    "risposta_corretta": "B",
+    "risposta": "è solubile in acqua",
+    "pagina": 20,
+    "id": 345
+  },
+  {
+    "numero": 346,
+    "domanda": "un livello eccessivo di acido urico nel sangue può essere provocato da:",
+    "opzioni": {
+      "A": "la presenza di patologie come leucemie o policitemie",
+      "B": "un accelerato catabolismo proteico dovuto a stimolazione della amminoacido ossidasi",
+      "C": "la mancata eliminazione di parte dell'urea prodotta",
+      "D": "un diminuito catabolismo proteico per inibizione delle proteasi intestinali",
+      "E": "un aumento dell'attività della xantina ossidasi"
+    },
+    "risposta_corretta": "E",
+    "risposta": "un aumento dell'attività della xantina ossidasi",
+    "pagina": 20,
+    "id": 346
+  },
+  {
+    "numero": 347,
+    "domanda": "La mioglobina",
+    "opzioni": {
+      "A": "E' contenuta nei globuli rossi e trasporta ossigeno",
+      "B": "Presenta l'atomo di ferro in forma Fe+++",
+      "C": "Può legare quattro molecole di ossigeno",
+      "D": "Non presenta una struttura quaternaria",
+      "E": "Presenta una cinetica sigmoidale nella sua interazione con l'O2"
+    },
+    "risposta_corretta": "D",
+    "risposta": "Non presenta una struttura quaternaria",
+    "pagina": 20,
+    "id": 347
+  },
+  {
+    "numero": 348,
+    "domanda": "La sintesi di glucosio a partire da piruvato (gluconeogenesi):",
+    "opzioni": {
+      "A": "utilizza tutti gli stessi enzimi della glicolisi ma in senso inverso",
+      "B": "non richiede energia",
+      "C": "richiede energia sotto forma di GTP",
+      "D": "entra in funzione quando l'isulinemia aumenta",
+      "E": "prevede la fosforilazione diretta dell'acido piruvico a fosfoenolpiruvico"
+    },
+    "risposta_corretta": "C",
+    "risposta": "richiede energia sotto forma di GTP",
+    "pagina": 20,
+    "id": 348
+  },
+  {
+    "numero": 349,
+    "domanda": "Indicare l'affermazione esatta. La sfingosina è:",
+    "opzioni": {
+      "A": "un aminoalcol insaturo",
+      "B": "un aminoacido raro",
+      "C": "un acido bicarbossilico",
+      "D": "una molecola senza doppi legami",
+      "E": "un nucleoside purinico"
+    },
+    "risposta_corretta": "A",
+    "risposta": "un aminoalcol insaturo",
+    "pagina": 20,
+    "id": 349
+  },
+  {
+    "numero": 350,
+    "domanda": "Quale, fra le seguenti affermazioni, riguardanti le PROTEINE PLASMATICHE, e'FALSA:",
+    "opzioni": {
+      "A": "le gamma-globuline sono glicoproteine",
+      "B": "le alfa-globuline sono, fra le proteine plasmatiche, quelle presenti in maggiore quantita'",
+      "C": "della frazione gamma-globulinica fanno parte gli anticorpi",
+      "D": "una funzione dell'albumina e' quella di trasportare, ad esempio, acidi grassi",
+      "E": "il fibrinogeno interviene nella coagulazione del sangue"
+    },
+    "risposta_corretta": "B",
+    "risposta": "le alfa-globuline sono, fra le proteine plasmatiche, quelle presenti in maggiore quantita'",
+    "pagina": 20,
+    "id": 350
+  }
+]

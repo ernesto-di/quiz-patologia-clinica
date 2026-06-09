@@ -1,0 +1,580 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quiz - 4 pacchetti</title>
+  <style>
+    :root {
+      --bg: #f6f7fb;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --primary: #2563eb;
+      --primary-dark: #1d4ed8;
+      --ok: #16a34a;
+      --ko: #dc2626;
+      --border: #e5e7eb;
+      --soft: #eef2ff;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    .container {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 22px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+      margin-bottom: 18px;
+    }
+
+    h1 { margin: 0 0 8px; font-size: 28px; }
+    h2 { margin-top: 0; }
+    p { line-height: 1.5; }
+    .muted { color: var(--muted); }
+
+    .package-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    .package-card {
+      width: 100%;
+      text-align: left;
+      background: #fff;
+      color: var(--text);
+      border: 2px solid var(--border);
+      border-radius: 16px;
+      padding: 16px;
+      cursor: pointer;
+      transition: 0.15s ease;
+    }
+
+    .package-card:hover,
+    .package-card.selected {
+      border-color: var(--primary);
+      background: var(--soft);
+    }
+
+    .package-title {
+      font-size: 18px;
+      font-weight: 800;
+      margin-bottom: 6px;
+    }
+
+    .package-file {
+      font-size: 13px;
+      color: var(--muted);
+      word-break: break-all;
+    }
+
+    .controls {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+      align-items: end;
+      margin-top: 18px;
+    }
+
+    label {
+      display: block;
+      font-weight: 650;
+      margin-bottom: 6px;
+    }
+
+    select, input[type="number"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: #fff;
+    }
+
+    button {
+      border: 0;
+      border-radius: 12px;
+      padding: 11px 14px;
+      cursor: pointer;
+      font-weight: 700;
+      background: var(--primary);
+      color: white;
+    }
+
+    button:hover { background: var(--primary-dark); }
+
+    button.secondary { background: #111827; }
+    button.secondary:hover { background: #030712; }
+
+    button.ghost {
+      background: #e5e7eb;
+      color: #111827;
+    }
+
+    button.ghost:hover { background: #d1d5db; }
+
+    button.danger { background: var(--ko); }
+
+    button:disabled {
+      opacity: 0.55;
+      cursor: not-allowed;
+    }
+
+    .status {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .pill {
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 6px 10px;
+      background: #fff;
+    }
+
+    .question-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: center;
+      margin-bottom: 16px;
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    .question-text {
+      font-size: 22px;
+      font-weight: 750;
+      margin: 0 0 18px;
+      line-height: 1.35;
+    }
+
+    .options {
+      display: grid;
+      gap: 10px;
+    }
+
+    .option {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      width: 100%;
+      text-align: left;
+      background: #fff;
+      color: var(--text);
+      border: 1px solid var(--border);
+      padding: 14px;
+      border-radius: 14px;
+      transition: 0.15s ease;
+    }
+
+    .option:hover { border-color: var(--primary); background: #fff; }
+    .option .letter { font-weight: 800; min-width: 22px; text-transform: uppercase; }
+
+    .option.correct {
+      border-color: var(--ok);
+      background: #ecfdf5;
+    }
+
+    .option.wrong {
+      border-color: var(--ko);
+      background: #fef2f2;
+    }
+
+    .feedback {
+      margin-top: 16px;
+      padding: 12px 14px;
+      border-radius: 12px;
+      font-weight: 700;
+      display: none;
+    }
+
+    .feedback.ok { display: block; background: #ecfdf5; color: #166534; }
+    .feedback.ko { display: block; background: #fef2f2; color: #991b1b; }
+
+    .nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .hidden { display: none; }
+
+    .error-box {
+      display: none;
+      margin-top: 14px;
+      padding: 12px 14px;
+      background: #fef2f2;
+      color: #991b1b;
+      border-radius: 12px;
+      font-weight: 650;
+    }
+
+    .error-box.show { display: block; }
+
+    @media (max-width: 600px) {
+      .container { padding: 14px; }
+      .question-text { font-size: 19px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <section id="homeCard" class="card">
+      <h1>Scegli il quiz</h1>
+      <p class="muted">
+        I pacchetti di domande vengono caricati automaticamente da file JSON già presenti nella stessa cartella dell'HTML.
+      </p>
+
+      <div id="packageGrid" class="package-grid"></div>
+
+      <div class="controls">
+        <div>
+          <label for="mode">Modalità</label>
+          <select id="mode">
+            <option value="ordered">Ordine originale</option>
+            <option value="shuffle">Domande casuali</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="limit">Limite domande</label>
+          <input id="limit" type="number" min="1" placeholder="Tutte" />
+        </div>
+
+        <button id="startBtn" type="button" disabled>Avvia quiz</button>
+      </div>
+
+      <div class="status">
+        <span class="pill" id="loadedInfo">Seleziona un pacchetto</span>
+        <span class="pill" id="scoreInfo">Punteggio: 0/0</span>
+      </div>
+
+      <div id="errorBox" class="error-box"></div>
+    </section>
+
+    <section id="quizCard" class="card hidden">
+      <div class="question-head">
+        <span id="progressText">Domanda 1 di 1</span>
+        <span id="questionNumber">#1</span>
+      </div>
+
+      <p id="questionText" class="question-text"></p>
+      <div id="options" class="options"></div>
+      <div id="feedback" class="feedback"></div>
+
+      <div class="nav">
+        <button id="prevBtn" type="button" class="ghost">Indietro</button>
+        <button id="nextBtn" type="button" class="secondary">Avanti</button>
+        <button id="showAnswerBtn" type="button" class="ghost">Mostra risposta</button>
+        <button id="restartBtn" type="button" class="ghost">Ricomincia</button>
+        <button id="changePackageBtn" type="button" class="danger">Cambia pacchetto</button>
+      </div>
+    </section>
+
+    <section id="resultCard" class="card hidden">
+      <h2>Risultato</h2>
+      <p id="resultText"></p>
+      <div class="nav">
+        <button id="restartFinalBtn" type="button">Ricomincia</button>
+        <button id="changePackageFinalBtn" type="button" class="ghost">Cambia pacchetto</button>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    // Modifica qui nomi e percorsi dei 4 pacchetti JSON.
+    // I file devono trovarsi nella stessa cartella dell'HTML, oppure in una sottocartella, per esempio "json/pacchetto1.json".
+    const QUIZ_PACKAGES = [
+      { id: 'quiz1', title: 'Pacchetto 1', file: 'domande.json', description: 'Domande slide 1' },
+      { id: 'quiz2', title: 'Pacchetto 2', file: 'domande2.json', description: 'Domande slide 2' },
+      { id: 'quiz3', title: 'Pacchetto 3', file: 'domande2-1.json', description: 'Domande slide 3' },
+      { id: 'quiz4', title: 'Pacchetto 4', file: 'domande-3.json', description: 'Domande slide 4' }
+    ];
+
+    const homeCard = document.getElementById('homeCard');
+    const packageGrid = document.getElementById('packageGrid');
+    const startBtn = document.getElementById('startBtn');
+    const loadedInfo = document.getElementById('loadedInfo');
+    const scoreInfo = document.getElementById('scoreInfo');
+    const modeSelect = document.getElementById('mode');
+    const limitInput = document.getElementById('limit');
+    const errorBox = document.getElementById('errorBox');
+
+    const quizCard = document.getElementById('quizCard');
+    const resultCard = document.getElementById('resultCard');
+    const progressText = document.getElementById('progressText');
+    const questionNumber = document.getElementById('questionNumber');
+    const questionText = document.getElementById('questionText');
+    const optionsBox = document.getElementById('options');
+    const feedback = document.getElementById('feedback');
+
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    const showAnswerBtn = document.getElementById('showAnswerBtn');
+    const restartBtn = document.getElementById('restartBtn');
+    const restartFinalBtn = document.getElementById('restartFinalBtn');
+    const changePackageBtn = document.getElementById('changePackageBtn');
+    const changePackageFinalBtn = document.getElementById('changePackageFinalBtn');
+    const resultText = document.getElementById('resultText');
+
+    let selectedPackage = null;
+    let allQuestions = [];
+    let quizQuestions = [];
+    let currentIndex = 0;
+    let answers = new Map();
+
+    function normalizeQuestion(item, index) {
+      const options = item.opzioni || item.options || {};
+      const correct = String(item.risposta_corretta || item.correct || item.ok || '').toLowerCase().trim();
+
+      return {
+        id: item.id ?? item.numero ?? index + 1,
+        numero: item.numero ?? item.id ?? index + 1,
+        domanda: item.domanda || item.question || '',
+        opzioni: options,
+        risposta_corretta: correct,
+        risposta: item.risposta || options[correct] || options[correct.toUpperCase()] || ''
+      };
+    }
+
+    function isValidQuestion(q) {
+      return q.domanda && q.opzioni && Object.keys(q.opzioni).length > 0 && q.risposta_corretta;
+    }
+
+    function shuffleArray(array) {
+      const copy = [...array];
+      for (let i = copy.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [copy[i], copy[j]] = [copy[j], copy[i]];
+      }
+      return copy;
+    }
+
+    function escapeHtml(value) {
+      return String(value)
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;')
+        .replaceAll("'", '&#039;');
+    }
+
+    function showError(message) {
+      errorBox.textContent = message;
+      errorBox.classList.add('show');
+    }
+
+    function clearError() {
+      errorBox.textContent = '';
+      errorBox.classList.remove('show');
+    }
+
+    function renderPackages() {
+      packageGrid.innerHTML = '';
+
+      QUIZ_PACKAGES.forEach(pkg => {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className = 'package-card';
+        button.dataset.id = pkg.id;
+        button.innerHTML = `
+          <div class="package-title">${escapeHtml(pkg.title)}</div>
+          <div class="muted">${escapeHtml(pkg.description || '')}</div>
+          <div class="package-file">${escapeHtml(pkg.file)}</div>
+        `;
+        button.addEventListener('click', () => selectPackage(pkg));
+        packageGrid.appendChild(button);
+      });
+    }
+
+    async function selectPackage(pkg) {
+      clearError();
+      selectedPackage = pkg;
+      allQuestions = [];
+      startBtn.disabled = true;
+      loadedInfo.textContent = `Caricamento di ${pkg.title}...`;
+
+      document.querySelectorAll('.package-card').forEach(card => {
+        card.classList.toggle('selected', card.dataset.id === pkg.id);
+      });
+
+      try {
+        const response = await fetch(pkg.file, { cache: 'no-store' });
+        if (!response.ok) {
+          throw new Error(`file non trovato o non leggibile: ${pkg.file}`);
+        }
+
+        const data = await response.json();
+        const array = Array.isArray(data) ? data : data.domande || data.questions || [];
+        allQuestions = array.map(normalizeQuestion).filter(isValidQuestion);
+
+        if (allQuestions.length === 0) {
+          throw new Error('il JSON non contiene domande valide');
+        }
+
+        loadedInfo.textContent = `${pkg.title}: ${allQuestions.length} domande caricate`;
+        startBtn.disabled = false;
+      } catch (error) {
+        loadedInfo.textContent = `Errore caricamento ${pkg.title}`;
+        showError(`Impossibile caricare ${pkg.file}. Apri l'HTML con Live Server e verifica che il file JSON sia nella cartella corretta. Dettaglio: ${error.message}`);
+      }
+    }
+
+    function updateScore() {
+      let correct = 0;
+      answers.forEach((choice, index) => {
+        const q = quizQuestions[index];
+        if (q && choice === q.risposta_corretta) correct++;
+      });
+      scoreInfo.textContent = `Punteggio: ${correct}/${answers.size}`;
+    }
+
+    function renderQuestion() {
+      const q = quizQuestions[currentIndex];
+      if (!q) return;
+
+      homeCard.classList.add('hidden');
+      quizCard.classList.remove('hidden');
+      resultCard.classList.add('hidden');
+      feedback.className = 'feedback';
+      feedback.textContent = '';
+
+      progressText.textContent = `Domanda ${currentIndex + 1} di ${quizQuestions.length}`;
+      questionNumber.textContent = `#${q.numero}`;
+      questionText.textContent = q.domanda;
+      optionsBox.innerHTML = '';
+
+      const selected = answers.get(currentIndex);
+      const entries = Object.entries(q.opzioni).sort(([a], [b]) => String(a).localeCompare(String(b)));
+
+      entries.forEach(([letterRaw, text]) => {
+        const letter = String(letterRaw).toLowerCase();
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'option';
+        btn.innerHTML = `<span class="letter">${escapeHtml(letter)}</span><span>${escapeHtml(text)}</span>`;
+
+        if (selected) {
+          btn.disabled = true;
+          if (letter === q.risposta_corretta) btn.classList.add('correct');
+          if (letter === selected && selected !== q.risposta_corretta) btn.classList.add('wrong');
+        }
+
+        btn.addEventListener('click', () => chooseAnswer(letter));
+        optionsBox.appendChild(btn);
+      });
+
+      if (selected) showFeedback(selected === q.risposta_corretta);
+
+      prevBtn.disabled = currentIndex === 0;
+      nextBtn.textContent = currentIndex === quizQuestions.length - 1 ? 'Fine' : 'Avanti';
+      updateScore();
+    }
+
+    function chooseAnswer(letter) {
+      const q = quizQuestions[currentIndex];
+      answers.set(currentIndex, letter);
+      showFeedback(letter === q.risposta_corretta);
+      renderQuestion();
+    }
+
+    function showFeedback(isCorrect) {
+      const q = quizQuestions[currentIndex];
+      feedback.className = `feedback ${isCorrect ? 'ok' : 'ko'}`;
+      feedback.textContent = isCorrect
+        ? 'Risposta corretta!'
+        : `Risposta errata. Corretta: ${q.risposta_corretta.toUpperCase()} — ${q.risposta}`;
+    }
+
+    function showAnswer() {
+      const q = quizQuestions[currentIndex];
+      answers.set(currentIndex, q.risposta_corretta);
+      renderQuestion();
+    }
+
+    function startQuiz() {
+      if (!allQuestions.length) return;
+
+      let questions = [...allQuestions];
+      if (modeSelect.value === 'shuffle') questions = shuffleArray(questions);
+
+      const limit = Number(limitInput.value);
+      if (limit > 0) questions = questions.slice(0, limit);
+
+      quizQuestions = questions;
+      currentIndex = 0;
+      answers = new Map();
+      renderQuestion();
+    }
+
+    function finishQuiz() {
+      let correct = 0;
+      quizQuestions.forEach((q, index) => {
+        if (answers.get(index) === q.risposta_corretta) correct++;
+      });
+
+      homeCard.classList.add('hidden');
+      quizCard.classList.add('hidden');
+      resultCard.classList.remove('hidden');
+      resultText.textContent = `Hai risposto correttamente a ${correct} domande su ${quizQuestions.length}.`;
+      updateScore();
+    }
+
+    function backToPackageChoice() {
+      quizCard.classList.add('hidden');
+      resultCard.classList.add('hidden');
+      homeCard.classList.remove('hidden');
+      currentIndex = 0;
+      quizQuestions = [];
+      answers = new Map();
+      updateScore();
+    }
+
+    startBtn.addEventListener('click', startQuiz);
+    restartBtn.addEventListener('click', startQuiz);
+    restartFinalBtn.addEventListener('click', startQuiz);
+    showAnswerBtn.addEventListener('click', showAnswer);
+    changePackageBtn.addEventListener('click', backToPackageChoice);
+    changePackageFinalBtn.addEventListener('click', backToPackageChoice);
+
+    prevBtn.addEventListener('click', () => {
+      if (currentIndex > 0) {
+        currentIndex--;
+        renderQuestion();
+      }
+    });
+
+    nextBtn.addEventListener('click', () => {
+      if (currentIndex < quizQuestions.length - 1) {
+        currentIndex++;
+        renderQuestion();
+      } else {
+        finishQuiz();
+      }
+    });
+
+    renderPackages();
+  </script>
+</body>
+</html>
