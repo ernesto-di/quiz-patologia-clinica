@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Quiz - 4 pacchetti</title>
+  <title>Quiz - 5 pacchetti</title>
   <style>
     :root {
       --bg: #f6f7fb;
@@ -49,21 +49,24 @@
 
     .package-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
       gap: 12px;
       margin-top: 18px;
     }
 
     .package-card {
       width: 100%;
-      text-align: left;
+      text-align: center;
       background: #fff;
       color: var(--text);
       border: 2px solid var(--border);
       border-radius: 16px;
-      padding: 16px;
+      padding: 18px 14px;
       cursor: pointer;
       transition: 0.15s ease;
+      min-height: 72px;
+      display: grid;
+      place-items: center;
     }
 
     .package-card:hover,
@@ -73,15 +76,8 @@
     }
 
     .package-title {
-      font-size: 18px;
-      font-weight: 800;
-      margin-bottom: 6px;
-    }
-
-    .package-file {
-      font-size: 13px;
-      color: var(--muted);
-      word-break: break-all;
+      font-size: 20px;
+      font-weight: 850;
     }
 
     .controls {
@@ -151,6 +147,54 @@
       background: #fff;
     }
 
+    .generator-card {
+      margin-top: 18px;
+      border: 1px dashed #c7d2fe;
+      background: #f8fafc;
+    }
+
+    .generator-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .saved-list {
+      display: grid;
+      gap: 10px;
+      margin-top: 12px;
+    }
+
+    .saved-item {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 10px;
+      align-items: center;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 12px;
+      background: #fff;
+    }
+
+    .saved-title {
+      font-weight: 850;
+      margin-bottom: 4px;
+    }
+
+    .saved-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: flex-end;
+    }
+
+    .saved-actions button {
+      padding: 8px 10px;
+      font-size: 13px;
+    }
+
     .question-head {
       display: flex;
       justify-content: space-between;
@@ -218,6 +262,42 @@
       margin-top: 18px;
     }
 
+    .summary-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 12px;
+      margin: 16px 0;
+    }
+
+    .summary-box {
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 16px;
+      background: #fff;
+    }
+
+    .summary-value {
+      font-size: 28px;
+      font-weight: 900;
+      margin-top: 4px;
+    }
+
+    .review-list {
+      margin-top: 16px;
+      display: grid;
+      gap: 10px;
+    }
+
+    .review-item {
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 12px;
+      background: #fff;
+    }
+
+    .review-item.ok { border-left: 6px solid var(--ok); }
+    .review-item.ko { border-left: 6px solid var(--ko); }
+
     .hidden { display: none; }
 
     .error-box {
@@ -235,6 +315,8 @@
     @media (max-width: 600px) {
       .container { padding: 14px; }
       .question-text { font-size: 19px; }
+      .saved-item { grid-template-columns: 1fr; }
+      .saved-actions { justify-content: flex-start; }
     }
   </style>
 </head>
@@ -265,6 +347,34 @@
         <button id="startBtn" type="button" disabled>Avvia quiz</button>
       </div>
 
+      <section class="card generator-card">
+        <div class="generator-row">
+          <div>
+            <h2>Quiz casuale da 70 domande</h2>
+            <p class="muted">
+              Genera automaticamente un quiz da 70 domande pescate casualmente da tutti i 5 file JSON.
+            </p>
+          </div>
+          <button id="mixedQuizBtn" type="button">Genera quiz da 70</button>
+        </div>
+        <div class="status">
+          <span class="pill" id="mixedInfo">Pronto a caricare quiz1-quiz5</span>
+        </div>
+      </section>
+
+      <section class="card generator-card">
+        <div class="generator-row">
+          <div>
+            <h2>Quiz salvati</h2>
+            <p class="muted">
+              Ogni quiz avviato viene salvato in questo browser. Puoi riprenderlo, cancellarlo o svuotare la lista.
+            </p>
+          </div>
+          <button id="clearSavedBtn" type="button" class="ghost">Cancella tutti</button>
+        </div>
+        <div id="savedList" class="saved-list"></div>
+      </section>
+
       <div class="status">
         <span class="pill" id="loadedInfo">Seleziona un pacchetto</span>
         <span class="pill" id="scoreInfo">Punteggio: 0/0</span>
@@ -288,33 +398,44 @@
         <button id="nextBtn" type="button" class="secondary">Avanti</button>
         <button id="showAnswerBtn" type="button" class="ghost">Mostra risposta</button>
         <button id="restartBtn" type="button" class="ghost">Ricomincia</button>
-        <button id="changePackageBtn" type="button" class="danger">Cambia pacchetto</button>
+        <button id="changePackageBtn" type="button" class="danger">Cambia quiz</button>
       </div>
     </section>
 
     <section id="resultCard" class="card hidden">
-      <h2>Risultato</h2>
+      <h2>Riepilogo finale</h2>
       <p id="resultText"></p>
+      <div id="summaryGrid" class="summary-grid"></div>
+      <h2>Dettaglio risposte</h2>
+      <div id="reviewList" class="review-list"></div>
       <div class="nav">
         <button id="restartFinalBtn" type="button">Ricomincia</button>
-        <button id="changePackageFinalBtn" type="button" class="ghost">Cambia pacchetto</button>
+        <button id="changePackageFinalBtn" type="button" class="ghost">Cambia quiz</button>
       </div>
     </section>
   </main>
 
   <script>
-    // Modifica qui nomi e percorsi dei 4 pacchetti JSON.
-    // I file devono trovarsi nella stessa cartella dell'HTML, oppure in una sottocartella, per esempio "json/pacchetto1.json".
+    // I file devono essere nella stessa cartella dell'HTML.
+    // Se li tieni in una sottocartella, usa per esempio: file: 'data/quiz1.json'.
     const QUIZ_PACKAGES = [
-      { id: 'quiz1', title: 'Pacchetto 1', file: 'quiz1.json', description: 'Domande slide 1' },
-      { id: 'quiz2', title: 'Pacchetto 2', file: 'quiz2.json', description: 'Domande slide 2' },
-      { id: 'quiz3', title: 'Pacchetto 3', file: 'quiz2-1.json', description: 'Domande slide 3' },
-      { id: 'quiz4', title: 'Pacchetto 4', file: 'quiz3.json', description: 'Domande slide 4' }
+      { id: 'quiz1', title: 'quiz1', file: 'quiz.json' },
+      { id: 'quiz2', title: 'quiz2', file: 'quiz1.json' },
+      { id: 'quiz3', title: 'quiz3', file: 'quiz2.json' },
+      { id: 'quiz4', title: 'quiz4', file: 'quiz2-1.json' },
+      { id: 'quiz5', title: 'quiz5', file: 'quiz3.json' }
     ];
+
+    const RANDOM_MIXED_QUIZ_SIZE = 70;
+    const SAVED_QUIZZES_KEY = 'quizReader.savedQuizzes.v1';
 
     const homeCard = document.getElementById('homeCard');
     const packageGrid = document.getElementById('packageGrid');
     const startBtn = document.getElementById('startBtn');
+    const mixedQuizBtn = document.getElementById('mixedQuizBtn');
+    const mixedInfo = document.getElementById('mixedInfo');
+    const savedList = document.getElementById('savedList');
+    const clearSavedBtn = document.getElementById('clearSavedBtn');
     const loadedInfo = document.getElementById('loadedInfo');
     const scoreInfo = document.getElementById('scoreInfo');
     const modeSelect = document.getElementById('mode');
@@ -337,16 +458,171 @@
     const changePackageBtn = document.getElementById('changePackageBtn');
     const changePackageFinalBtn = document.getElementById('changePackageFinalBtn');
     const resultText = document.getElementById('resultText');
+    const summaryGrid = document.getElementById('summaryGrid');
+    const reviewList = document.getElementById('reviewList');
 
     let selectedPackage = null;
     let allQuestions = [];
     let quizQuestions = [];
     let currentIndex = 0;
     let answers = new Map();
+    let lastMode = 'single';
+    let currentSavedQuizId = null;
 
-    function normalizeQuestion(item, index) {
-      const options = item.opzioni || item.options || {};
-      const correct = String(item.risposta_corretta || item.correct || item.ok || '').toLowerCase().trim();
+
+    function getSavedQuizzes() {
+      try {
+        const raw = localStorage.getItem(SAVED_QUIZZES_KEY);
+        const parsed = raw ? JSON.parse(raw) : [];
+        return Array.isArray(parsed) ? parsed : [];
+      } catch {
+        return [];
+      }
+    }
+
+    function setSavedQuizzes(items) {
+      localStorage.setItem(SAVED_QUIZZES_KEY, JSON.stringify(items));
+      renderSavedQuizzes();
+    }
+
+    function makeQuizTitle(mode, count) {
+      const date = new Date();
+      const formatted = date.toLocaleString('it-IT', {
+        day: '2-digit', month: '2-digit', year: 'numeric',
+        hour: '2-digit', minute: '2-digit'
+      });
+      return mode === 'mixed'
+        ? `Quiz random 70 · ${formatted}`
+        : `${selectedPackage?.title || 'quiz'} · ${count} domande · ${formatted}`;
+    }
+
+    function answersMapToObject(map) {
+      return Object.fromEntries([...map.entries()].map(([key, value]) => [String(key), value]));
+    }
+
+    function objectToAnswersMap(obj) {
+      return new Map(Object.entries(obj || {}).map(([key, value]) => [Number(key), value]));
+    }
+
+    function saveCurrentQuiz(createNew = false) {
+      if (!quizQuestions.length) return;
+
+      const saved = getSavedQuizzes();
+      if (createNew || !currentSavedQuizId) {
+        currentSavedQuizId = `quiz-${Date.now()}-${Math.random().toString(16).slice(2)}`;
+      }
+
+      const existingIndex = saved.findIndex(item => item.id === currentSavedQuizId);
+      const nowIso = new Date().toISOString();
+      const alreadyAnswered = answers.size;
+      const correct = quizQuestions.reduce((total, q, index) => {
+        return total + (answers.get(index) === q.risposta_corretta ? 1 : 0);
+      }, 0);
+
+      const item = {
+        id: currentSavedQuizId,
+        title: existingIndex >= 0 ? saved[existingIndex].title : makeQuizTitle(lastMode, quizQuestions.length),
+        mode: lastMode,
+        createdAt: existingIndex >= 0 ? saved[existingIndex].createdAt : nowIso,
+        updatedAt: nowIso,
+        currentIndex,
+        answers: answersMapToObject(answers),
+        total: quizQuestions.length,
+        answered: alreadyAnswered,
+        correct,
+        questions: quizQuestions
+      };
+
+      if (existingIndex >= 0) saved[existingIndex] = item;
+      else saved.unshift(item);
+
+      setSavedQuizzes(saved.slice(0, 50));
+    }
+
+    function renderSavedQuizzes() {
+      const saved = getSavedQuizzes();
+      if (!saved.length) {
+        savedList.innerHTML = '<p class="muted">Nessun quiz salvato.</p>';
+        clearSavedBtn.disabled = true;
+        return;
+      }
+
+      clearSavedBtn.disabled = false;
+      savedList.innerHTML = saved.map(item => {
+        const updated = item.updatedAt
+          ? new Date(item.updatedAt).toLocaleString('it-IT')
+          : 'data non disponibile';
+        const percent = item.total ? Math.round(((item.correct || 0) / item.total) * 100) : 0;
+        return `
+          <div class="saved-item" data-id="${escapeHtml(item.id)}">
+            <div>
+              <div class="saved-title">${escapeHtml(item.title || 'Quiz salvato')}</div>
+              <div class="muted">${escapeHtml(item.total || 0)} domande · risposte ${escapeHtml(item.answered || 0)}/${escapeHtml(item.total || 0)} · corrette ${escapeHtml(item.correct || 0)} · ${percent}% · aggiornato ${escapeHtml(updated)}</div>
+            </div>
+            <div class="saved-actions">
+              <button type="button" class="resume-saved-btn">Riprendi</button>
+              <button type="button" class="delete-saved-btn danger">Elimina</button>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      savedList.querySelectorAll('.resume-saved-btn').forEach(button => {
+        button.addEventListener('click', () => {
+          const id = button.closest('.saved-item').dataset.id;
+          loadSavedQuiz(id);
+        });
+      });
+
+      savedList.querySelectorAll('.delete-saved-btn').forEach(button => {
+        button.addEventListener('click', () => {
+          const id = button.closest('.saved-item').dataset.id;
+          deleteSavedQuiz(id);
+        });
+      });
+    }
+
+    function loadSavedQuiz(id) {
+      const saved = getSavedQuizzes();
+      const item = saved.find(entry => entry.id === id);
+      if (!item) return;
+
+      currentSavedQuizId = item.id;
+      quizQuestions = Array.isArray(item.questions) ? item.questions : [];
+      answers = objectToAnswersMap(item.answers);
+      currentIndex = Math.min(Number(item.currentIndex || 0), Math.max(quizQuestions.length - 1, 0));
+      lastMode = item.mode || 'single';
+      renderQuestion();
+    }
+
+    function deleteSavedQuiz(id) {
+      const saved = getSavedQuizzes().filter(item => item.id !== id);
+      if (currentSavedQuizId === id) currentSavedQuizId = null;
+      setSavedQuizzes(saved);
+    }
+
+    function clearSavedQuizzes() {
+      localStorage.removeItem(SAVED_QUIZZES_KEY);
+      currentSavedQuizId = null;
+      renderSavedQuizzes();
+    }
+
+    function normalizeLetter(value) {
+      return String(value || '').toLowerCase().replace(/[^a-e]/g, '').slice(0, 1);
+    }
+
+    function normalizeOptions(options) {
+      const normalized = {};
+      Object.entries(options || {}).forEach(([key, value]) => {
+        const letter = normalizeLetter(key);
+        if (letter) normalized[letter] = String(value || '').trim();
+      });
+      return normalized;
+    }
+
+    function normalizeQuestion(item, index, sourcePackage = '') {
+      const options = normalizeOptions(item.opzioni || item.options || {});
+      const correct = normalizeLetter(item.risposta_corretta || item.correct || item.ok || '');
 
       return {
         id: item.id ?? item.numero ?? index + 1,
@@ -354,7 +630,8 @@
         domanda: item.domanda || item.question || '',
         opzioni: options,
         risposta_corretta: correct,
-        risposta: item.risposta || options[correct] || options[correct.toUpperCase()] || ''
+        risposta: item.risposta || options[correct] || '',
+        sourcePackage
       };
     }
 
@@ -398,14 +675,22 @@
         button.type = 'button';
         button.className = 'package-card';
         button.dataset.id = pkg.id;
-        button.innerHTML = `
-          <div class="package-title">${escapeHtml(pkg.title)}</div>
-          <div class="muted">${escapeHtml(pkg.description || '')}</div>
-          <div class="package-file">${escapeHtml(pkg.file)}</div>
-        `;
+        button.innerHTML = `<div class="package-title">${escapeHtml(pkg.title)}</div>`;
         button.addEventListener('click', () => selectPackage(pkg));
         packageGrid.appendChild(button);
       });
+    }
+
+    async function loadPackage(pkg) {
+      const response = await fetch(pkg.file, { cache: 'no-store' });
+      if (!response.ok) throw new Error(`file non trovato o non leggibile: ${pkg.file}`);
+
+      const data = await response.json();
+      const array = Array.isArray(data) ? data : data.domande || data.questions || [];
+      const questions = array.map((item, index) => normalizeQuestion(item, index, pkg.title)).filter(isValidQuestion);
+
+      if (questions.length === 0) throw new Error(`${pkg.file} non contiene domande valide`);
+      return questions;
     }
 
     async function selectPackage(pkg) {
@@ -420,24 +705,41 @@
       });
 
       try {
-        const response = await fetch(pkg.file, { cache: 'no-store' });
-        if (!response.ok) {
-          throw new Error(`file non trovato o non leggibile: ${pkg.file}`);
-        }
-
-        const data = await response.json();
-        const array = Array.isArray(data) ? data : data.domande || data.questions || [];
-        allQuestions = array.map(normalizeQuestion).filter(isValidQuestion);
-
-        if (allQuestions.length === 0) {
-          throw new Error('il JSON non contiene domande valide');
-        }
-
+        allQuestions = await loadPackage(pkg);
         loadedInfo.textContent = `${pkg.title}: ${allQuestions.length} domande caricate`;
         startBtn.disabled = false;
       } catch (error) {
         loadedInfo.textContent = `Errore caricamento ${pkg.title}`;
         showError(`Impossibile caricare ${pkg.file}. Apri l'HTML con Live Server e verifica che il file JSON sia nella cartella corretta. Dettaglio: ${error.message}`);
+      }
+    }
+
+    async function startMixedQuiz() {
+      clearError();
+      mixedQuizBtn.disabled = true;
+      mixedInfo.textContent = 'Caricamento dei 5 quiz...';
+
+      try {
+        const loadedGroups = await Promise.all(QUIZ_PACKAGES.map(loadPackage));
+        const combined = loadedGroups.flat();
+
+        if (combined.length < RANDOM_MIXED_QUIZ_SIZE) {
+          throw new Error(`servono almeno ${RANDOM_MIXED_QUIZ_SIZE} domande totali, trovate ${combined.length}`);
+        }
+
+        quizQuestions = shuffleArray(combined).slice(0, RANDOM_MIXED_QUIZ_SIZE);
+        currentIndex = 0;
+        answers = new Map();
+        lastMode = 'mixed';
+        currentSavedQuizId = null;
+        mixedInfo.textContent = `Quiz generato e salvato: ${RANDOM_MIXED_QUIZ_SIZE} domande casuali da ${combined.length} totali`;
+        saveCurrentQuiz(true);
+        renderQuestion();
+      } catch (error) {
+        showError(`Impossibile generare il quiz da 70 domande. Dettaglio: ${error.message}`);
+        mixedInfo.textContent = 'Errore nel caricamento dei 5 quiz';
+      } finally {
+        mixedQuizBtn.disabled = false;
       }
     }
 
@@ -461,7 +763,7 @@
       feedback.textContent = '';
 
       progressText.textContent = `Domanda ${currentIndex + 1} di ${quizQuestions.length}`;
-      questionNumber.textContent = `#${q.numero}`;
+      questionNumber.textContent = q.sourcePackage ? `${q.sourcePackage} · #${q.numero}` : `#${q.numero}`;
       questionText.textContent = q.domanda;
       optionsBox.innerHTML = '';
 
@@ -469,7 +771,7 @@
       const entries = Object.entries(q.opzioni).sort(([a], [b]) => String(a).localeCompare(String(b)));
 
       entries.forEach(([letterRaw, text]) => {
-        const letter = String(letterRaw).toLowerCase();
+        const letter = normalizeLetter(letterRaw);
         const btn = document.createElement('button');
         btn.type = 'button';
         btn.className = 'option';
@@ -496,6 +798,7 @@
       const q = quizQuestions[currentIndex];
       answers.set(currentIndex, letter);
       showFeedback(letter === q.risposta_corretta);
+      saveCurrentQuiz(false);
       renderQuestion();
     }
 
@@ -510,6 +813,7 @@
     function showAnswer() {
       const q = quizQuestions[currentIndex];
       answers.set(currentIndex, q.risposta_corretta);
+      saveCurrentQuiz(false);
       renderQuestion();
     }
 
@@ -525,19 +829,66 @@
       quizQuestions = questions;
       currentIndex = 0;
       answers = new Map();
+      lastMode = 'single';
+      currentSavedQuizId = null;
+      saveCurrentQuiz(true);
       renderQuestion();
+    }
+
+    function restartCurrentQuiz() {
+      if (lastMode === 'mixed') {
+        startMixedQuiz();
+      } else {
+        startQuiz();
+      }
     }
 
     function finishQuiz() {
       let correct = 0;
+      let wrong = 0;
+      let unanswered = 0;
+
       quizQuestions.forEach((q, index) => {
-        if (answers.get(index) === q.risposta_corretta) correct++;
+        const choice = answers.get(index);
+        if (!choice) unanswered++;
+        else if (choice === q.risposta_corretta) correct++;
+        else wrong++;
       });
+
+      const total = quizQuestions.length;
+      const percentage = total ? Math.round((correct / total) * 100) : 0;
 
       homeCard.classList.add('hidden');
       quizCard.classList.add('hidden');
       resultCard.classList.remove('hidden');
-      resultText.textContent = `Hai risposto correttamente a ${correct} domande su ${quizQuestions.length}.`;
+
+      resultText.textContent = `Hai risposto correttamente a ${correct} domande su ${total}. Percentuale: ${percentage}%.`;
+      summaryGrid.innerHTML = `
+        <div class="summary-box"><div class="muted">Totale domande</div><div class="summary-value">${total}</div></div>
+        <div class="summary-box"><div class="muted">Corrette</div><div class="summary-value">${correct}</div></div>
+        <div class="summary-box"><div class="muted">Errate</div><div class="summary-value">${wrong}</div></div>
+        <div class="summary-box"><div class="muted">Non risposte</div><div class="summary-value">${unanswered}</div></div>
+        <div class="summary-box"><div class="muted">Percentuale</div><div class="summary-value">${percentage}%</div></div>
+      `;
+
+      reviewList.innerHTML = quizQuestions.map((q, index) => {
+        const choice = answers.get(index);
+        const isCorrect = choice === q.risposta_corretta;
+        const userAnswer = choice ? `${choice.toUpperCase()} — ${q.opzioni[choice] || ''}` : 'Non risposta';
+        const correctAnswer = `${q.risposta_corretta.toUpperCase()} — ${q.risposta || q.opzioni[q.risposta_corretta] || ''}`;
+        const source = q.sourcePackage ? `${escapeHtml(q.sourcePackage)} · ` : '';
+
+        return `
+          <div class="review-item ${isCorrect ? 'ok' : 'ko'}">
+            <strong>${source}Domanda ${index + 1} / #${escapeHtml(q.numero)}</strong>
+            <p>${escapeHtml(q.domanda)}</p>
+            <p><strong>Tua risposta:</strong> ${escapeHtml(userAnswer)}</p>
+            <p><strong>Risposta corretta:</strong> ${escapeHtml(correctAnswer)}</p>
+          </div>
+        `;
+      }).join('');
+
+      saveCurrentQuiz(false);
       updateScore();
     }
 
@@ -552,8 +903,10 @@
     }
 
     startBtn.addEventListener('click', startQuiz);
-    restartBtn.addEventListener('click', startQuiz);
-    restartFinalBtn.addEventListener('click', startQuiz);
+    mixedQuizBtn.addEventListener('click', startMixedQuiz);
+    clearSavedBtn.addEventListener('click', clearSavedQuizzes);
+    restartBtn.addEventListener('click', restartCurrentQuiz);
+    restartFinalBtn.addEventListener('click', restartCurrentQuiz);
     showAnswerBtn.addEventListener('click', showAnswer);
     changePackageBtn.addEventListener('click', backToPackageChoice);
     changePackageFinalBtn.addEventListener('click', backToPackageChoice);
@@ -561,6 +914,7 @@
     prevBtn.addEventListener('click', () => {
       if (currentIndex > 0) {
         currentIndex--;
+        saveCurrentQuiz(false);
         renderQuestion();
       }
     });
@@ -568,6 +922,7 @@
     nextBtn.addEventListener('click', () => {
       if (currentIndex < quizQuestions.length - 1) {
         currentIndex++;
+        saveCurrentQuiz(false);
         renderQuestion();
       } else {
         finishQuiz();
@@ -575,6 +930,7 @@
     });
 
     renderPackages();
+    renderSavedQuizzes();
   </script>
 </body>
 </html>
