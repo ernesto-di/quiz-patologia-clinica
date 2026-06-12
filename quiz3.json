@@ -4992,6 +4992,22 @@
     "id": 312
   },
   {
+    "numero": 313,
+    "domanda": "COSA AVVIENE NELLA GLICOLISI ANAEROBICA:",
+    "opzioni": {
+      "A": "UNA MOLECOLA DI GLUCOSIO E' DIVISA DIRETTAMENTE IN 2 MOLECOLE DI A.LATTICO",
+      "B": "C'E' UN GUADAGNO NETTO DI 2 MOLECOLE DI ATP PER MOLECOLA DI GLUCOSIO CONVERTITA A LATTATO",
+      "C": "LA TAPPA INIZIALE E' UTILIZZAZIONE DI ATP NELLA REAZIONE CATALIZZATA DALLA GLUCOSO-6-FOSFATASI",
+      "D": "L'ALDOLASI CATALIZZA L'ISOMERIZZAZIONE REVERSIBILE DEGLI ESOSI FOSFATO",
+      "E": "MANCA LA TAPPA ENOLASICA"
+    },
+    "risposta_corretta": "B",
+    "risposta": "C'E' UN GUADAGNO NETTO DI 2 MOLECOLE DI ATP PER MOLECOLA DI GLUCOSIO CONVERTITA A LATTATO",
+    "pagina": 25,
+    "colonna": "left",
+    "id": 313
+  },
+  {
     "numero": 314,
     "domanda": "QUALE DELLE SEGUENTI AFFERMAZIONI E'SBAGLIATA:",
     "opzioni": {
@@ -11406,6 +11422,22 @@
     "pagina": 59,
     "colonna": "left",
     "id": 713
+  },
+    {
+    "numero": 715,
+    "domanda": "QUALI ISOENZIMI DELL'LDH SONO PIù FREQUENTEMENTE PRESENTI NELLE NEOPLASIE SOLIDE:",
+    "opzioni": {
+      "A": "LDH 1 E LDH 2",
+      "B": "LDH 1 E LDH 3",
+      "C": "LDH 2 E LDH 3",
+      "D": "LDH 4 E LDH 5",
+      "E": "NESSUNO DI QUESTI"
+    },
+    "risposta_corretta": "D",
+    "risposta": "LDH 4 E LDH 5",
+    "pagina": 59,
+    "colonna": "left",
+    "id": 715
   },
   {
     "numero": 716,
