@@ -3,7 +3,10 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Quiz - 5 pacchetti</title>
+  <title>Quiz - Patologia Clinica</title>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
   <style>
     :root {
       --bg: #f6f7fb;
@@ -312,6 +315,17 @@
 
     .error-box.show { display: block; }
 
+    .auto-save-banner {
+      background: #e0f2fe;
+      color: #0369a1;
+      padding: 12px;
+      border-radius: 12px;
+      margin-bottom: 18px;
+      font-weight: 700;
+      text-align: center;
+      border: 1px solid #bae6fd;
+    }
+
     @media (max-width: 600px) {
       .container { padding: 14px; }
       .question-text { font-size: 19px; }
@@ -350,15 +364,18 @@
       <section class="card generator-card">
         <div class="generator-row">
           <div>
-            <h2>Quiz casuale da 70 domande</h2>
+            <h2>Simulatore d'Esame (70 domande)</h2>
             <p class="muted">
-              Genera automaticamente un quiz da 70 domande pescate casualmente da tutti i 5 file JSON.
+              Genera istantaneamente un blocco da 70 domande casuali per simulare la prova d'esame.
             </p>
           </div>
-          <button id="mixedQuizBtn" type="button">Genera quiz da 70</button>
+          <div class="nav" style="margin-top: 0; justify-content: flex-end;">
+            <button id="mixedQuizBtn" type="button">Da TUTTI i quiz</button>
+            <button id="single70QuizBtn" type="button" class="secondary" disabled>Dal quiz selezionato</button>
+          </div>
         </div>
         <div class="status">
-          <span class="pill" id="mixedInfo">Pronto a caricare quiz1-quiz5</span>
+          <span class="pill" id="mixedInfo">Pronto a caricare i quiz della cartella</span>
         </div>
       </section>
 
@@ -404,26 +421,30 @@
 
     <section id="resultCard" class="card hidden">
       <h2>Riepilogo finale</h2>
+      
+      <div class="auto-save-banner">✓ Quiz salvato automaticamente in Home!</div>
+      
       <p id="resultText"></p>
       <div id="summaryGrid" class="summary-grid"></div>
+      
       <h2>Dettaglio risposte</h2>
       <div id="reviewList" class="review-list"></div>
+      
       <div class="nav">
         <button id="restartFinalBtn" type="button">Ricomincia</button>
+        <button id="manualSaveFinalBtn" type="button" style="background: #059669; color: white;" onclick="triggerManualSave()">Salva Quiz in Home</button>
+        <button id="downloadPdfBtn" type="button" class="secondary" onclick="downloadQuizPDF()">Scarica PDF Risposte</button>
         <button id="changePackageFinalBtn" type="button" class="ghost">Cambia quiz</button>
       </div>
     </section>
   </main>
 
   <script>
-    // I file devono essere nella stessa cartella dell'HTML.
-    // Se li tieni in una sottocartella, usa per esempio: file: 'data/quiz1.json'.
     const QUIZ_PACKAGES = [
-      { id: 'quiz1', title: 'quiz1', file: 'quiz.json' },
-      { id: 'quiz2', title: 'quiz2', file: 'quiz1.json' },
-      { id: 'quiz3', title: 'quiz3', file: 'quiz2.json' },
-      { id: 'quiz4', title: 'quiz4', file: 'quiz2-1.json' },
-      { id: 'quiz5', title: 'quiz5', file: 'quiz3.json' }
+      { id: 'quiz1', title: 'quiz1', file: 'quiz1.json' },
+      { id: 'quiz2', title: 'quiz2', file: 'quiz2.json' },
+      { id: 'quiz3', title: 'quiz3', file: 'quiz3.json' },
+      { id: 'quiz4', title: 'quiz4', file: 'quiz4.json' }
     ];
 
     const RANDOM_MIXED_QUIZ_SIZE = 70;
@@ -433,6 +454,7 @@
     const packageGrid = document.getElementById('packageGrid');
     const startBtn = document.getElementById('startBtn');
     const mixedQuizBtn = document.getElementById('mixedQuizBtn');
+    const single70QuizBtn = document.getElementById('single70QuizBtn');
     const mixedInfo = document.getElementById('mixedInfo');
     const savedList = document.getElementById('savedList');
     const clearSavedBtn = document.getElementById('clearSavedBtn');
@@ -491,9 +513,13 @@
         day: '2-digit', month: '2-digit', year: 'numeric',
         hour: '2-digit', minute: '2-digit'
       });
-      return mode === 'mixed'
-        ? `Quiz random 70 · ${formatted}`
-        : `${selectedPackage?.title || 'quiz'} · ${count} domande · ${formatted}`;
+      if (mode === 'mixed') {
+        return `Quiz random 70 (Tutti i moduli) · ${formatted}`;
+      } else if (mode === 'single70') {
+        return `Quiz random 70 (${selectedPackage?.title || 'quiz'}) · ${formatted}`;
+      } else {
+        return `${selectedPackage?.title || 'quiz'} · ${count} domande · ${formatted}`;
+      }
     }
 
     function answersMapToObject(map) {
@@ -537,6 +563,13 @@
       else saved.unshift(item);
 
       setSavedQuizzes(saved.slice(0, 50));
+    }
+
+    // FUNZIONE DI SALVATAGGIO MANUALE CON FEEDBACK VISIVO (ALERT)
+    function triggerManualSave() {
+      saveCurrentQuiz(false);
+      alert("✓ Quiz registrato con successo! Troverai questo tentativo nella lista 'Quiz salvati' in fondo alla Home.");
+      renderSavedQuizzes();
     }
 
     function renderSavedQuizzes() {
@@ -698,6 +731,7 @@
       selectedPackage = pkg;
       allQuestions = [];
       startBtn.disabled = true;
+      single70QuizBtn.disabled = true;
       loadedInfo.textContent = `Caricamento di ${pkg.title}...`;
 
       document.querySelectorAll('.package-card').forEach(card => {
@@ -708,6 +742,8 @@
         allQuestions = await loadPackage(pkg);
         loadedInfo.textContent = `${pkg.title}: ${allQuestions.length} domande caricate`;
         startBtn.disabled = false;
+        single70QuizBtn.disabled = false;
+        mixedInfo.textContent = `Pronto a simulare 70 domande da tutti i quiz o solo da ${pkg.title}`;
       } catch (error) {
         loadedInfo.textContent = `Errore caricamento ${pkg.title}`;
         showError(`Impossibile caricare ${pkg.file}. Apri l'HTML con Live Server e verifica che il file JSON sia nella cartella corretta. Dettaglio: ${error.message}`);
@@ -717,7 +753,7 @@
     async function startMixedQuiz() {
       clearError();
       mixedQuizBtn.disabled = true;
-      mixedInfo.textContent = 'Caricamento dei 5 quiz...';
+      mixedInfo.textContent = 'Caricamento dei quiz in corso...';
 
       try {
         const loadedGroups = await Promise.all(QUIZ_PACKAGES.map(loadPackage));
@@ -732,15 +768,37 @@
         answers = new Map();
         lastMode = 'mixed';
         currentSavedQuizId = null;
-        mixedInfo.textContent = `Quiz generato e salvato: ${RANDOM_MIXED_QUIZ_SIZE} domande casuali da ${combined.length} totali`;
+        mixedInfo.textContent = `Quiz random da 70 generato da un totale di ${combined.length} domande!`;
         saveCurrentQuiz(true);
         renderQuestion();
       } catch (error) {
-        showError(`Impossibile generare il quiz da 70 domande. Dettaglio: ${error.message}`);
-        mixedInfo.textContent = 'Errore nel caricamento dei 5 quiz';
+        showError(`Impossibile generare il quiz da 70 domande globale. Dettaglio: ${error.message}`);
+        mixedInfo.textContent = 'Errore nel caricamento dei quiz';
       } finally {
         mixedQuizBtn.disabled = false;
       }
+    }
+
+    async function startSingle70Quiz() {
+      if (!selectedPackage || !allQuestions.length) return;
+      clearError();
+      single70QuizBtn.disabled = true;
+
+      if (allQuestions.length < RANDOM_MIXED_QUIZ_SIZE) {
+        showError(`Il pacchetto selezionato (${selectedPackage.title}) contiene solo ${allQuestions.length} domande. Ne servono almeno 70 per avviare questa simulazione.`);
+        single70QuizBtn.disabled = false;
+        return;
+      }
+
+      quizQuestions = shuffleArray(allQuestions).slice(0, RANDOM_MIXED_QUIZ_SIZE);
+      currentIndex = 0;
+      answers = new Map();
+      lastMode = 'single70';
+      currentSavedQuizId = null;
+      
+      saveCurrentQuiz(true);
+      renderQuestion();
+      single70QuizBtn.disabled = false;
     }
 
     function updateScore() {
@@ -838,6 +896,8 @@
     function restartCurrentQuiz() {
       if (lastMode === 'mixed') {
         startMixedQuiz();
+      } else if (lastMode === 'single70') {
+        startSingle70Quiz();
       } else {
         startQuiz();
       }
@@ -892,6 +952,75 @@
       updateScore();
     }
 
+    function downloadQuizPDF() {
+      const pdfContainer = document.createElement('div');
+      
+      const titolo = document.querySelector('#resultCard h2').outerHTML;
+      const testoRisultato = resultText.outerHTML;
+      const grigliaPunteggi = summaryGrid.outerHTML;
+      const subTitoloDettaglio = document.querySelectorAll('#resultCard h2')[1].outerHTML;
+      const listaRevisione = reviewList.outerHTML;
+
+      pdfContainer.innerHTML = `
+        <div style="font-family: Arial, sans-serif; padding: 30px; color: #1f2937; line-height: 1.4;">
+          <div style="text-align: center; margin-bottom: 25px; border-bottom: 3px solid #2563eb; padding-bottom: 10px;">
+            <h1 style="margin: 0; color: #2563eb; font-size: 26px;">Report Esame - Quiz Patologia Clinica</h1>
+            <p style="margin: 5px 0 0; color: #6b7280; font-size: 14px;">Generato automaticamente dall'applicazione web</p>
+          </div>
+          ${titolo}
+          ${testoRisultato}
+          <div style="margin: 20px 0; display: block;">${grigliaPunteggi}</div>
+          <br><br>
+          ${subTitoloDettaglio}
+          ${listaRevisione}
+        </div>
+      `;
+
+      pdfContainer.querySelectorAll('.summary-box').forEach(box => {
+        box.style.display = 'inline-block';
+        box.style.width = '18%';
+        box.style.marginRight = '2%';
+        box.style.border = '1px solid #e5e7eb';
+        box.style.padding = '12px';
+        box.style.borderRadius = '10px';
+        box.style.textAlign = 'center';
+        box.style.background = '#f8fafc';
+      });
+
+      pdfContainer.querySelectorAll('.summary-value').forEach(val => {
+        val.style.fontSize = '20px';
+        val.style.fontWeight = '900';
+        val.style.color = '#111827';
+        val.style.marginTop = '4px';
+      });
+
+      pdfContainer.querySelectorAll('.review-item').forEach(item => {
+        item.style.border = '1px solid #e5e7eb';
+        item.style.padding = '15px';
+        item.style.marginBottom = '15px';
+        item.style.borderRadius = '12px';
+        item.style.pageBreakInside = 'avoid';
+        
+        if (item.classList.contains('ok')) {
+          item.style.borderLeft = '6px solid #16a34a';
+          item.style.background = '#f0fdf4';
+        } else {
+          item.style.borderLeft = '6px solid #dc2626';
+          item.style.background = '#fef2f2';
+        }
+      });
+
+      const opzioniEsportazione = {
+        margin:       12,
+        filename:     `Report_Quiz_${Date.now()}.pdf`,
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { scale: 2, logging: false, useCORS: true },
+        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+      };
+
+      html2pdf().set(opzioniEsportazione).from(pdfContainer).save();
+    }
+
     function backToPackageChoice() {
       quizCard.classList.add('hidden');
       resultCard.classList.add('hidden');
@@ -904,6 +1033,7 @@
 
     startBtn.addEventListener('click', startQuiz);
     mixedQuizBtn.addEventListener('click', startMixedQuiz);
+    single70QuizBtn.addEventListener('click', startSingle70Quiz);
     clearSavedBtn.addEventListener('click', clearSavedQuizzes);
     restartBtn.addEventListener('click', restartCurrentQuiz);
     restartFinalBtn.addEventListener('click', restartCurrentQuiz);
