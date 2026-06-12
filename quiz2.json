@@ -63,10 +63,10 @@
       "b": "induce la fase secretiva del\nciclo uterino",
       "c": "ha come bersaglio le cellule\ndel Leydig",
       "d": "è un ormone steroide",
-      "e": "ha come bersaglio le\ncellule"
+      "e": "ha come bersaglio le cellule del Sertoli e le cellule della granulosa"
     },
     "risposta_corretta": "e",
-    "risposta": "ha come bersaglio le\ncellule",
+    "risposta": "ha come bersaglio le cellule del Sertoli e le cellule della granulosa",
     "id": 5
   },
   {
@@ -385,7 +385,7 @@
       "b": "LA CONCENTRAZIONE DI NACL E' MAGGIORE DI QUELLA DEL GLUCOSIO",
       "c": "LA CONCENTRAZIONE DEL GLUCOSIO E' DUE VOLTE QUELLA DI NACL",
       "d": "LA CONCENTRAZIONE DI GLUCOSIO E' CIRCA 1/3 DI QUELLA DI NACL",
-      "e": "LA CONCENTRAZIONE DI GLUCOSIO E'"
+      "e": "LA CONCENTRAZIONE DI GLUCOSIO E' CIRCA 1/6 DI QUELLA DI NACL"
     },
     "risposta_corretta": "c",
     "risposta": "LA CONCENTRAZIONE DEL GLUCOSIO E' DUE VOLTE QUELLA DI NACL",
@@ -569,8 +569,8 @@
       "d": "AUA",
       "e": "NESSUNA DI QUELLE ELENCATE"
     },
-    "risposta_corretta": "d",
-    "risposta": "AUA",
+    "risposta_corretta": "e",
+    "risposta": "NESSUNA DI QUELLE ELENCATE",
     "id": 41
   },
   {
@@ -1043,7 +1043,7 @@
       "b": "alla fosforilazione ossidativa",
       "c": "alla sintesi del glicogeno",
       "d": "alla sintesi del collagene",
-      "e": "alla demolizione dei prodotti cellulari"
+      "e": "alla demolizione dei prodotti cellulari invecchiati"
     },
     "risposta_corretta": "b",
     "risposta": "alla fosforilazione ossidativa",
@@ -1070,11 +1070,11 @@
       "a": "2",
       "b": "+2",
       "c": "+1",
-      "d": "1",
+      "d": "-1",
       "e": "3"
     },
     "risposta_corretta": "d",
-    "risposta": "1",
+    "risposta": "-1",
     "id": 77
   },
   {
@@ -1179,14 +1179,14 @@
     "numero": 85,
     "domanda": "Che cosa sono gli acidi teicoici?",
     "opzioni": {
-      "a": "lunghe catene polimeriche che contribuiscono alla composizione degli  antigeni superficiali dei gram positivi",
+      "a": "lunghe catene polimeriche che contribuiscono alla composizione degli antigeni superficiali dei gram positivi",
       "b": "lunghe catene lipopolisaccaridiche, intrecciate con il peptidoglicano, che contribuiscono alla composizione delle esotossine",
       "c": "costituenti principali del complesso peptidoglicano ribitol fosfato localizzato nello spazio periplasmico dei gram- positivi",
       "d": "costituenti responsabili dell’acido-resistenza dei micobatteri",
       "e": "costituenti fondamentali della parete cellulare dei gram- positivi e gram-negativi"
     },
     "risposta_corretta": "a",
-    "risposta": "lunghe catene polimeriche che contribuiscono alla composizione degli  antigeni superficiali dei gram positivi",
+    "risposta": "lunghe catene polimeriche che contribuiscono alla composizione degli antigeni superficiali dei gram positivi",
     "id": 85
   },
   {
@@ -1283,8 +1283,8 @@
       "d": "SOLO PER SOLUZIONI CHE\nASSORBONO NELL'ULTRAVIOLETTO ESISTE PROPORZIONALITA' TRA LA LORO CONCENTRAZIONE L'ASSORBIMENTO DI\nRADIAZIONI",
       "e": "SOLO PER SOLUZIONI CHE ASSORBONO NEL VISIBILE ESISTE PROPORZIONALITA' TRA LA LORO CONCENTRAZIONE L'ASSORBIMENTO DI RADIAZIONI"
     },
-    "risposta_corretta": "c",
-    "risposta": "L'ASSORBIMENTO DI RADIAZIONI LUMINOSE DA PARTE DI UNA SOLUZIONE E' PROPORZIONALE ALLA SUA CONCENTRAZIONE E DIPENDE DAL DIAMETRO DELLA CUVETTA DI LETTURA",
+    "risposta_corretta": "a",
+    "risposta": "L'ASSORBIMENTO DI RADIAZIONI LUMINOSE DA PARTE DI UNA SOLUZIONE E' PROPORZIONALE ALLA SUA CONCENTRAZIONE E DIPENDE DALLO SPESSORE DEL MATERIALE DI CUI E' FATTA LA CUVETTA DI LETTURA",
     "id": 92
   },
   {
@@ -1293,12 +1293,12 @@
     "opzioni": {
       "a": "ASSORBANZA + CAMMINO OTTICO / COEFFICIENTE ESTINZIONE MOLARE",
       "b": "ASSORBANZA X COEFFICIENTE DI ESTINZIONE MOLARE / CAMMINO OTTICO",
-      "c": "ASSORBANZA / COEFFICIENTE DI ESTINZIONE MOLARE X CAMMINO OTTICO",
+      "c": "ASSORBANZA / (COEFFICIENTE DI ESTINZIONE MOLARE X CAMMINO OTTICO)",
       "d": "(ASSORBANZA - CAMMINO OTTICO)/ COEFFICIENTE ESTINZIONE MOLARE",
       "e": "ASSORBANZA/COEF FICIENT\nE ESTINZIONE MOLARE - CAMMINO OTTICO"
     },
     "risposta_corretta": "c",
-    "risposta": "ASSORBANZA / COEFFICIENTE DI ESTINZIONE MOLARE X CAMMINO OTTICO",
+    "risposta": "ASSORBANZA / (COEFFICIENTE DI ESTINZIONE MOLARE X CAMMINO OTTICO)",
     "id": 93
   },
   {
@@ -1547,10 +1547,10 @@
       "b": "ALCALOSI RESPIRATORIA SCOMPENSATA",
       "c": "ACIDOSI METABOLICA COMPENSATA",
       "d": "ACIDOSI RESPIRATORIA COMPENSATA",
-      "e": "ALCALOSI METABOLICA"
+      "e": "ALCALOSI METABOLICA SCOMPENSATA"
     },
-    "risposta_corretta": "a",
-    "risposta": "ALCALOSI RESPIRATORIA COMPENSATA",
+    "risposta_corretta": "d",
+    "risposta": "ACIDOSI RESPIRATORIA COMPENSATA",
     "id": 111
   },
   {
@@ -1947,7 +1947,7 @@
   },
   {
     "numero": 140,
-    "domanda": "La riduzione del potenziale di membrana di  una cellula non eccitabile produce un aumento:",
+    "domanda": "La riduzione del potenziale di membrana di una cellula non eccitabile produce un aumento:",
     "opzioni": {
       "a": "dell’ingresso di Na+ nella cellula",
       "b": "dell’ingresso di K+ nella cellula",
@@ -2215,14 +2215,14 @@
     "numero": 159,
     "domanda": "L’utilizzazione ossidativa degli acidi grassi nell’uomo richiede:",
     "opzioni": {
-      "a": "una insaturazione degli acil-CoA prodotta da una acil-CoA deidrogenasi  FAD-dipendente",
+      "a": "una insaturazione degli acil-CoA prodotta da una acil-CoA deidrogenasi FAD-dipendente",
       "b": "una insaturazione dei derivati degli acil-CoA prodotta da una acil-CoA deidrogenasi microsomiale",
       "c": "NADPH+",
       "d": "biotina",
       "e": "deidrogenasi-NADPH dipendenti"
     },
     "risposta_corretta": "a",
-    "risposta": "una insaturazione degli acil-CoA prodotta da una acil-CoA deidrogenasi  FAD-dipendente",
+    "risposta": "una insaturazione degli acil-CoA prodotta da una acil-CoA deidrogenasi FAD-dipendente",
     "id": 159
   },
   {
@@ -2457,10 +2457,10 @@
       "b": "TOSSINA STAFILOCOCCICA",
       "c": "TOSSINA ALFA DEL CL.PERFRINGENS",
       "d": "TOSSINA DIFTERICA",
-      "e": "ENDOTOSSINA DEI BATTERI GRAM-"
+      "e": "ENDOTOSSINA DEI BATTERI GRAM-NEGATIVI"
     },
     "risposta_corretta": "e",
-    "risposta": "ENDOTOSSINA DEI BATTERI GRAM-",
+    "risposta": "ENDOTOSSINA DEI BATTERI GRAM-NEGATIVI",
     "id": 176
   },
   {
@@ -2692,13 +2692,13 @@
     "domanda": "LA BILIRUBINEMIA TOTALE DEL SIERO DI\nSANGUE E' NORMALMENTE DI:",
     "opzioni": {
       "a": "0,01 - 0,05 MG % ML",
-      "b": "0,07 - 0,10  MG % ML",
-      "c": "0,12 -0,14  MG % ML",
-      "d": "0,20 - 0,25  MG % ML",
-      "e": "0,30 - 1,00  MG % ML"
+      "b": "0,07 - 0,10 MG % ML",
+      "c": "0,12 -0,14 MG % ML",
+      "d": "0,20 - 0,25 MG % ML",
+      "e": "0,30 - 1,00 MG % ML"
     },
     "risposta_corretta": "e",
-    "risposta": "0,30 - 1,00  MG % ML",
+    "risposta": "0,30 - 1,00 MG % ML",
     "id": 193
   },
   {
@@ -2717,7 +2717,7 @@
   },
   {
     "numero": 195,
-    "domanda": "QUALE DI QUESTI DATI DI LABORATORIO RISULTA NETTAMENTE AUMENTATO NELLE FASI DI ATTIVITA'   DEL LINFO- GRANULOMA HODGKIN?",
+    "domanda": "QUALE DI QUESTI DATI DI LABORATORIO RISULTA NETTAMENTE AUMENTATO NELLE FASI DI ATTIVITA' DEL LINFO- GRANULOMA HODGKIN?",
     "opzioni": {
       "a": "CUPREMIA",
       "b": "PIASTRINEMIA",
@@ -2731,7 +2731,7 @@
   },
   {
     "numero": 196,
-    "domanda": "Una deficienza di acido folico produce anemia megaloblastica macrocitica,  ritardando quali delle\nseguenti reazioni?",
+    "domanda": "Una deficienza di acido folico produce anemia megaloblastica macrocitica, ritardando quali delle\nseguenti reazioni?",
     "opzioni": {
       "a": "reazioni della sintesi pirimidinica",
       "b": "conversione dell’IMO a AMP e GMP",
@@ -2759,7 +2759,7 @@
   },
   {
     "numero": 198,
-    "domanda": "La deficienza di carnitina nell’uomo porta a debolezza muscolare ed a parziale disfunzione epatica perché nel muscolo e nel fegato si accumula quale delle  seguenti sostanze?",
+    "domanda": "La deficienza di carnitina nell’uomo porta a debolezza muscolare ed a parziale disfunzione epatica perché nel muscolo e nel fegato si accumula quale delle seguenti sostanze?",
     "opzioni": {
       "a": "glicogeno",
       "b": "acidi grassi a numero dispari di carbonio",
@@ -2955,7 +2955,7 @@
   },
   {
     "numero": 212,
-    "domanda": "Gli enzimi sotto indicati vengono regolati per fosforilazione/defosforilazione ad  eccezione di uno,\nquale?",
+    "domanda": "Gli enzimi sotto indicati vengono regolati per fosforilazione/defosforilazione ad eccezione di uno,\nquale?",
     "opzioni": {
       "a": "glucoso 6 fosfatasi",
       "b": "glicogeno sintetasi",
@@ -3224,13 +3224,13 @@
     "domanda": "LA FREQUENZA DELLA SINDROME DI\nKLINEFELTER E':",
     "opzioni": {
       "a": "1:100",
-      "b": "388.888.889",
+      "b": "1:500-1:1000",
       "c": "1:10.000",
       "d": "1:40.000",
       "e": "1:50.000"
     },
     "risposta_corretta": "b",
-    "risposta": "388.888.889",
+    "risposta": "1:500-1:1000",
     "id": 231
   },
   {
@@ -3267,7 +3267,7 @@
     "opzioni": {
       "a": "un 22-autosoma accessorio nella leucemia mieloide cronica",
       "b": "la perdita parziale del braccio lungo dell’autosoma 22 nella leucemia cronica",
-      "c": "un cromosoma (45XY) abnorme, patognomico per la leucemia mieloide  cronica",
+      "c": "un cromosoma (45XY) abnorme, patognomico per la leucemia mieloide cronica",
       "d": "la presenza di un cromosoma\npatologico nei linfociti nella leucemia mieloide cronica",
       "e": "nessuna delle possibilità su indicate"
     },
@@ -3557,16 +3557,16 @@
   },
   {
     "numero": 255,
-    "domanda": "LA FIBRINOLISI AVVIENE SOPRATTUTTO AD OPERA DI UN ENZIMA PROTEOLITICO\nELABORATO  PRINCIPALMENTE DA:",
+    "domanda": "LA FIBRINOLISI AVVIENE SOPRATTUTTO AD OPERA DI UN ENZIMA PROTEOLITICO DENOMINATO:",
     "opzioni": {
-      "a": "LEUCOCITI",
+      "a": "PLASMINA",
       "b": "ERITROCITI",
       "c": "PIASTRINE",
       "d": "FIBROBLASTI",
       "e": "TUTTE QUESTE CELLULE"
     },
     "risposta_corretta": "a",
-    "risposta": "LEUCOCITI",
+    "risposta": "PLASMINA",
     "id": 255
   },
   {
@@ -3809,7 +3809,7 @@
   },
   {
     "numero": 273,
-    "domanda": "NELL'INFARTO MIOCARDICO QUALE DEI SEGUENTI ENZIMI AUMENTA PER ULTIMO E\nRIMANE ELEVATO  PER LUNGO TEMPO:",
+    "domanda": "NELL'INFARTO MIOCARDICO QUALE DEI SEGUENTI ENZIMI AUMENTA PER ULTIMO E\nRIMANE ELEVATO PER LUNGO TEMPO:",
     "opzioni": {
       "a": "SGOT",
       "b": "CPK",
@@ -3840,13 +3840,13 @@
     "domanda": "La mutazione puntiforme:",
     "opzioni": {
       "a": "è una modificazione di entità modesta, che non altera il messaggio genetico",
-      "b": "riguarda un solo nucleotide e consiste nella sua sostituzione, inserzione o  delezione",
+      "b": "riguarda un solo nucleotide e consiste nella sua sostituzione, inserzione o delezione",
       "c": "consiste in una alterazione del genoma che rende impossibile la codificazione di una proteina",
       "d": "si verifica solo nei geni strutturali",
       "e": "consiste nella formazione di un chiasma puntiforme tra cromosomi omologhi"
     },
     "risposta_corretta": "b",
-    "risposta": "riguarda un solo nucleotide e consiste nella sua sostituzione, inserzione o  delezione",
+    "risposta": "riguarda un solo nucleotide e consiste nella sua sostituzione, inserzione o delezione",
     "id": 275
   },
   {
@@ -4021,14 +4021,14 @@
     "numero": 288,
     "domanda": "Quale delle seguenti affermazioni riferita al processo infiammatorio è vera?",
     "opzioni": {
-      "a": "la dilatazione dei capillari e l’aumento di permeabilità vascolare sono causate  da differenti sostanze",
-      "b": "il rilascio di alcuni mediatori chimici dell’infiammazione segue  immediatamente lo stimolo",
+      "a": "la dilatazione dei capillari e l’aumento di permeabilità vascolare sono causate da differenti sostanze",
+      "b": "il rilascio di alcuni mediatori chimici dell’infiammazione segue immediatamente lo stimolo",
       "c": "la dilatazione dei capillari causa l’essudato",
       "d": "le chinine sono amine vasoattive",
       "e": "le prostaglandine sono liberate\ndalle mast-cellule"
     },
     "risposta_corretta": "b",
-    "risposta": "il rilascio di alcuni mediatori chimici dell’infiammazione segue  immediatamente lo stimolo",
+    "risposta": "il rilascio di alcuni mediatori chimici dell’infiammazione segue immediatamente lo stimolo",
     "id": 288
   },
   {
@@ -4050,7 +4050,7 @@
     "domanda": "La bilirubina è:",
     "opzioni": {
       "a": "un sale biliare utile nella digestione dei lipidi",
-      "b": "un prodotto di elaborazione dello stercobilinogeno da parte dei batteri  intestinali GLUCAGONE",
+      "b": "un prodotto di elaborazione dello stercobilinogeno da parte dei batteri intestinali GLUCAGONE",
       "c": "molto solubile nei lipidi quando è coniugata con l’acido glicuronico",
       "d": "eliminata prevalentemente dal rene e dalla cute",
       "e": "il principale pigmento biliare"
@@ -4064,7 +4064,7 @@
     "domanda": "LA STIMOLAZIONE MASSIMALE DELLA SECREZIONE ACIDA GASTRICA SI OTTIENE CON:",
     "opzioni": {
       "a": "PENTAGASTRINA",
-      "b": "",
+      "b": "GLUCAGONE",
       "c": "SECRETINA",
       "d": "COLECISTOCHININA",
       "e": "VIP"
@@ -4363,8 +4363,8 @@
       "d": "VITAMINA K",
       "e": "VITAMINA B12"
     },
-    "risposta_corretta": "e",
-    "risposta": "VITAMINA B12",
+    "risposta_corretta": "d",
+    "risposta": "VITAMINA K",
     "id": 312
   },
   {
@@ -4386,18 +4386,18 @@
     "domanda": "L’opsonizzazione si riferisce a:",
     "opzioni": {
       "a": "rimozione di detriti extracellulari per mezzo di\nparticolari enzimi digestivi",
-      "b": "processo attraverso cui gli anticorpi rendono i batteri\nsuscettibili alla  fagocitosi",
+      "b": "processo attraverso cui gli anticorpi rendono i batteri\nsuscettibili alla fagocitosi",
       "c": "distruzione enzimatica di grandi particelle di materiale\nestraneo",
       "d": "distruzione della barriera di fibrina che si forma intorno ai\nbatteri in certe infezioni",
       "e": "lisi anticorpale di batteri con\nl’intervento del"
     },
     "risposta_corretta": "b",
-    "risposta": "processo attraverso cui gli anticorpi rendono i batteri\nsuscettibili alla  fagocitosi",
+    "risposta": "processo attraverso cui gli anticorpi rendono i batteri\nsuscettibili alla fagocitosi",
     "id": 314
   },
   {
     "numero": 315,
-    "domanda": "NELLA CIRROSI EPATICA POSSONO ESSERE PRESENTI UNA O PIU' DELLE\nSEGUENTI ALTERAZIONI  ORMOMALI, INDICARE QUALE/QUALI:",
+    "domanda": "NELLA CIRROSI EPATICA POSSONO ESSERE PRESENTI UNA O PIU' DELLE\nSEGUENTI ALTERAZIONI ORMOMALI, INDICARE QUALE/QUALI:",
     "opzioni": {
       "a": "IPEFGLUCAGONEMIA",
       "b": "IPERINSULINEMIA",
@@ -4453,7 +4453,7 @@
   },
   {
     "numero": 319,
-    "domanda": "IN QUALE/QUALI DELLE SEGUENTI  CONDIZIONI SI PUO' VERIFICARE IPERFOSFATASEMIA ALCALINA  ANCHE SENZA IPERBILIRUBINEMIA:",
+    "domanda": "IN QUALE/QUALI DELLE SEGUENTI CONDIZIONI SI PUO' VERIFICARE IPERFOSFATASEMIA ALCALINA ANCHE SENZA IPERBILIRUBINEMIA:",
     "opzioni": {
       "a": "EPATOCARCINOMA",
       "b": "METASTASI EPATICHE",
@@ -4531,8 +4531,8 @@
       "d": "hanno elevato n° di cellule\nmononucleate con recettori del virus Epstein-Barr",
       "e": "hanno pochi linfociti B nel sangue periferico"
     },
-    "risposta_corretta": "b",
-    "risposta": "hanno poche cellule pre-B nel midollo",
+    "risposta_corretta": "e",
+    "risposta": "hanno pochi linfociti B nel sangue periferico",
     "id": 324
   },
   {
@@ -4639,12 +4639,12 @@
     "opzioni": {
       "a": "PRODUCONO IL LIQUOR\nFOLLICULI",
       "b": "ORIGINANO DALL'EPITELIO\nGERMINATIVO",
-      "c": "PRODUCONO ORMONI\nESTROGENI",
+      "c": "PRODUCONO ANDROGENI",
       "d": "DEGENERANO DOPO\nL'OVULAZIONE",
       "e": "PRODUCONO\nL'INSULINA"
     },
     "risposta_corretta": "c",
-    "risposta": "PRODUCONO ORMONI\nESTROGENI",
+    "risposta": "PRODUCONO ANDROGENI",
     "id": 332
   },
   {
@@ -4767,7 +4767,7 @@
       "b": "LA PROLATTINA",
       "c": "LA CORTICOTROPINA",
       "d": "LUTEINIZZANTE",
-      "e": "L'ORMONE FOLLICOLO-"
+      "e": "L'ORMONE FOLLICOLO-STIMOLANTE"
     },
     "risposta_corretta": "b",
     "risposta": "LA PROLATTINA",
@@ -4867,8 +4867,8 @@
       "d": "SULL'UTERO",
       "e": "SULLE TUBE\nOVARICHE"
     },
-    "risposta_corretta": "b",
-    "risposta": "SUL FOLLICOLO OVARICO E\nSULLA TECA ESTERNA",
+    "risposta_corretta": "a",
+    "risposta": "SUL FOLLICOLO OVARICO",
     "id": 348
   },
   {
@@ -5001,23 +5001,23 @@
     "numero": 358,
     "domanda": "La somatotropina è (indicare l’affermazione esatta):",
     "opzioni": {
-      "a": "un polisaccaride IPERPARATIROIDISMO",
-      "b": "un fosfolipide FEOCROMOCITOMA",
-      "c": "un polipeptide NEUROFIBROMATOSI",
+      "a": "un polisaccaride",
+      "b": "un fosfolipide",
+      "c": "un polipeptide",
       "d": "uno steroide",
       "e": "un aminoglicoside"
     },
     "risposta_corretta": "c",
-    "risposta": "un polipeptide NEUROFIBROMATOSI",
+    "risposta": "un polipeptide",
     "id": 358
   },
   {
     "numero": 359,
     "domanda": "LE MALATTIE CHE SI ASSOCIANO AL CARCINOMA MIDOLLARE DELLA TIROIDE POSSONO COMPRENDERE:",
     "opzioni": {
-      "a": "",
-      "b": "",
-      "c": "",
+      "a": "IPERPARATIROIDISMO",
+      "b": "FEOCROMOCITOMA",
+      "c": "NEUROFIBROMATOSI",
       "d": "NESSUNA DELLE SUDDETTE",
       "e": "TUTTE LE SUDDETTE"
     },
@@ -5449,10 +5449,10 @@
     "numero": 390,
     "domanda": "Con il termine di tossiemia si intende:",
     "opzioni": {
-      "a": "la presenza di focolai infettivi e di germi non solo in circolo ma anche in vari  organi e tessuti",
+      "a": "la presenza di focolai infettivi e di germi non solo in circolo ma anche in vari organi e tessuti",
       "b": "la presenza di batteri in circolo senza manifestazioni cliniche",
       "c": "la presenza di un elevato tasso di tossine in circolo",
-      "d": "la presenza di batteri e delle loro tossine in circolo con manifestazioni  cliniche",
+      "d": "la presenza di batteri e delle loro tossine in circolo con manifestazioni cliniche",
       "e": "una flogosi acuta da germi\ngram-negativi"
     },
     "risposta_corretta": "c",
@@ -5581,8 +5581,8 @@
       "d": "NOTEVOLE AUMENTO DELLA GLICOLISI",
       "e": "DEGRANULAZIONE DEL\nRETICOLO ENDOPLASMATICO"
     },
-    "risposta_corretta": "e",
-    "risposta": "DEGRANULAZIONE DEL\nRETICOLO ENDOPLASMATICO",
+    "risposta_corretta": "a",
+    "risposta": "PICNOSI NUCLEARE",
     "id": 399
   },
   {
@@ -5693,8 +5693,8 @@
       "d": "IODINAZIONE",
       "e": "SIALILAZIONE"
     },
-    "risposta_corretta": "e",
-    "risposta": "SIALILAZIONE",
+    "risposta_corretta": "d",
+    "risposta": "IODINAZIONE",
     "id": 407
   },
   {
@@ -5707,8 +5707,8 @@
       "d": "PINOCITOSI SELETTIVA",
       "e": "ENDOCITOSI RECETTOSOMA DIPENDENTE"
     },
-    "risposta_corretta": "b",
-    "risposta": "PINOCITOSI",
+    "risposta_corretta": "c",
+    "risposta": "PINOCITOSI FLUIDA",
     "id": 408
   },
   {
@@ -5813,14 +5813,14 @@
     "numero": 416,
     "domanda": "L'ORMONE CORTICOTROPO E' UNA PROTEINA DI 39 AMINOACIDI (AA); L' ATTIVITA' BIOLOGICA DI QUESTA PROTEINA E' LEGATA ALLA PRESENZA DI UNA SPECIFICA SEQUENZA AMINOACIDICA CHE RICONOSCE E SI LEGA AL RECETTORE SULLA CORTICALE DEL SURRENE; QUALE TRA QUESTE SOTTOINDICATE E' LA SEQUENZA SPECIFICA:",
     "opzioni": {
-      "a": "AA 1  -  AA 14",
-      "b": "AA 15  -  AA 20",
-      "c": "AA 16  -  AA 19",
-      "d": "AA 20  -  A 33",
-      "e": "AA 34  -  AA 39"
+      "a": "AA 1 - AA 14",
+      "b": "AA 15 - AA 20",
+      "c": "AA 16 - AA 19",
+      "d": "AA 20 - A 33",
+      "e": "AA 34 - AA 39"
     },
     "risposta_corretta": "a",
-    "risposta": "AA 1  -  AA 14",
+    "risposta": "AA 1 - AA 14",
     "id": 416
   },
   {
@@ -5941,7 +5941,7 @@
     "opzioni": {
       "a": "una cellula capace di formare una progenie di cellule neoplastiche",
       "b": "una cellula capace di dare metastasi se messa in circolo",
-      "c": "una o più cellule capaci di dare origine, nell’ambito della  stessa neoplasia, a più stipiti di cellule neoplastiche",
+      "c": "una o più cellule capaci di dare origine, nell’ambito della stessa neoplasia, a più stipiti di cellule neoplastiche",
       "d": "tutte le precedenti",
       "e": "nessuna delle precedenti"
     },
@@ -6345,14 +6345,14 @@
     "numero": 454,
     "domanda": "Tutte le seguenti affermazioni riguardanti la sindrome di Down sono corrette eccetto:",
     "opzioni": {
-      "a": "la prognosi quo ad vitam è sfavorevole, la maggior parte dei pazienti muore  tra i 20 e i\n25 anni",
+      "a": "la prognosi quo ad vitam è sfavorevole, la maggior parte dei pazienti muore tra i 20 e i\n25 anni",
       "b": "i maschi sono generalmente sterili mentre le femmine sono fertili",
       "c": "il valore del Q.I. è di circa 50",
       "d": "nei soggetti affetti dalla sindrome di Down c’è una maggiore incidenza di leucemia",
       "e": "i soggetti malati hanno facies\nparticolare che ha dato il nome di mongolismo"
     },
     "risposta_corretta": "a",
-    "risposta": "la prognosi quo ad vitam è sfavorevole, la maggior parte dei pazienti muore  tra i 20 e i\n25 anni",
+    "risposta": "la prognosi quo ad vitam è sfavorevole, la maggior parte dei pazienti muore tra i 20 e i\n25 anni",
     "id": 454
   },
   {
@@ -6555,14 +6555,14 @@
     "numero": 469,
     "domanda": "QUAL E' LA FASE FINALE DELL’INFIAMMAZIONE ACUTA SECONDO LA SEQUENZA DESCRITTA DA ROBBINS:",
     "opzioni": {
-      "a": "DIAPEDESI DEI LEUCITI",
+      "a": "DIAPEDESI DEI LEUCOCITI",
       "b": "AUMENTO DELLA PERMEABILITA' CAPILLARE E VENULARE",
       "c": "CONCENTRAZIONE EMATICA",
       "d": "STASI EMATICA",
       "e": "VASODILATAZIONE CAPILLARE-"
     },
     "risposta_corretta": "a",
-    "risposta": "DIAPEDESI DEI LEUCITI",
+    "risposta": "DIAPEDESI DEI LEUCOCITI",
     "id": 469
   },
   {
@@ -6623,7 +6623,7 @@
   },
   {
     "numero": 474,
-    "domanda": "QUALE FRA Z SEGUENTI AGENTI  PATOGENI PUO' SFUGGIRE ALLE RISPOSTE\nIMMUNITARIE MEDIANTE IL FENOMENO DELLA \"MIMETIZZAZIONE ANTIGENICA”:",
+    "domanda": "QUALE FRA Z SEGUENTI AGENTI PATOGENI PUO' SFUGGIRE ALLE RISPOSTE\nIMMUNITARIE MEDIANTE IL FENOMENO DELLA \"MIMETIZZAZIONE ANTIGENICA”:",
     "opzioni": {
       "a": "TRIPNOSOMA",
       "b": "PLASMODIO DELLA MALARIA",
@@ -6727,7 +6727,7 @@
       "b": "la frequenza è di un neonato affetto ogni 100.000",
       "c": "è trasmessa da un gene autosomico recessivo",
       "d": "i soggetti affetti appaiono normali alla nascita",
-      "e": "la quantità di acido fenilpiruvico escreto nelle urine varia in rapporto alla  quantità"
+      "e": "la quantità di acido fenilpiruvico escreto nelle urine varia in rapporto alla quantità"
     },
     "risposta_corretta": "b",
     "risposta": "la frequenza è di un neonato affetto ogni 100.000",
@@ -6779,7 +6779,7 @@
     "numero": 485,
     "domanda": "COMPLICANZA DELL'ANEMIA PERNICIOSA E’:",
     "opzioni": {
-      "a": "L'IPERTROFIA DELLE PLICHE DELLA  MUCOSA\nGASTRICA",
+      "a": "L'IPERTROFIA DELLE PLICHE DELLA MUCOSA\nGASTRICA",
       "b": "IL CARCINOMA GASTRICO",
       "c": "LA GASTRITE IPERSECRETIVA\nIPERCLORIDICA",
       "d": "L'ULCERA GASTRICA",
@@ -6877,14 +6877,14 @@
     "numero": 492,
     "domanda": "Quale delle seguenti affermazioni riguardanti l’incompatibilità Rh è vera?",
     "opzioni": {
-      "a": "un aborto spontaneo frequentemente determina la sensibilizzazione della   madre nei confronti dell’antigene D",
+      "a": "un aborto spontaneo frequentemente determina la sensibilizzazione della madre nei confronti dell’antigene D",
       "b": "l’eritroblastosi fetale dei\nneonati non è in relazione al loro ordine di nascita",
-      "c": "se la madre ed il figlio sono incompatibili oltre che per il fattore Rh anche per   i fattori ABO, la forma morbosa è raramente grave",
+      "c": "se la madre ed il figlio sono incompatibili oltre che per il fattore Rh anche per i fattori ABO, la forma morbosa è raramente grave",
       "d": "l’exsanguino- trasfusione è il metodo migliore per prevenire la malattia del neonato",
       "e": "l’antigene principale del\nsistema antigenico Rh, capace di stimolare le difese immunitarie"
     },
     "risposta_corretta": "a",
-    "risposta": "un aborto spontaneo frequentemente determina la sensibilizzazione della   madre nei confronti dell’antigene D",
+    "risposta": "un aborto spontaneo frequentemente determina la sensibilizzazione della madre nei confronti dell’antigene D",
     "id": 492
   },
   {
@@ -6953,8 +6953,8 @@
       "d": "il meningococco",
       "e": "nessuno dei suddetti"
     },
-    "risposta_corretta": "d",
-    "risposta": "il meningococco",
+    "risposta_corretta": "a",
+    "risposta": "il pneumococco",
     "id": 497
   },
   {
@@ -7157,28 +7157,28 @@
     "numero": 512,
     "domanda": "Nel testicolo dell’uomo l’FSH agisce principalmente su:",
     "opzioni": {
-      "a": "cellule di Leydig 10-50 pg/ml",
-      "b": "spermatogoni 50-100 pg/ml",
-      "c": "cellule interstiziali 100-200 pg/ml",
-      "d": "cellule della teca 250-400 pg/ml",
-      "e": "cellule di Sertoli 500-800 pg/ml"
+      "a": "cellule di Leydig",
+      "b": "spermatogoni",
+      "c": "cellule interstiziali",
+      "d": "cellule della teca",
+      "e": "cellule di Sertoli"
     },
     "risposta_corretta": "e",
-    "risposta": "cellule di Sertoli 500-800 pg/ml",
+    "risposta": "cellule di Sertoli",
     "id": 512
   },
   {
     "numero": 513,
     "domanda": "Quale tra questi sono valori fisiologici del picco preovulatorio del 17< estradiolo nella donna?",
     "opzioni": {
-      "a": "",
-      "b": "",
-      "c": "",
-      "d": "",
-      "e": ""
+      "a": "10-50 pg/ml",
+      "b": "50-100 pg/ml",
+      "c": "100-200 pg/ml",
+      "d": "250-400 pg/ml",
+      "e": "500-800 pg/ml"
     },
     "risposta_corretta": "d",
-    "risposta": "",
+    "risposta": "250-400 pg/ml",
     "id": 513
   },
   {
@@ -7328,11 +7328,11 @@
       "a": "un’alterazione dello sviluppo embrionale",
       "b": "un fenomeno della riproduzione umana",
       "c": "la costituzione genetica di un organismo",
-      "d": "la risultanza dell’interazione tra\nla costituzione genetica di un organismo e   l’ambiente in cui questo si sviluppa",
+      "d": "la risultanza dell’interazione tra\nla costituzione genetica di un organismo e l’ambiente in cui questo si sviluppa",
       "e": "un insieme di malattie genetiche"
     },
     "risposta_corretta": "d",
-    "risposta": "la risultanza dell’interazione tra\nla costituzione genetica di un organismo e   l’ambiente in cui questo si sviluppa",
+    "risposta": "la risultanza dell’interazione tra\nla costituzione genetica di un organismo e l’ambiente in cui questo si sviluppa",
     "id": 524
   },
   {
@@ -7382,7 +7382,7 @@
     "domanda": "Una delle seguenti affermazioni sul tetano non è esatta:",
     "opzioni": {
       "a": "è sostenuto da un bacillo, il clostridium tetani",
-      "b": "generalmente il bacillo penetra nell’organismo attraverso una soluzione di   continuo della cute",
+      "b": "generalmente il bacillo penetra nell’organismo attraverso una soluzione di continuo della cute",
       "c": "è una malattia tossi-infettiva",
       "d": "il bacillo produce una endotossina che agisce in loco",
       "e": "la tossina presenta un’azione\nelettiva sulle cellule motrici dell’encefalo e"
@@ -7511,7 +7511,7 @@
       "b": "il numero di grammomolecole di soluto contenute in un litro di soluzione",
       "c": "il numero di grammoatomi di soluto contenuti in un litro di solvente",
       "d": "il numero di grammomolecole\ndi soluto contenute in un litro di solvente",
-      "e": "il numero di grammiequivalenti  di soluto contenuti in un litro di soluzione"
+      "e": "il numero di grammiequivalenti di soluto contenuti in un litro di soluzione"
     },
     "risposta_corretta": "b",
     "risposta": "il numero di grammomolecole di soluto contenute in un litro di soluzione",
@@ -7805,10 +7805,10 @@
       "b": "i reagenti si sono completamente trasformati in prodotti",
       "c": "prodotti e reagenti sono disciolti nello stesso solvente",
       "d": "tutte le concentrazioni si sono uguagliate",
-      "e": "la velocità della reazione diretta è uguale a quella della"
+      "e": "la velocità della reazione diretta è uguale a quella della reazione inversa"
     },
     "risposta_corretta": "e",
-    "risposta": "la velocità della reazione diretta è uguale a quella della",
+    "risposta": "la velocità della reazione diretta è uguale a quella della reazione inversa",
     "id": 558
   },
   {
@@ -8109,14 +8109,14 @@
     "numero": 580,
     "domanda": "Il prodotto di solubilità è:",
     "opzioni": {
-      "a": "il prodotto delle concentrazioni ioniche presenti in una soluzione di un sale   poco solubile",
-      "b": "il prodotto delle concentrazioni ioniche presenti in una soluzione satura di un   sale poco solubile",
+      "a": "il prodotto delle concentrazioni ioniche presenti in una soluzione di un sale poco solubile",
+      "b": "il prodotto delle concentrazioni ioniche presenti in una soluzione satura di un sale poco solubile",
       "c": "la somma delle cariche degli ioni",
       "d": "il prodotto delle cariche degli ioni",
       "e": "la concentrazione molare del\nsale sciolto"
     },
     "risposta_corretta": "b",
-    "risposta": "il prodotto delle concentrazioni ioniche presenti in una soluzione satura di un   sale poco solubile",
+    "risposta": "il prodotto delle concentrazioni ioniche presenti in una soluzione satura di un sale poco solubile",
     "id": 580
   },
   {
@@ -9599,8 +9599,8 @@
       "d": "IL MAIALE",
       "e": "IL CAVALLO"
     },
-    "risposta_corretta": "e",
-    "risposta": "IL CAVALLO",
+    "risposta_corretta": "a",
+    "risposta": "IL CANE",
     "id": 686
   },
   {
@@ -9815,7 +9815,7 @@
   },
   {
     "numero": 702,
-    "domanda": "LA COSTANTE DI MICHAELIS MENTEN (KM)  DI UN ENZIMA E’ UGUALE:",
+    "domanda": "LA COSTANTE DI MICHAELIS MENTEN (KM) DI UN ENZIMA E’ UGUALE:",
     "opzioni": {
       "a": "ALLA CONCENTRAZIONE-\nDEL SUBSTRATO ALLA QUALE LA VELOCITA' DI REAZIONE E' MASSIMA",
       "b": "ALLA VELOCITA' MASSIMA CUI PUO' PROCEDERE LA REAZIONE",
@@ -10826,7 +10826,7 @@
     "domanda": "PER LA SEPARAZIONE DI ACIDI NUCLEICI VIENE COMUNEMENTE IMPIEGATA:",
     "opzioni": {
       "a": "ELETTROFORESI SU CARTA",
-      "b": "ELETTROFORESI SU POLIACRILAMMIDE  (ALTA\nCONCENTRAZIONE)",
+      "b": "ELETTROFORESI SU POLIACRILAMMIDE (ALTA\nCONCENTRAZIONE)",
       "c": "ELETTROFORESI SU AGAR",
       "d": "FOCALIZZAZIONE ISOELETTRICA",
       "e": "ELETTROFORESI SU ACETATO DI\nCELLULOSA"
@@ -11047,7 +11047,7 @@
   },
   {
     "numero": 790,
-    "domanda": "LA PRESENZA DI UN DETERGENTE  ANIONICO COME IL SODIO DODECILSOLFATO COMUNEMENTE IMPIEGATA NELLA\nELETTROFORESI DI MISCELE DI PROTEINE SU GELS DI POLIACRILAMMIDE:",
+    "domanda": "LA PRESENZA DI UN DETERGENTE ANIONICO COME IL SODIO DODECILSOLFATO COMUNEMENTE IMPIEGATA NELLA\nELETTROFORESI DI MISCELE DI PROTEINE SU GELS DI POLIACRILAMMIDE:",
     "opzioni": {
       "a": "HA LA FUNZIONE DI DETERGERE LE PROTEINE PRIMA DI CARICARLE SUL GEL",
       "b": "RENDE UGUALE IL RAPPORTO CARICA/MASSA IN TUTTE LE SPECIE PROTEICHE",
@@ -11093,7 +11093,7 @@
     "opzioni": {
       "a": "L'ATTIVITA' DI ALCUNI ENZIMI E' REGOLATA MEDIANTE MODIFICAZIONI COVALENTI REVERSIBILI",
       "b": "IL MECCANISMO DELL'INIBIZIONE FEED- BACK RAPPRESENTA UN MECCANISMO DI REGOLAZIONE DI INTERE VIE METANOLICHE",
-      "c": "NEGLI ORGANISMI  SUPERIORI ALCUNE ATTIVITA' ENZIMATICHE SONO REGOLATE DAGLI ORMONI",
+      "c": "NEGLI ORGANISMI SUPERIORI ALCUNE ATTIVITA' ENZIMATICHE SONO REGOLATE DAGLI ORMONI",
       "d": "L’ AMP CICLICO E' UN SECONDO MESSAGGERO INTRACELLULARE CHE PUO' STIMOLARE O DEPRIMERE ALCUNI ENZIMI",
       "e": "NELL'INIBIZIONE FEED-\nBACK IL PRODOTTO FINALE DELLA REAZIONE GENERALMENTE INIBISCE L'ENZIMA"
     },
@@ -11290,7 +11290,7 @@
       "a": "E' UNA VIA BIOSINTETICA CHE SI VERIFICA NEL CITOPLASMA",
       "b": "GLI EQUIVALENTI RIDUCENTI SONO FORNITI DAL NADPH",
       "c": "E' CATALIZZATA DAGLI STESSI ENZIMI DELLA BETA OSSIDAZIONE",
-      "d": "L'ENZIMA ACETIL-COA CARBOSSILASI,  CHE CATALIZZA LA FORMAZIONE DEL MALONIL-COA A PARTIRE DALL'ACETIL COA CONTIENE LA BIOTINA COME GRUPPO PROSTETICO",
+      "d": "L'ENZIMA ACETIL-COA CARBOSSILASI, CHE CATALIZZA LA FORMAZIONE DEL MALONIL-COA A PARTIRE DALL'ACETIL COA CONTIENE LA BIOTINA COME GRUPPO PROSTETICO",
       "e": "L'ACIDO GRASSO SINTETASI E' UN COMPLESSO MULTIENZIMATICO COSTITUITO DA VARIE PROTEINE ENZIMATICHE E DALL'ACP (ACYL CARRIER PROTEIN)"
     },
     "risposta_corretta": "c",
@@ -11527,17 +11527,17 @@
     "opzioni": {
       "a": "LITIO EPARINA",
       "b": "EDTA 0 FLUORURO",
-      "c": "EDTA O SODIO EPARINA",
+      "c": "EDTA",
       "d": "CITRATO DI SODIO TRIBASICO",
       "e": "OSSALATO DI POTASSIO"
     },
     "risposta_corretta": "c",
-    "risposta": "EDTA O SODIO EPARINA",
+    "risposta": "EDTA",
     "id": 824
   },
   {
     "numero": 825,
-    "domanda": "SAPENDO CHE IL PESO MOLECOLARE DEL TSH E'DI 28.000 DALTON E DOVENDO PREPARARE  1 ML DI UNA SOLUZIONE 1PM, QUANTO TSH SI DEVE PESARE?",
+    "domanda": "SAPENDO CHE IL PESO MOLECOLARE DEL TSH E'DI 28.000 DALTON E DOVENDO PREPARARE 1 ML DI UNA SOLUZIONE 1PM, QUANTO TSH SI DEVE PESARE?",
     "opzioni": {
       "a": "280 PG",
       "b": "28 PG",
@@ -11668,11 +11668,11 @@
       "a": "DIMINUZIONE DELL'ESCREZIONE URINARIA DI CATECOLAMINE",
       "b": "DIMINUZIONE DELL'ESCREZIONE URINARIA DI VASOPRESSINA",
       "c": "DIMINUZIONE DEL COLESTEROLO",
-      "d": "DIMINUZIONE DI ADRENALINA",
+      "d": "AUMENTO DI ADRENALINA",
       "e": "DIMINUZIONE DEGLI ORMONI TIROIDEI"
     },
-    "risposta_corretta": "c",
-    "risposta": "DIMINUZIONE DEL COLESTEROLO",
+    "risposta_corretta": "d",
+    "risposta": "AUMENTO DI ADRENALINA",
     "id": 834
   },
   {
@@ -11895,8 +11895,8 @@
       "d": "un apparato di Golgi a tre camere",
       "e": "un apparato di Golgi che non\npresenta facce"
     },
-    "risposta_corretta": "c",
-    "risposta": "non presentano apparato di Golgi",
+    "risposta_corretta": "b",
+    "risposta": "un apparato di Golgi poco sviluppato",
     "id": 850
   },
   {
@@ -12043,14 +12043,14 @@
     "numero": 861,
     "domanda": "Caratterizza l’ormone adrenocorticotropo:",
     "opzioni": {
-      "a": "viene secreto in maggiore quantità quando il livello di cortisolo circolante  decresce",
+      "a": "viene secreto in maggiore quantità quando il livello di cortisolo circolante decresce",
       "b": "è secreto da neuroni i cui pirenofori risiedono nell’ipotalamo",
-      "c": "ha un’azione più potente sulla secrezione di aldosterone che su quella di  cortisolo",
+      "c": "ha un’azione più potente sulla secrezione di aldosterone che su quella di cortisolo",
       "d": "viene secreto sotto controllo da\nun fattore inibente ipotalamico",
       "e": "ha una concentrazione plasmatica costante durante le\n24 ore del giorno"
     },
     "risposta_corretta": "a",
-    "risposta": "viene secreto in maggiore quantità quando il livello di cortisolo circolante  decresce",
+    "risposta": "viene secreto in maggiore quantità quando il livello di cortisolo circolante decresce",
     "id": 861
   },
   {
@@ -12267,14 +12267,14 @@
     "numero": 877,
     "domanda": "La placenta per quanto riguarda la produzione di ormoni steroidei è :",
     "opzioni": {
-      "a": "un organo incompleto, essendo in grado di convertire\nprecursori in ormoni  steroidei, ma non di sintetizzarli direttamente",
+      "a": "un organo incompleto, essendo in grado di convertire\nprecursori in ormoni steroidei, ma non di sintetizzarli direttamente",
       "b": "in grado di sintetizzarli direttamente",
       "c": "incapace di produrre ormoni steroidei",
       "d": "in grado di produrre ormoni solo dopo il 7°mese di gravidanza",
       "e": "in grado di produrre ormoni\nincompleti"
     },
     "risposta_corretta": "a",
-    "risposta": "un organo incompleto, essendo in grado di convertire\nprecursori in ormoni  steroidei, ma non di sintetizzarli direttamente",
+    "risposta": "un organo incompleto, essendo in grado di convertire\nprecursori in ormoni steroidei, ma non di sintetizzarli direttamente",
     "id": 877
   },
   {
@@ -12576,7 +12576,7 @@
     "domanda": "Caratterizza il paratormone:",
     "opzioni": {
       "a": "è una glicoproteina",
-      "b": "provoca l’aumento di  escrezione di calcio da parte del\nrene",
+      "b": "provoca l’aumento di escrezione di calcio da parte del\nrene",
       "c": "fa aumentare il livello di fosfato nel siero",
       "d": "aumenta nel sangue per aumento del fosforo\nplasmatico",
       "e": "insieme con la vitamina D\nstimola la liberazione"
@@ -12769,7 +12769,7 @@
   },
   {
     "numero": 913,
-    "domanda": "Quali sono i principali neurotrasmettitori  interessati alla regolazione dei neuroni ipotalamici:",
+    "domanda": "Quali sono i principali neurotrasmettitori interessati alla regolazione dei neuroni ipotalamici:",
     "opzioni": {
       "a": "dopamina",
       "b": "norepinefrina",
@@ -13099,8 +13099,8 @@
       "d": "tubercolosi",
       "e": "encefalite"
     },
-    "risposta_corretta": "a",
-    "risposta": "diabete mellito",
+    "risposta_corretta": "c",
+    "risposta": "carcinoma broncogeno",
     "id": 936
   },
   {
@@ -13121,8 +13121,8 @@
     "numero": 938,
     "domanda": "A cosa si riferisce il termine feed-back corto:",
     "opzioni": {
-      "a": "meccanismo di soppressione da parte degli ormoni delle ghiandole   periferiche sull’ipotalamo",
-      "b": "meccanismo di soppressione degli ormoni delle ghiandole periferiche sulle   ghiandole stesse",
+      "a": "meccanismo di soppressione da parte degli ormoni delle ghiandole periferiche sull’ipotalamo",
+      "b": "meccanismo di soppressione degli ormoni delle ghiandole periferiche sulle ghiandole stesse",
       "c": "meccanismo di soppressione dell’ipotalamo da parte degli ormoni ipofisari",
       "d": "meccanismo di soppressione dell’ipotalamo da parte degli ormoni ipotalamici",
       "e": "nessuna delle precedenti"
@@ -13696,13 +13696,13 @@
     "domanda": "Cosa avviene nel diabete insipido:",
     "opzioni": {
       "a": "la funzione corticosurrenalica è\nalterata",
-      "b": "vi è iponatriemia ed\nipocloremia",
+      "b": "vi è ipernatriemia ed ipercloremia",
       "c": "la pressione arteriosa è alta",
       "d": "sono presenti edemi",
       "e": "la funzione renale è\nalterata"
     },
     "risposta_corretta": "b",
-    "risposta": "vi è iponatriemia ed\nipocloremia",
+    "risposta": "vi è ipernatriemia ed ipercloremia",
     "id": 979
   },
   {
@@ -14005,12 +14005,12 @@
     "opzioni": {
       "a": "producono il liquor folliculi",
       "b": "originano dall’epitelio\ngerminativo",
-      "c": "producono ormoni estrogeni",
+      "c": "producono androgeni",
       "d": "degenerano dopo\nl’ovulazione",
       "e": "producono l’insulina"
     },
     "risposta_corretta": "c",
-    "risposta": "producono ormoni estrogeni",
+    "risposta": "producono androgeni",
     "id": 1001
   },
   {
@@ -14107,8 +14107,8 @@
       "d": "sull’utero",
       "e": "sulle tube ovariche"
     },
-    "risposta_corretta": "b",
-    "risposta": "sul follicolo ovarico e sulla teca\nesterna",
+    "risposta_corretta": "a",
+    "risposta": "sul follicolo ovarico",
     "id": 1008
   },
   {

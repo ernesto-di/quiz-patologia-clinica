@@ -46,7 +46,7 @@
   },
   {
     "numero": 4,
-    "domanda": "La misura di quale componente lipidica è maggiormente inflenzata dal prelievo non a digiuno",
+    "domanda": "La misura di quale componente lipidica è maggiormente influenzata dal prelievo non a digiuno",
     "opzioni": {
       "A": "colesterolo totale",
       "B": "colesterolo esterificato",
@@ -442,10 +442,10 @@
       "B": "si produce dalla deaminazione dell'acetil-CoA",
       "C": "si ottiene per decarbossilazione dell'acetoacetil-CoA",
       "D": "si forma durante la ossidazione degli acidi grassi",
-      "E": "è una molecola essenziale per la sintesi ex nvo degli acidi grassi"
+      "E": "è una molecola essenziale per la sintesi ex novo degli acidi grassi"
     },
     "risposta_corretta": "E",
-    "risposta": "è una molecola essenziale per la sintesi ex nvo degli acidi grassi",
+    "risposta": "è una molecola essenziale per la sintesi ex novo degli acidi grassi",
     "pagina": 2,
     "id": 30
   },
@@ -484,13 +484,13 @@
     "domanda": "la renina è",
     "opzioni": {
       "A": "prodotta solo dalle cellule del sistema reticolo endoteliale del fegato",
-      "B": "un enzima proteolitico che trasforma l'angiotensinogeno in angiotensina",
+      "B": "un enzima proteolitico che trasforma l'angiotensinogeno in angiotensina I",
       "C": "una proteasi che trasforma la caseina solubile in caseina insolubile",
       "D": "un peptide che regola la capacità di filtrazione dei glomeruli",
       "E": "un fattore ormonale che regola la produzione di urea"
     },
     "risposta_corretta": "B",
-    "risposta": "un enzima proteolitico che trasforma l'angiotensinogeno in angiotensina",
+    "risposta": "un enzima proteolitico che trasforma l'angiotensinogeno in angiotensina I",
     "pagina": 2,
     "id": 33
   },
@@ -666,7 +666,7 @@
       "A": "prodotta dalle isole glicosensibili delle surrenali",
       "B": "un eterodimero tenuto insieme da due ponti disolfuro",
       "C": "una glicoproteina di grosse dimensioni",
-      "D": "anche uno stimolatore della mobolizzazione degli acidi grassi dal tessuto adiposo",
+      "D": "anche uno stimolatore della mobilizzazione degli acidi grassi dal tessuto adiposo",
       "E": "un polipeptide contenente idrossilisina e idrossiprolina"
     },
     "risposta_corretta": "B",
@@ -841,7 +841,7 @@
   },
   {
     "numero": 57,
-    "domanda": "l'azoto provenienete dal catabolismo proteico, nei mammiferi, viene elimnato come:",
+    "domanda": "l'azoto proveniente dal catabolismo proteico, nei mammiferi, viene eliminato come:",
     "opzioni": {
       "A": "ammidi biliari",
       "B": "urea",
@@ -976,7 +976,7 @@
   },
   {
     "numero": 66,
-    "domanda": "Indicare l'affermazione ESATA. I mineralcorticoidi sono sintetizzati a partire da:",
+    "domanda": "Indicare l'affermazione ESATTA. I mineralcorticoidi sono sintetizzati a partire da:",
     "opzioni": {
       "A": "adrenalina",
       "B": "ACTH",
@@ -1341,11 +1341,11 @@
       "A": "è casuale",
       "B": "dipende dalla velocità del metabolismo basale del soggetto",
       "C": "è prederminato alla nascita e non varia nel corso della vita",
-      "D": "può essere regolato fisiologicamenteo ed essere influenzato da malattie o agenti farmacologici",
+      "D": "può essere regolato fisiologicamente ed essere influenzato da malattie o agenti farmacologici",
       "E": "dipende dalla percentuale di colesterolo della membrana callulare, e quindi dalla sua fluidità, che ne condiziona la stabilità"
     },
     "risposta_corretta": "D",
-    "risposta": "può essere regolato fisiologicamenteo ed essere influenzato da malattie o agenti farmacologici",
+    "risposta": "può essere regolato fisiologicamente ed essere influenzato da malattie o agenti farmacologici",
     "pagina": 6,
     "id": 90
   },
@@ -2167,10 +2167,10 @@
       "B": "uno stimolatore della guanilato ciclasi",
       "C": "un fattore che induce un aumento dei livelli tissutali di AMPc",
       "D": "uno stimolatore della lipasi adipolitica",
-      "E": "un forte inibitore della lipolisi nel fegato e nel tessuto adiposo"
+      "E": "un forte inibitore della lipolisi nel tessuto adiposo"
     },
     "risposta_corretta": "E",
-    "risposta": "un forte inibitore della lipolisi nel fegato e nel tessuto adiposo",
+    "risposta": "un forte inibitore della lipolisi nel tessuto adiposo",
     "pagina": 9,
     "id": 145
   },

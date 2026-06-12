@@ -357,10 +357,10 @@
       "b": "25g",
       "c": "50g",
       "d": "75g",
-      "e": "150g"
+      "e": "150 µg"
     },
     "risposta_corretta": "e",
-    "risposta": "150g",
+    "risposta": "150 µg",
     "id": 26
   },
   {
@@ -801,14 +801,14 @@
     "numero": 58,
     "domanda": "In caso di epatopatia cronica quali variazioni delle proteine sieriche sono riscontrate con maggiore frequenza?",
     "opzioni": {
-      "a": "diminuzione della prealbumina e dell'albumina ed aumento policlonale dellegamma globuline",
+      "a": "diminuzione della prealbumina e dell'albumina ed aumento policlonale dellegamma- globuline",
       "b": "decremento di prealbumina ed aumento di aptoglobina",
       "c": "diminuzione dell'alfa- 1 -antitripsina",
-      "d": "diminuzione dell'albumina, aumento dell'alfa-2-macroglobulina, decremento delle gamma globuline",
+      "d": "diminuzione dell'albumina, aumento dell'alfa-2-macroglobulina, decremento delle gamma- globuline",
       "e": "gammopatia monoclonale"
     },
     "risposta_corretta": "a",
-    "risposta": "diminuzione della prealbumina e dell'albumina ed aumento policlonale dellegamma globuline",
+    "risposta": "diminuzione della prealbumina e dell'albumina ed aumento policlonale dellegamma- globuline",
     "id": 58
   },
   {
@@ -900,13 +900,13 @@
     "domanda": "Le talassemia major è dovuta:",
     "opzioni": {
       "a": "sostituzione di un aminoacido a livello delle catene beta",
-      "b": "a persistente sintesi di emoglobina F (HBF) con valori tra il 40% e il 90% dell'emoglobina totale",
+      "b": "a deficiente sintesi delle catene beta della globina, con aumento compensatorio di HbF",
       "c": "mancata associazione delle catene alfa con le catene beta",
       "d": "ossidazione irreversibile dello ione ferroso (bivalente) a ione ferrico (trivalente)",
       "e": "variazione della solubilità dell'emoglobina nella sua forma deossigenata"
     },
     "risposta_corretta": "b",
-    "risposta": "a persistente sintesi di emoglobina F (HBF) con valori tra il 40% e il 90% dell'emoglobina totale",
+    "risposta": "a deficiente sintesi delle catene beta della globina, con aumento compensatorio di HbF",
     "id": 65
   },
   {
@@ -1767,10 +1767,11 @@
     "numero": 127,
     "domanda": "Quali di questi microorganismi trasformano l'urea provocando urine alcaline?",
     "opzioni": {
+      "a": "E.coli",
       "b": "protei",
       "c": "stafilococchi",
       "d": "streptococchi",
-      "e": "coli"
+      "e": "tutti i precedenti"
     },
     "risposta_corretta": "b",
     "risposta": "protei",
@@ -2464,7 +2465,7 @@
   },
   {
     "numero": 177,
-    "domanda": "In quale delle sottoelencate malattie sono più frequentemente dimostrabili anticorpi sierici anti citrullina:",
+    "domanda": "In quale delle sottoelencate malattie sono più frequentemente dimostrabili anticorpi sierici anti- citrullina:",
     "opzioni": {
       "a": "artrite reumatoide",
       "b": "anamia autoimmune",
@@ -3164,7 +3165,7 @@
   },
   {
     "numero": 227,
-    "domanda": "In quale delle sottoelencate malattie sono più frequentemente dimostrabili anticorpi sierici anti dsDNA:",
+    "domanda": "In quale delle sottoelencate malattie sono più frequentemente dimostrabili anticorpi sierici anti- dsDNA:",
     "opzioni": {
       "a": "artrite reumatoide",
       "b": "artrite reumatoide giovanile",
@@ -4124,8 +4125,8 @@
       "d": "valore predittivo negativo",
       "e": "sono valide tutte le risposte"
     },
-    "risposta_corretta": "b",
-    "risposta": "specificità clinica",
+    "risposta_corretta": "a",
+    "risposta": "sensibilità clinica",
     "id": 295
   },
   {
@@ -4138,8 +4139,8 @@
       "d": "valore predittivo negativo",
       "e": "sono valide tutte le risposte"
     },
-    "risposta_corretta": "a",
-    "risposta": "sensibilità clinica",
+    "risposta_corretta": "b",
+    "risposta": "specificità clinica",
     "id": 296
   },
   {
@@ -4382,7 +4383,7 @@
   },
   {
     "numero": 314,
-    "domanda": "Derivano da una proteina della Drosophilamelanogaster:",
+    "domanda": "Derivano da una proteina della Drosophilamelanogaster :",
     "opzioni": {
       "a": "pentrassine",
       "b": "interleukine",
@@ -4586,8 +4587,8 @@
       "d": "ritardata caduta post-partum del funicolo",
       "e": "sono valide tutte le risposte"
     },
-    "risposta_corretta": "e",
-    "risposta": "sono valide tutte le risposte",
+    "risposta_corretta": "b",
+    "risposta": "mancata sintesi della molecola CD18 delle β2-Integrine",
     "id": 328
   },
   {
@@ -4858,16 +4859,16 @@
   },
   {
     "numero": 348,
-    "domanda": "Il riscontro nel protidogramma di marcata ipoalbuminemia con netto incremento di α2 macroglobulina si associa tipicamente a:",
+    "domanda": "Il riscontro nel protidogramma di marcata ipoalbuminemia con netto incremento di α 2- macroglobulina si associa tipicamente a:",
     "opzioni": {
       "a": "cirrosi epatica",
-      "b": "tubulopatia nefrosica",
+      "b": "sindrome nefrosica",
       "c": "paraproteina",
       "d": "risposta immune ritardata",
       "e": "flogosi acuta"
     },
     "risposta_corretta": "b",
-    "risposta": "tubulopatia nefrosica",
+    "risposta": "sindrome nefrosica",
     "id": 348
   },
   {
@@ -4886,7 +4887,7 @@
   },
   {
     "numero": 350,
-    "domanda": "Una ipoalbuminemia ed un picco alto a base stretta nella banda più lenta del protidogramma formano un quadro riferibile a:",
+    "domanda": "Una ipoalbuminemia ed un picco alto a base stretta nella banda più le nta del protidogramma formano un quadro riferibile a:",
     "opzioni": {
       "a": "cirrosi epatica",
       "b": "dislipidemia",
@@ -5056,9 +5057,9 @@
     "numero": 362,
     "domanda": "E’ un esempio di leucocitosi neutrofila:",
     "opzioni": {
-      "a": "leucociti: 5.000/μL",
-      "b": "leucociti: 15.000/µL",
-      "c": "leucociti: 4.000/µL neutrofili: 40% neutrofili: 35% neutrofili: 90%",
+      "a": "leucociti: 5.000/μL neutrofili: 40%",
+      "b": "leucociti: 15.000/µL neutrofili: 35%",
+      "c": "leucociti: 4.000/µL neutrofili: 90%",
       "d": "leucociti 12.000/µL neutrofili: 85%",
       "e": "leucociti: 2.000/µL neutrofili: 20%"
     },
@@ -5070,11 +5071,11 @@
     "numero": 363,
     "domanda": "E’ un esempio di leucopenia con linfocitosi relativa:",
     "opzioni": {
-      "a": "leucociti: 10.000/μL",
-      "b": "leucociti: 15.000/µL linfociti: 45% linfociti: 90%",
+      "a": "leucociti: 10.000/μL linfociti: 45%",
+      "b": "leucociti: 15.000/µL linfociti: 90%",
       "c": "leucociti: 2.000/μL linfociti: 70%",
-      "d": "leucociti: 2.000/μL",
-      "e": "leucociti: 6.000/μL linfociti: 20% linfociti: 85%"
+      "d": "leucociti: 2.000/μL linfociti: 20%",
+      "e": "leucociti: 6.000/μL linfociti: 85%"
     },
     "risposta_corretta": "c",
     "risposta": "leucociti: 2.000/μL linfociti: 70%",
@@ -5084,14 +5085,14 @@
     "numero": 364,
     "domanda": "Un riscontro comune nella formula leucocitaria del neonato:",
     "opzioni": {
-      "a": "neutrofili: 30%",
-      "b": "neutrofili: 70%",
-      "c": "neutrofili: 30%",
-      "d": "neutrofili: 70%",
-      "e": "neutrofili: 30% eosinofili: 70% linfociti: 30% monociti: 70% basofili: 30% linfociti: 70%"
+      "a": "neutrofili: 30% eosinofili: 70%",
+      "b": "neutrofili: 70% linfociti: 30%",
+      "c": "neutrofili: 30% monociti: 70%",
+      "d": "neutrofili: 70% basofili: 30%",
+      "e": "neutrofili: 30% linfociti: 70%"
     },
     "risposta_corretta": "e",
-    "risposta": "neutrofili: 30% eosinofili: 70% linfociti: 30% monociti: 70% basofili: 30% linfociti: 70%",
+    "risposta": "neutrofili: 30% linfociti: 70%",
     "id": 364
   },
   {
@@ -5328,8 +5329,8 @@
       "d": "incapacità di soddisfare la richiesta tessutale di ossigeno",
       "e": "riduzione dell’ematocrito"
     },
-    "risposta_corretta": "c",
-    "risposta": "riduzione del numero di eritrociti circolanti",
+    "risposta_corretta": "a",
+    "risposta": "riduzione dei valori normali di Hb al di sotto del 20%",
     "id": 381
   },
   {
@@ -5630,14 +5631,14 @@
     "numero": 403,
     "domanda": "Indicare la “glicosuria normoglicemica”:",
     "opzioni": {
-      "a": "glicemia: 90 mg/dL",
-      "b": "glicemia: 150 mg/dL",
-      "c": "glicemia: 95 mg/dL",
-      "d": "glicemia: 220 mg/dL",
-      "e": "glicemia: 170 mg/dL glucosio nelle urine: 0 g/L glucosio nelle urine: 0 g/L glucosio nelle urine: 2 g/L glucosio nelle urine: 6 g/L glucosio nelle urine: 4 g/L"
+      "a": "glicemia: 90 mg/dL glucosio nelle urine: 0 g/L",
+      "b": "glicemia: 150 mg/dL glucosio nelle urine: 0 g/L",
+      "c": "glicemia: 95 mg/dL glucosio nelle urine: 2 g/L",
+      "d": "glicemia: 220 mg/dL glucosio nelle urine: 6 g/L",
+      "e": "glicemia: 170 mg/dL glucosio nelle urine: 4 g/L"
     },
     "risposta_corretta": "c",
-    "risposta": "glicemia: 95 mg/dL",
+    "risposta": "glicemia: 95 mg/dL glucosio nelle urine: 2 g/L",
     "id": 403
   },
   {
@@ -5650,8 +5651,8 @@
       "d": "ossei",
       "e": "polmonari"
     },
-    "risposta_corretta": "b",
-    "risposta": "cerebrali",
+    "risposta_corretta": "e",
+    "risposta": "polmonari",
     "id": 404
   },
   {
@@ -5983,11 +5984,11 @@
       "a": "presenza del virus nelle feci",
       "b": "scomparsa del virus dalle feci",
       "c": "presenza di IgM anti-HAV",
-      "d": "presenta di IgG anti-HAV",
+      "d": "presenza di IgG anti-HAV",
       "e": "la inversione AST/ALT"
     },
     "risposta_corretta": "d",
-    "risposta": "presenta di IgG anti-HAV",
+    "risposta": "presenza di IgG anti-HAV",
     "id": 428
   },
   {

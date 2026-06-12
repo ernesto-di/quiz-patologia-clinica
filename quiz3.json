@@ -57,15 +57,15 @@
       "D": "GLICIDICA",
       "E": "POLIPEPTIDICA"
     },
-    "risposta_corretta": "E",
-    "risposta": "POLIPEPTIDICA",
+    "risposta_corretta": "B",
+    "risposta": "GLICOPOTEICA",
     "pagina": 1,
     "colonna": "left",
     "id": 4
   },
   {
     "numero": 5,
-    "domanda": "QUAL E' IL TUMORE PIU' FREQUENTEMENTE ASSOCIATO",
+    "domanda": "QUAL E' IL TUMORE PIU' FREQUENTEMENTE ASSOCIATO A PRODUZIONE ECTOPICA DI ACTH:",
     "opzioni": {
       "A": "IL CARCINOMA DELLA MAMMELLA",
       "B": "IL CARCINOMA DELLO STOMACO",
@@ -486,7 +486,7 @@
       "A": "IL FATTORE VII",
       "B": "IL FATTORE VIII",
       "C": "IL FATTORE IX",
-      "D": "IL FATTORE",
+      "D": "IL FATTORE X",
       "E": "IL FATTORE XII"
     },
     "risposta_corretta": "C",
@@ -1009,7 +1009,7 @@
   },
   {
     "numero": 64,
-    "domanda": "CARATTERIZZA LA TOSSINA DEL VIBRIONE DEL COLERA UN'ENDDOTOSSINA",
+    "domanda": "CARATTERIZZA LA TOSSINA DEL VIBRIONE DEL COLERA:",
     "opzioni": {
       "A": "CODIFICATA DA UN PLASMIDE",
       "B": "CODIFICATA DA UN FAGO",
@@ -6037,12 +6037,12 @@
     "opzioni": {
       "A": "16",
       "B": "8",
-      "C": "64",
+      "C": "24",
       "D": "32",
       "E": "48"
     },
     "risposta_corretta": "C",
-    "risposta": "64",
+    "risposta": "24",
     "pagina": 30,
     "colonna": "right",
     "id": 377
@@ -6121,8 +6121,8 @@
       "D": "AUA",
       "E": "NESSUNA DI QUELLE ELENCATE"
     },
-    "risposta_corretta": "D",
-    "risposta": "AUA",
+    "risposta_corretta": "E",
+    "risposta": "NESSUNA DI QUELLE ELENCATE",
     "pagina": 31,
     "colonna": "left",
     "id": 382
@@ -6601,8 +6601,8 @@
       "D": "SOLO PER SOLUZIONI CHE ASSORBONO NELL'ULTRAVIOLETT O ESISTE PROPORZIONALITA' TRA LA LORO CONCENTRAZIO NE L'ASSORBIMENTO DI RADIAZIONI",
       "E": "SOLO PER SOLUZIONI CHE ASSORBONO NEL VISIBILE ESIS TE PROPORZIONALITA' TRA LA LORO CONCENTRAZIONE L'ASSORBIMENTO DI RADIAZIONI"
     },
-    "risposta_corretta": "C",
-    "risposta": "L'ASSORBIMENTO DI RADIAZIONI LUMINOSE DA PARTE DI UNA SOLUZIONE E' PROPORZIONALE ALLA SUA CONCENTRAZ IONE E DIPENDE DAL DIAMETRO DELLA CUVETTA DI LETTU RA",
+    "risposta_corretta": "A",
+    "risposta": "L'ASSORBIMENTO DI RADIAZIONI LUMINOSE DA PARTE DI UNA SOLUZIONE E' PROPORZIONALE ALLA SUA CONCENTRAZ IONE E DIPENDE DALLO SPESSORE DEL MATERIALE DI CUI E' FATTA LA CUVETTA DI LETTURA",
     "pagina": 33,
     "colonna": "right",
     "id": 412
@@ -8457,8 +8457,8 @@
       "D": "PINOCITOSI SELETTIVA",
       "E": "ENDOCITOSI RECETTOSOMA DIPENDENTE"
     },
-    "risposta_corretta": "B",
-    "risposta": "PINOCITOSI",
+    "risposta_corretta": "C",
+    "risposta": "PINOCITOSI FLUIDA",
     "pagina": 43,
     "colonna": "right",
     "id": 528
@@ -11423,7 +11423,7 @@
     "colonna": "left",
     "id": 713
   },
-    {
+  {
     "numero": 715,
     "domanda": "QUALI ISOENZIMI DELL'LDH SONO PIù FREQUENTEMENTE PRESENTI NELLE NEOPLASIE SOLIDE:",
     "opzioni": {
@@ -12404,13 +12404,13 @@
     "domanda": "NEL DIABETE INSIPIDO:",
     "opzioni": {
       "A": "LA FUNZIONE CORTICOSURRENALICA E' ALTERATA",
-      "B": "VI E' IPONATRIEMIA ED IPOCLOREMIA",
+      "B": "VI E' IPERNATRIEMIA ED IPERCLOREMIA",
       "C": "LA PRESSIONE ARTERIOSA E' ALTA",
       "D": "SONO PRESENTI EDEMI",
       "E": "LA FUNZIONE RENALE E' ALTERATA"
     },
     "risposta_corretta": "B",
-    "risposta": "VI E' IPONATRIEMIA ED IPOCLOREMIA",
+    "risposta": "VI E' IPERNATRIEMIA ED IPERCLOREMIA",
     "pagina": 64,
     "colonna": "left",
     "id": 774
@@ -18147,14 +18147,14 @@
     "numero": 1135,
     "domanda": "LA FIBRINOLISI AVVIENE SOPRATTUTTO AD OPERA DI UN ENZIMA PROTEOLITICO ELABORATO PRINCIPALMENTE DA:",
     "opzioni": {
-      "A": "LEUCOCITI",
+      "A": "PLASMINA",
       "B": "ERITROCITI",
       "C": "PIASTRINE",
       "D": "FIBROBLASTI",
       "E": "TUTTE QUESTE CELLULE"
     },
     "risposta_corretta": "A",
-    "risposta": "LEUCOCITI",
+    "risposta": "PLASMINA",
     "pagina": 93,
     "colonna": "left",
     "id": 1133
@@ -18985,8 +18985,8 @@
       "D": "NELLE PARTORIENTI",
       "E": "NELLE GESTANTI"
     },
-    "risposta_corretta": "C",
-    "risposta": "NEGLI ANZIANI",
+    "risposta_corretta": "B",
+    "risposta": "NEI LATTANTI",
     "pagina": 97,
     "colonna": "left",
     "id": 1185
