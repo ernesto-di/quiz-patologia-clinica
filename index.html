@@ -432,6 +432,7 @@
       
       <div class="nav">
         <button id="restartFinalBtn" type="button">Ricomincia</button>
+        <button id="retryWrongBtn" type="button" class="secondary" disabled>Ripassa solo gli errori</button>
         <button id="manualSaveFinalBtn" type="button" style="background: #059669; color: white;" onclick="triggerManualSave()">Salva Quiz in Home</button>
         <button id="downloadPdfBtn" type="button" class="secondary" onclick="downloadQuizPDF()">Scarica PDF Risposte</button>
         <button id="changePackageFinalBtn" type="button" class="ghost">Cambia quiz</button>
@@ -444,7 +445,8 @@
       { id: 'quiz1', title: 'quiz1', file: 'quiz1.json' },
       { id: 'quiz2', title: 'quiz2', file: 'quiz2.json' },
       { id: 'quiz3', title: 'quiz3', file: 'quiz3.json' },
-      { id: 'quiz4', title: 'quiz4', file: 'quiz4.json' }
+      { id: 'quiz4', title: 'quiz4', file: 'quiz4.json' },
+      { id: 'quizUnico', title: 'Quiz unico', file: 'quiz_unico_senza_duplicati.json', includeInMixed: false }
     ];
 
     const RANDOM_MIXED_QUIZ_SIZE = 70;
@@ -477,6 +479,7 @@
     const showAnswerBtn = document.getElementById('showAnswerBtn');
     const restartBtn = document.getElementById('restartBtn');
     const restartFinalBtn = document.getElementById('restartFinalBtn');
+    const retryWrongBtn = document.getElementById('retryWrongBtn');
     const changePackageBtn = document.getElementById('changePackageBtn');
     const changePackageFinalBtn = document.getElementById('changePackageFinalBtn');
     const resultText = document.getElementById('resultText');
@@ -490,6 +493,7 @@
     let answers = new Map();
     let lastMode = 'single';
     let currentSavedQuizId = null;
+    let lastWrongQuestions = [];
 
 
     function getSavedQuizzes() {
@@ -756,7 +760,7 @@
       mixedInfo.textContent = 'Caricamento dei quiz in corso...';
 
       try {
-        const loadedGroups = await Promise.all(QUIZ_PACKAGES.map(loadPackage));
+        const loadedGroups = await Promise.all(QUIZ_PACKAGES.filter(pkg => pkg.includeInMixed !== false).map(loadPackage));
         const combined = loadedGroups.flat();
 
         if (combined.length < RANDOM_MIXED_QUIZ_SIZE) {
@@ -898,9 +902,24 @@
         startMixedQuiz();
       } else if (lastMode === 'single70') {
         startSingle70Quiz();
+      } else if (lastMode === 'mistakes') {
+        startWrongAnswersQuiz();
       } else {
         startQuiz();
       }
+    }
+
+    function startWrongAnswersQuiz() {
+      if (!lastWrongQuestions.length) return;
+
+      quizQuestions = shuffleArray(lastWrongQuestions);
+      currentIndex = 0;
+      answers = new Map();
+      lastMode = 'mistakes';
+      currentSavedQuizId = null;
+
+      saveCurrentQuiz(true);
+      renderQuestion();
     }
 
     function finishQuiz() {
@@ -908,12 +927,24 @@
       let wrong = 0;
       let unanswered = 0;
 
+      lastWrongQuestions = [];
+
       quizQuestions.forEach((q, index) => {
         const choice = answers.get(index);
-        if (!choice) unanswered++;
-        else if (choice === q.risposta_corretta) correct++;
-        else wrong++;
+        if (!choice) {
+          unanswered++;
+        } else if (choice === q.risposta_corretta) {
+          correct++;
+        } else {
+          wrong++;
+          lastWrongQuestions.push(q);
+        }
       });
+
+      retryWrongBtn.disabled = lastWrongQuestions.length === 0;
+      retryWrongBtn.textContent = lastWrongQuestions.length
+        ? `Ripassa solo gli errori (${lastWrongQuestions.length})`
+        : 'Nessun errore da ripassare';
 
       const total = quizQuestions.length;
       const percentage = total ? Math.round((correct / total) * 100) : 0;
@@ -1037,6 +1068,7 @@
     clearSavedBtn.addEventListener('click', clearSavedQuizzes);
     restartBtn.addEventListener('click', restartCurrentQuiz);
     restartFinalBtn.addEventListener('click', restartCurrentQuiz);
+    retryWrongBtn.addEventListener('click', startWrongAnswersQuiz);
     showAnswerBtn.addEventListener('click', showAnswer);
     changePackageBtn.addEventListener('click', backToPackageChoice);
     changePackageFinalBtn.addEventListener('click', backToPackageChoice);
